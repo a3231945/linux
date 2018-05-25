@@ -6,11 +6,10 @@
 - curl ipecho.net/plain  
 - curl whatismyip.akamai.com  
 - curl myip.dnsomatic.com  
--   
-**更多用法访问ifconfig.co**  
 - wget -qO - ifconfig.co  
--   
-**返回IP和地区  **
+  
+**返回IP和地区:**
+
 - curl ip.6655.com/ip.aspx?area=1  
 - curl cip.cc  
 
