@@ -36,5 +36,5 @@
   * [防火墙配置-iptables](linuxgao-ji/iptables-pei-zhi.md)
   * 权限控制
   * [数据安全](linuxgao-ji/shu-ju-an-quan.md)
-  * 调优
+  * [调优](linuxgao-ji/diao-you.md)
 
