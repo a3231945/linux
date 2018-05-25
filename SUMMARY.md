@@ -14,6 +14,7 @@
   * [YUM源服务器部署](chapter1/yumyuan-fu-wu-qi-bu-shu.md)
   * [日志服务器EFLK部署](chapter1/ri-zhi-fu-wu-qi-eflk-bu-shu.md)
   * [GitLab服务器部署](chapter1/gitlabfu-wu-qi-bu-shu.md)
+    * [git 使用手册](chapter1/gitlabfu-wu-qi-bu-shu/git-shi-yong-shou-ce.md)
   * [GitBook部署](chapter1/gitbookbu-shu.md)
   * [KVM服务器部署](chapter1/kvmfu-wu-qi-bu-shu.md)
 * [应用服务部署](fu-wu-bu-shu.md)
