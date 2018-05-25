@@ -78,5 +78,27 @@
 **查看raid卡的信息：**
 
     /opt/MegaRAID/MegaCli/MegaCli64 -AdpAllInfo -aALL
+**查看磁盘缓存策略：**
+
+    /opt/MegaRAID/MegaCli/MegaCli64 -LDGetProp -Cache -LALL -aALL
+**设置磁盘缓存策略：**
+
+    缓存策略解释：
+
+    WT (Write through
+    WB (Write back)
+    NORA (No read ahead)
+    RA (Read ahead)
+    ADRA (Adaptive read ahead)
+    Cached
+    Direct
+    例子：
+    #/opt/MegaRAID/MegaCli/MegaCli64 -LDSetProp WT|WB|NORA|RA|ADRA -L0 -a0
+    or
+    #/opt/MegaRAID/MegaCli/MegaCli64 -LDSetProp -Cached|-Direct -L0 -a0
+    or
+    enable / disable disk cache
+    #/opt/MegaRAID/MegaCli/MegaCli64 -LDSetProp -EnDskCache|-DisDskCache -L0 -a0
+     
     
     
