@@ -42,10 +42,10 @@
     server 3.centos.pool.ntp.org iburst
     
     #监听IP
-    server 101.251.216.185
-    server 10.32.101.11
+    server xxx.xxx.xxx.xxx
+    server xxx.xxx.xxx.xxx
     #当服务器与公用服务器时间失去联系，以局域网 10.32.101.11 服务器为客户端提供时间同步服务
-    fudge  10.32.101.11  startum 10
+    fudge  xxx.xxx.xxx.xxx  startum 10
 
     includefile /etc/ntp/crypto/pw
     keys /etc/ntp/keys
@@ -56,8 +56,10 @@
 ###三、配置客户端  ###
 **1、dns 解析  **
 
-    ntp.op.com  -> 10.32.101.11
-    ntp.op.com  -> 10.32.101.12
+    ntp.op.com  -> xxx.xxx.xxx.xxx
+
+    ntp.op.com  -> xxx.xxx.xxx.xxx
+
     
 
 
