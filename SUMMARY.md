@@ -15,6 +15,7 @@
   * [日志服务器EFLK部署](chapter1/ri-zhi-fu-wu-qi-eflk-bu-shu.md)
   * [GitLab服务器部署](chapter1/gitlabfu-wu-qi-bu-shu.md)
   * [GitBook部署](chapter1/gitbookbu-shu.md)
+  * [KVM服务器部署](chapter1/kvmfu-wu-qi-bu-shu.md)
 * [应用服务部署](fu-wu-bu-shu.md)
   * [NGINX](fu-wu-bu-shu/nginx.md)
   * [PHP](fu-wu-bu-shu/php.md)
