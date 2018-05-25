@@ -5,7 +5,7 @@
 **1、安装cobbler**
 
 ```
-yum -y install httpd tftp dhcp xinetd cobbler
+yum -y install  cobbler
 ```
 
 **2、配置同步yum源配置**
