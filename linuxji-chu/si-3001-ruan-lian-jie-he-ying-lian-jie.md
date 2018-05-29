@@ -13,11 +13,11 @@
 
 	软链接有时也被称为符号链接（Symbolic Link）。软链接文件就类似于Windows系统下的快捷方式。它实际上是一个特殊的文件。在软链接中，软链接文件实际上就是一个文本文件，这个问价中包含有软链接指向另一个文件的位置信息内容，因此，通过访问这个“快捷方式”就可以迅速定位到软链接所指向的源文件实体。
 
-mkdir /test && cd /test&& touch testfile
-ln testfile testfile_hard_link
-ln -s testfile testfile_soft_link
-
-ls -li * 可以查看到inode信息
+	mkdir /test && cd /test&& touch testfile
+	ln testfile testfile_hard_link
+	ln -s testfile testfile_soft_link
+	
+	ls -li * 可以查看到inode信息
 
 **总结：**
      
