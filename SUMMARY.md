@@ -11,14 +11,19 @@
 * [基础设施服务器部署](chapter1.md)
   * [一、NTP服务器部署](chapter1/ntpfu-wu-qi-bu-shu.md)
   * [二、DNS服务器部署](chapter1/dnsfu-wu-qi-bu-shu.md)
-  * [三、YUM源服务器部署](chapter1/yumyuan-fu-wu-qi-bu-shu.md)
-  * [四、日志服务器EFLK部署](chapter1/ri-zhi-fu-wu-qi-eflk-bu-shu.md)
+  * 三、SSH服务
+  * [四、YUM源服务器部署](chapter1/yumyuan-fu-wu-qi-bu-shu.md)
+  * [五、FTP服务](chapter1/ftpfu-wu.md)
+  * 六、NFS服务
+  * [七、日志服务器EFLK部署](chapter1/ri-zhi-fu-wu-qi-eflk-bu-shu.md)
     * [logstash 配置](chapter1/ri-zhi-fu-wu-qi-eflk-bu-shu/logstash-pei-zhi.md)
     * [安装 grokbug 环境](chapter1/ri-zhi-fu-wu-qi-eflk-bu-shu/an-zhuang-grokbug-huan-jing.md)
-  * [五、GitLab服务器部署](chapter1/gitlabfu-wu-qi-bu-shu.md)
+  * [八、GitLab服务器部署](chapter1/gitlabfu-wu-qi-bu-shu.md)
     * [git 使用手册](chapter1/gitlabfu-wu-qi-bu-shu/git-shi-yong-shou-ce.md)
-  * [六、GitBook部署](chapter1/gitbookbu-shu.md)
-  * [七、KVM服务器部署](chapter1/kvmfu-wu-qi-bu-shu.md)
+  * [九、GitBook部署](chapter1/gitbookbu-shu.md)
+  * [十、KVM服务器部署](chapter1/kvmfu-wu-qi-bu-shu.md)
+ 
+
 * [应用服务部署](fu-wu-bu-shu.md)
   * [一、NGINX](fu-wu-bu-shu/nginx.md)
   * [二、PHP](fu-wu-bu-shu/php.md)
