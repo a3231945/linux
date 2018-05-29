@@ -28,13 +28,13 @@
   * [TOMCAT](fu-wu-bu-shu/tomcat.md)
 * [Linux基础](linuxji-chu.md)
   * [一、linux目录结构](linuxji-chu/yi-3001-linux-mu-lu-jie-gou.md)
-  * 二、文件类型和文件扩展名
+  * [二、文件类型和文件扩展名](linuxji-chu/er-3001-wen-jian-lei-xing-he-wen-jian-kuo-zhan-ming.md)
   * [三、用户和用户组管理](linuxji-chu/san-3001-yong-hu-he-yong-hu-zu.md)
   * [四、软链接和硬链接](linuxji-chu/si-3001-ruan-lian-jie-he-ying-lian-jie.md)
-  * 五、文件和目录管理
-  * 六、进程管理
-  * 七、软件管理
-  * 八、任务计划管理
+  * [五、文件和目录管理](linuxji-chu/wu-3001-wen-jian-he-mu-lu-guan-li.md)
+  * [六、进程管理](linuxji-chu/liu-3001-jin-cheng-guan-li.md)
+  * [七、软件管理](linuxji-chu/qi-3001-ruan-jian-guan-li.md)
+  * [八、任务计划管理](linuxji-chu/ba-3001-ren-wu-ji-hua-guan-li.md)
 * [Linux高级](linuxgao-ji.md)
   * [防火墙配置-iptables](linuxgao-ji/iptables-pei-zhi.md)
   * 权限控制
