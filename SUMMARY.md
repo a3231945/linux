@@ -1,6 +1,6 @@
 # Summary
 
-* [Introduction](README.md)
+* [简介](README.md)
 * [硬件信息相关](ying-jian-xin-xi-xiang-guan.md)
   * [一、DELL-服务器常见问题技术手册](ying-jian-xin-xi-xiang-guan/yi-3001-dell-fu-wu-qi-chang-jian-wen-ti-ji-zhu-shou-ce.md)
   * [二、DELL-服务器错误代码](ying-jian-xin-xi-xiang-guan/er-3001-dell-fu-wu-qi-cuo-wu-dai-ma.md)
@@ -37,7 +37,7 @@
   * [八、任务计划管理](linuxji-chu/ba-3001-ren-wu-ji-hua-guan-li.md)
 * [Linux高级](linuxgao-ji.md)
   * [一、防火墙配置-iptables](linuxgao-ji/iptables-pei-zhi.md)
-  * 二、权限控制
+  * [二、权限控制](linuxgao-ji/er-3001-quan-xian-kong-zhi.md)
   * [三、数据安全](linuxgao-ji/shu-ju-an-quan.md)
   * [四、调优](linuxgao-ji/diao-you.md)
 
