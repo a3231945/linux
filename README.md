@@ -1,12 +1,14 @@
 # linux 笔记
-对读者：记录了作者学习相关的文档，有疑问请与作者讨论，有什么使用上的错误，也请您多多包涵。欢迎来沟通，互相学习！
+
+记录了作者学习相关的文档，有疑问请与作者讨论，有什么使用上的错误，也请您多多包涵。欢迎来沟通，互相学习！
 
     联系人：     周先生
     微信：       18910734468
     联系邮箱：   zhouxulong@peter-zhou.com
  
 
- 
+# Summary
+
 * [简介](README.md)
 * [硬件信息相关](ying-jian-xin-xi-xiang-guan.md)
   * [一、DELL-服务器常见问题技术手册](ying-jian-xin-xi-xiang-guan/yi-3001-dell-fu-wu-qi-chang-jian-wen-ti-ji-zhu-shou-ce.md)
@@ -47,6 +49,13 @@
   * [二、权限控制](linuxgao-ji/er-3001-quan-xian-kong-zhi.md)
   * [三、数据安全](linuxgao-ji/shu-ju-an-quan.md)
   * [四、调优](linuxgao-ji/diao-you.md)
+    * [1、CPU](linuxgao-ji/er-3001-quan-xian-kong-zhi/1cpu.md)
+    * [2、MEM](linuxgao-ji/er-3001-quan-xian-kong-zhi/2mem.md)
+    * [3、IO](linuxgao-ji/er-3001-quan-xian-kong-zhi/3io.md)
+    * [4、策略路由](linuxgao-ji/er-3001-quan-xian-kong-zhi/43001-ce-lve-lu-you.md)
+    * [5、网卡绑定](linuxgao-ji/er-3001-quan-xian-kong-zhi/53001-wang-qia-bang-ding.md)
+
+
 
 
 
