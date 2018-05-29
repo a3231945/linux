@@ -42,8 +42,8 @@
     * [1、CPU](linuxgao-ji/er-3001-quan-xian-kong-zhi/1cpu.md)
     * [2、MEM](linuxgao-ji/er-3001-quan-xian-kong-zhi/2mem.md)
     * [3、IO](linuxgao-ji/er-3001-quan-xian-kong-zhi/3io.md)
-    * 4、策略路由
-    * 5、网卡绑定
+    * [4、策略路由](linuxgao-ji/er-3001-quan-xian-kong-zhi/43001-ce-lve-lu-you.md)
+    * [5、网卡绑定](linuxgao-ji/er-3001-quan-xian-kong-zhi/53001-wang-qia-bang-ding.md)
   * [三、数据安全](linuxgao-ji/shu-ju-an-quan.md)
   * [四、调优](linuxgao-ji/diao-you.md)
 
