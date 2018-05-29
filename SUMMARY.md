@@ -37,7 +37,6 @@
   * [八、任务计划管理](linuxji-chu/ba-3001-ren-wu-ji-hua-guan-li.md)
 * [Linux高级](linuxgao-ji.md)
   * [一、防火墙配置-iptables](linuxgao-ji/iptables-pei-zhi.md)
-    * 3、IO
   * [二、权限控制](linuxgao-ji/er-3001-quan-xian-kong-zhi.md)
   * [三、数据安全](linuxgao-ji/shu-ju-an-quan.md)
   * [四、调优](linuxgao-ji/diao-you.md)
