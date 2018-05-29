@@ -13,6 +13,8 @@
   * [DNS服务器部署](chapter1/dnsfu-wu-qi-bu-shu.md)
   * [YUM源服务器部署](chapter1/yumyuan-fu-wu-qi-bu-shu.md)
   * [日志服务器EFLK部署](chapter1/ri-zhi-fu-wu-qi-eflk-bu-shu.md)
+    * [logstash 配置](chapter1/ri-zhi-fu-wu-qi-eflk-bu-shu/logstash-pei-zhi.md)
+    * [安装 grokbug 环境](chapter1/ri-zhi-fu-wu-qi-eflk-bu-shu/an-zhuang-grokbug-huan-jing.md)
   * [GitLab服务器部署](chapter1/gitlabfu-wu-qi-bu-shu.md)
     * [git 使用手册](chapter1/gitlabfu-wu-qi-bu-shu/git-shi-yong-shou-ce.md)
   * [GitBook部署](chapter1/gitbookbu-shu.md)
