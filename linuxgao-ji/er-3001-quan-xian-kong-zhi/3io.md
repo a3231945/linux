@@ -1,8 +1,8 @@
 影响I/O性能的因素
-1。缓存
-2。文件系统：日志文件系统和非日志文件系统
-3。I/O调度算法
-4。RAID，LVM（条带化） 网络附加存储（cpu的iowait转移到存储服务器）
+1、缓存
+2、文件系统：日志文件系统和非日志文件系统
+3、I/O调度算法
+4、RAID，LVM（条带化） 网络附加存储（cpu的iowait转移到存储服务器）
 
 **1、缓存**
 
@@ -12,9 +12,9 @@
 
 **2、日志文件系统和非日志文件系统**
 
-	1.创建2个分区，分别格式化为ext2、ext3，dd文件测试速度差异
+	1、创建2个分区，分别格式化为ext2、ext3，dd文件测试速度差异
 	
-	2.日志空间与数据空间分离
+	2、日志空间与数据空间分离
 	[root@localhost ~]# mount -o data=journal /dev/sdb1 /mnt/
 	[root@localhost ~]# mke2fs -O journal_dev /dev/sdb5
 	[root@localhost ~]# mkfs.ext3 -J device=/dev/sdb5 /dev/sdb1
