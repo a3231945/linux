@@ -24,8 +24,6 @@
   * 十、虚拟化
     * [十、KVM服务器部署](chapter1/kvmfu-wu-qi-bu-shu.md)
   * 十一、监控
-
----
 * [应用服务部署](fu-wu-bu-shu.md)
   * [一、NGINX](fu-wu-bu-shu/nginx.md)
   * [二、PHP](fu-wu-bu-shu/php.md)
