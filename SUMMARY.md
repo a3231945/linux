@@ -10,6 +10,10 @@
   * [六、查看LINUX本机公网IP](ying-jian-xin-xi-xiang-guan/liu-3001-cha-kan-linux-ben-ji-gong-wang-ip.md)
 * [基础服务](chapter1.md)
   * [一、NTP服务](chapter1/ntpfu-wu-qi-bu-shu.md)
+    * [Ntpd](chapter1/ntpfu-wu-qi-bu-shu/ntpd.md)
+    * Chrony
+    * Ntp Client
+    * [使用案例](chapter1/ntpfu-wu-qi-bu-shu/shi-yong-an-li.md)
   * [二、DNS服务](chapter1/dnsfu-wu-qi-bu-shu.md)
   * [三、SSH服务](chapter1/san-3001-ssh-fu-wu.md)
   * [四、YUM服务](chapter1/yumyuan-fu-wu-qi-bu-shu.md)
@@ -29,7 +33,9 @@
     * [Saltstack](chapter1/shi-3001-zi-dong-hua/saltstack.md)
     * Puppet
     * Fabric
-  * 十一、监控
+  * [十一、监控](chapter1/shi-yi-3001-jian-kong.md)
+    * Zabbix
+    * Grafana
   * 十二、其他
 * [应用服务](fu-wu-bu-shu.md)
   * [WEB服务](fu-wu-bu-shu/webfu-wu.md)
@@ -41,7 +47,7 @@
     * [二、REDIS](fu-wu-bu-shu/redis.md)
     * [三、MONGO](fu-wu-bu-shu/mongo.md)
     * 四、Memcache
-    * 五、SSD
+    * 五、SSDB
   * [缓存服务](fu-wu-bu-shu/huan-cun-fu-wu.md)
     * NGINX
     * SQUID
