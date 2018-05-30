@@ -71,7 +71,7 @@
     /dev/sda1             190M   96M   84M  54% /boot
     localhost:/mnt/disk/   20G   11G  7.7G  59% /tmp/test
 
-三、NFS挂载参数详解
+###三、NFS挂载参数详解
     
     ro                      只读访问 
     rw                      读写访问 
@@ -93,7 +93,7 @@
     anongid=xxx             指定NFS服务器/etc/passwd文件中匿名用户的GID  
 
      
-四、NFS V4
+###四、NFS V4
 
     略
     
