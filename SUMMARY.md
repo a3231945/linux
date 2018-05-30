@@ -21,8 +21,12 @@
   * [八、GitLab服务器部署](chapter1/gitlabfu-wu-qi-bu-shu.md)
     * [git 使用手册](chapter1/gitlabfu-wu-qi-bu-shu/git-shi-yong-shou-ce.md)
   * [九、GitBook部署](chapter1/gitbookbu-shu.md)
-  * [十、KVM服务器部署](chapter1/kvmfu-wu-qi-bu-shu.md)
- 
+  * 十、虚拟化
+    * [十、KVM服务器部署](chapter1/kvmfu-wu-qi-bu-shu.md)
+  * 十一、监控
+
+
+---
 
 * [应用服务部署](fu-wu-bu-shu.md)
   * [一、NGINX](fu-wu-bu-shu/nginx.md)
