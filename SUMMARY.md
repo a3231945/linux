@@ -35,6 +35,13 @@
     * [KVM服务](chapter1/kvmfu-wu-qi-bu-shu.md)
   * [十、自动化](chapter1/shi-3001-zi-dong-hua.md)
     * [Ansible](chapter1/shi-3001-zi-dong-hua/ansible.md)
+      * [1、ansible安装](chapter1/shi-3001-zi-dong-hua/ansible/ansiblean-zhuang.md)
+      * [2、ansible基本使用](chapter1/shi-3001-zi-dong-hua/ansible/2ansibleji-ben-shi-yong.md)
+      * [3、常见模块](chapter1/shi-3001-zi-dong-hua/ansible/33001-chang-jian-mo-kuai.md)
+      * [4、playbook-YAML](chapter1/shi-3001-zi-dong-hua/ansible/4playbook-yaml.md)
+      * [5、ansible基础元素](chapter1/shi-3001-zi-dong-hua/ansible/5ansibleji-chu-yuan-su.md)
+      * 6、playbook的组成结构
+      * 报错信息处理
     * [Saltstack](chapter1/shi-3001-zi-dong-hua/saltstack.md)
     * Puppet
     * Fabric
