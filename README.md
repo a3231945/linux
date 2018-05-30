@@ -1,6 +1,8 @@
 # linux 笔记
 
-**记录了作者学习相关的文档，有疑问请与作者讨论，有什么使用上的错误，也请您多多包涵。欢迎来沟通，互相学习！**
+**记录了作者 运维工作学习相关的文档，
+有疑问请与作者讨论，有什么使用上的错误，
+也请您多多包涵。欢迎来沟通，互相学习！**
 
     联系人：     周先生
     微信：       18910734468
@@ -24,22 +26,37 @@
     * [bind yum 安装](chapter1/dnsfu-wu-qi-bu-shu/bind-yum-an-zhuang.md)
     * [bind 编译安装](chapter1/dnsfu-wu-qi-bu-shu/bind-bian-yi-an-zhuang.md)
     * [客户端配置](chapter1/dnsfu-wu-qi-bu-shu/ke-hu-duan-pei-zhi.md)
+    * Dnsmasq 安装
   * [三、SSH服务](chapter1/san-3001-ssh-fu-wu.md)
+    * [SSH server安装](chapter1/san-3001-ssh-fu-wu/ssh-serveran-zhuang.md)
+    * SSH client 安装
+    * [SSH FORWARD 转发](chapter1/san-3001-ssh-fu-wu/ssh-forward.md)
+    * SSH agent 代理
+    * SSH pass 使用
+    * Pssh 使用
+    * SSH mount 使用
+    * Rsync 服务
   * [四、YUM服务](chapter1/yumyuan-fu-wu-qi-bu-shu.md)
     * [内部yum源同步公网源](chapter1/yumyuan-fu-wu-qi-bu-shu/nei-bu-yum-yuan-tong-bu-gong-wang-yuan.md)
     * [自定义yum源](chapter1/yumyuan-fu-wu-qi-bu-shu/zi-ding-yi-yum-yuan.md)
     * [制作rpm包](chapter1/yumyuan-fu-wu-qi-bu-shu/zi-ding-yi-rpm-bao.md)
     * bind yum 安装
-  * [五、FTP服务](chapter1/ftpfu-wu.md)
+  * [五、共享服务](chapter1/ftpfu-wu.md)
+    * VSFTP 服务
+    * ProFTP 服务
+    * Samba 服务
   * [六、NFS服务](chapter1/liu-3001-nfs-fu-wu.md)
     * [NFS 安装部署](chapter1/liu-3001-nfs-fu-wu/nfs-an-zhuang-bu-shu.md)
     * [NFS 客户端](chapter1/liu-3001-nfs-fu-wu/nfs-ke-hu-duan.md)
   * [七、日志服务](chapter1/ri-zhi-fu-wu-qi-eflk-bu-shu.md)
-    * [EFLK部署](chapter1/ri-zhi-fu-wu-qi-eflk-bu-shu/eflkbu-shu.md)
-    * [logstash 配置](chapter1/ri-zhi-fu-wu-qi-eflk-bu-shu/logstash-pei-zhi.md)
+    * Rsyslog 服务
+    * [EFLK 部署](chapter1/ri-zhi-fu-wu-qi-eflk-bu-shu/eflkbu-shu.md)
+    * [Logstash 配置](chapter1/ri-zhi-fu-wu-qi-eflk-bu-shu/logstash-pei-zhi.md)
     * [安装 grokbug 环境](chapter1/ri-zhi-fu-wu-qi-eflk-bu-shu/an-zhuang-grokbug-huan-jing.md)
   * [八、版本控制服务](chapter1/gitlabfu-wu-qi-bu-shu.md)
-    * [git 使用手册](chapter1/gitlabfu-wu-qi-bu-shu/git-shi-yong-shou-ce.md)
+    * SVN 服务
+    * Git 服务
+    * [Git 使用手册](chapter1/gitlabfu-wu-qi-bu-shu/git-shi-yong-shou-ce.md)
     * [GitBook部署](chapter1/gitbookbu-shu.md)
   * 九、虚拟化服务
     * [KVM服务](chapter1/kvmfu-wu-qi-bu-shu.md)
@@ -72,7 +89,10 @@
   * [十一、监控](chapter1/shi-yi-3001-jian-kong.md)
     * [Zabbix](chapter1/shi-yi-3001-jian-kong/zabbix.md)
     * [Grafana](chapter1/shi-yi-3001-jian-kong/grafana.md)
-  * 十二、其他
+  * [十二、其他](chapter1/shi-er-3001-qi-ta.md)
+    * SS 翻墙服务
+    * PXE 批量装机服务
+    * Redmin 服务
 * [应用服务](fu-wu-bu-shu.md)
   * [WEB服务](fu-wu-bu-shu/webfu-wu.md)
     * [一、NGINX](fu-wu-bu-shu/nginx.md)
@@ -87,10 +107,13 @@
   * [缓存服务](fu-wu-bu-shu/huan-cun-fu-wu.md)
     * NGINX
     * SQUID
-    * [ATA](fu-wu-bu-shu/huan-cun-fu-wu/ata.md)
+    * [ATS](fu-wu-bu-shu/huan-cun-fu-wu/ata.md)
+    * Varnish
   * [负载均衡-高可用服务](fu-wu-bu-shu/fu-zai-jun-8861-gao-ke-yong-fu-wu.md)
     * LVS
     * Haproxy
+    * Heartbeat
+    * Keepalive
   * 中间件服务
   * 大数据服务
 * [Linux基础](linuxji-chu.md)
@@ -112,6 +135,8 @@
     * [3、IO](linuxgao-ji/er-3001-quan-xian-kong-zhi/3io.md)
     * [4、策略路由](linuxgao-ji/er-3001-quan-xian-kong-zhi/43001-ce-lve-lu-you.md)
     * [5、网卡绑定](linuxgao-ji/er-3001-quan-xian-kong-zhi/53001-wang-qia-bang-ding.md)
+
+
 
 
 
