@@ -59,10 +59,10 @@
       * 常用命令帮助
       * puppet-dashboard安装
     * [Fabric](chapter1/shi-3001-zi-dong-hua/fabric.md)
-    * puppet安装
+    * [puppet安装](chapter1/shi-3001-zi-dong-hua/puppetan-zhuang.md)
   * [十一、监控](chapter1/shi-yi-3001-jian-kong.md)
-    * Zabbix
-    * Grafana
+    * [Zabbix](chapter1/shi-yi-3001-jian-kong/zabbix.md)
+    * [Grafana](chapter1/shi-yi-3001-jian-kong/grafana.md)
   * 十二、其他
 * [应用服务](fu-wu-bu-shu.md)
   * [WEB服务](fu-wu-bu-shu/webfu-wu.md)
