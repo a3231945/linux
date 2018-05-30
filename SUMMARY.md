@@ -44,20 +44,20 @@
       * [报错信息处理](chapter1/shi-3001-zi-dong-hua/ansible/bao-cuo-xin-xi-chu-li.md)
     * [Saltstack](chapter1/shi-3001-zi-dong-hua/saltstack.md)
     * [Puppet](chapter1/shi-3001-zi-dong-hua/puppet.md)
-      * puppet安装
-      * puppet自动注册
-      * puppet证书管理
-      * puppet文件管理
-      * puppet软件包管理
-      * puppet用户管理
-      * puppet任务计划管理
-      * puppet exce管理
-      * puppet service 管理
-      * puppet高级用法（编程语法）
-      * puppet高级用法（类和模块）
-      * 错误
-      * 常用命令帮助
-      * puppet-dashboard安装
+      * [puppet安装](chapter1/shi-3001-zi-dong-hua/puppet/puppetan-zhuang.md)
+      * [puppet自动注册](chapter1/shi-3001-zi-dong-hua/puppet/puppetzi-dong-zhu-ce.md)
+      * [puppet证书管理](chapter1/shi-3001-zi-dong-hua/puppet/puppetzheng-shu-guan-li.md)
+      * [puppet文件管理](chapter1/shi-3001-zi-dong-hua/puppet/puppetwen-jian-guan-li.md)
+      * [puppet软件包管理](chapter1/shi-3001-zi-dong-hua/puppet/puppetruan-jian-bao-guan-li.md)
+      * [puppet用户管理](chapter1/shi-3001-zi-dong-hua/puppet/puppetyong-hu-guan-li.md)
+      * [puppet任务计划管理](chapter1/shi-3001-zi-dong-hua/puppet/puppetren-wu-ji-hua-guan-li.md)
+      * [puppet exce管理](chapter1/shi-3001-zi-dong-hua/puppet/puppet-exceguan-li.md)
+      * [puppet service 管理](chapter1/shi-3001-zi-dong-hua/puppet/puppet-service-guan-li.md)
+      * [puppet高级用法（编程语法）](chapter1/shi-3001-zi-dong-hua/puppet/puppetgao-ji-yong-fa-ff08-bian-cheng-yu-fa-ff09.md)
+      * [puppet高级用法（类和模块）](chapter1/shi-3001-zi-dong-hua/puppet/puppetgao-ji-yong-fa-ff08-lei-he-mo-kuai-ff09.md)
+      * [错误](chapter1/shi-3001-zi-dong-hua/puppet/cuo-wu.md)
+      * [常用命令帮助](chapter1/shi-3001-zi-dong-hua/puppet/chang-yong-ming-ling-bang-zhu.md)
+      * [puppet-dashboard安装](chapter1/shi-3001-zi-dong-hua/puppet/puppet-dashboardan-zhuang.md)
     * [Fabric](chapter1/shi-3001-zi-dong-hua/fabric.md)
     * [puppet安装](chapter1/shi-3001-zi-dong-hua/puppetan-zhuang.md)
   * [十一、监控](chapter1/shi-yi-3001-jian-kong.md)
