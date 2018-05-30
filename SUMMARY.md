@@ -9,16 +9,16 @@
   * [五、HP-hpasmcli命令](ying-jian-xin-xi-xiang-guan/wu-3001-hp-hpasmcli-ming-ling.md)
   * [六、查看LINUX本机公网IP](ying-jian-xin-xi-xiang-guan/liu-3001-cha-kan-linux-ben-ji-gong-wang-ip.md)
 * [基础设施服务器部署](chapter1.md)
-  * [一、NTP服务器部署](chapter1/ntpfu-wu-qi-bu-shu.md)
-  * [二、DNS服务器部署](chapter1/dnsfu-wu-qi-bu-shu.md)
+  * [一、NTP服务](chapter1/ntpfu-wu-qi-bu-shu.md)
+  * [二、DNS服务](chapter1/dnsfu-wu-qi-bu-shu.md)
   * 三、SSH服务
-  * [四、YUM源服务器部署](chapter1/yumyuan-fu-wu-qi-bu-shu.md)
+  * [四、YUM源服务](chapter1/yumyuan-fu-wu-qi-bu-shu.md)
   * [五、FTP服务](chapter1/ftpfu-wu.md)
-  * 六、NFS服务
-  * [七、日志服务器EFLK部署](chapter1/ri-zhi-fu-wu-qi-eflk-bu-shu.md)
+  * [六、NFS服务](chapter1/liu-3001-nfs-fu-wu.md)
+  * [七、日志服务 - EFLK部署](chapter1/ri-zhi-fu-wu-qi-eflk-bu-shu.md)
     * [logstash 配置](chapter1/ri-zhi-fu-wu-qi-eflk-bu-shu/logstash-pei-zhi.md)
     * [安装 grokbug 环境](chapter1/ri-zhi-fu-wu-qi-eflk-bu-shu/an-zhuang-grokbug-huan-jing.md)
-  * [八、GitLab服务器部署](chapter1/gitlabfu-wu-qi-bu-shu.md)
+  * [八、GitLab服务](chapter1/gitlabfu-wu-qi-bu-shu.md)
     * [git 使用手册](chapter1/gitlabfu-wu-qi-bu-shu/git-shi-yong-shou-ce.md)
   * [九、GitBook部署](chapter1/gitbookbu-shu.md)
   * 十、虚拟化
