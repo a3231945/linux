@@ -1,12 +1,11 @@
 # linux 笔记
 
-记录了作者学习相关的文档，有疑问请与作者讨论，有什么使用上的错误，也请您多多包涵。欢迎来沟通，互相学习！
+**记录了作者学习相关的文档，有疑问请与作者讨论，有什么使用上的错误，也请您多多包涵。欢迎来沟通，互相学习！**
 
     联系人：     周先生
     微信：       18910734468
     联系邮箱：   zhouxulong@peter-zhou.com
  
-
 * [简介](README.md)
 * [硬件信息相关](ying-jian-xin-xi-xiang-guan.md)
   * [一、DELL-服务器常见问题技术手册](ying-jian-xin-xi-xiang-guan/yi-3001-dell-fu-wu-qi-chang-jian-wen-ti-ji-zhu-shou-ce.md)
@@ -15,24 +14,82 @@
   * [四、DELL-racadm命令](ying-jian-xin-xi-xiang-guan/si-3001-dell-racadm-ming-ling.md)
   * [五、HP-hpasmcli命令](ying-jian-xin-xi-xiang-guan/wu-3001-hp-hpasmcli-ming-ling.md)
   * [六、查看LINUX本机公网IP](ying-jian-xin-xi-xiang-guan/liu-3001-cha-kan-linux-ben-ji-gong-wang-ip.md)
-* [基础设施服务器部署](chapter1.md)
-  * [一、NTP服务器部署](chapter1/ntpfu-wu-qi-bu-shu.md)
-  * [二、DNS服务器部署](chapter1/dnsfu-wu-qi-bu-shu.md)
-  * [三、YUM源服务器部署](chapter1/yumyuan-fu-wu-qi-bu-shu.md)
-  * [四、日志服务器EFLK部署](chapter1/ri-zhi-fu-wu-qi-eflk-bu-shu.md)
+* [基础服务](chapter1.md)
+  * [一、NTP服务](chapter1/ntpfu-wu-qi-bu-shu.md)
+    * [Ntpd](chapter1/ntpfu-wu-qi-bu-shu/ntpd.md)
+    * [Chrony](chapter1/ntpfu-wu-qi-bu-shu/chrony.md)
+    * [Ntp Client](chapter1/ntpfu-wu-qi-bu-shu/ntp-client.md)
+    * [使用案例](chapter1/ntpfu-wu-qi-bu-shu/shi-yong-an-li.md)
+  * [二、DNS服务](chapter1/dnsfu-wu-qi-bu-shu.md)
+  * [三、SSH服务](chapter1/san-3001-ssh-fu-wu.md)
+  * [四、YUM服务](chapter1/yumyuan-fu-wu-qi-bu-shu.md)
+    * [内部yum源同步公网源](chapter1/yumyuan-fu-wu-qi-bu-shu/nei-bu-yum-yuan-tong-bu-gong-wang-yuan.md)
+    * [自定义yum源](chapter1/yumyuan-fu-wu-qi-bu-shu/zi-ding-yi-yum-yuan.md)
+    * [制作rpm包](chapter1/yumyuan-fu-wu-qi-bu-shu/zi-ding-yi-rpm-bao.md)
+  * [五、FTP服务](chapter1/ftpfu-wu.md)
+  * [六、NFS服务](chapter1/liu-3001-nfs-fu-wu.md)
+    * [NFS 安装部署](chapter1/liu-3001-nfs-fu-wu/nfs-an-zhuang-bu-shu.md)
+    * NFS 客户端
+  * [七、日志服务](chapter1/ri-zhi-fu-wu-qi-eflk-bu-shu.md)
+    * [EFLK部署](chapter1/ri-zhi-fu-wu-qi-eflk-bu-shu/eflkbu-shu.md)
     * [logstash 配置](chapter1/ri-zhi-fu-wu-qi-eflk-bu-shu/logstash-pei-zhi.md)
     * [安装 grokbug 环境](chapter1/ri-zhi-fu-wu-qi-eflk-bu-shu/an-zhuang-grokbug-huan-jing.md)
-  * [五、GitLab服务器部署](chapter1/gitlabfu-wu-qi-bu-shu.md)
+  * [八、版本控制服务](chapter1/gitlabfu-wu-qi-bu-shu.md)
     * [git 使用手册](chapter1/gitlabfu-wu-qi-bu-shu/git-shi-yong-shou-ce.md)
-  * [六、GitBook部署](chapter1/gitbookbu-shu.md)
-  * [七、KVM服务器部署](chapter1/kvmfu-wu-qi-bu-shu.md)
-* [应用服务部署](fu-wu-bu-shu.md)
-  * [一、NGINX](fu-wu-bu-shu/nginx.md)
-  * [二、PHP](fu-wu-bu-shu/php.md)
-  * [三、MYSQL](fu-wu-bu-shu/mysql.md)
-  * [四、REDIS](fu-wu-bu-shu/redis.md)
-  * [五、MONGO](fu-wu-bu-shu/mongo.md)
-  * [六、TOMCAT](fu-wu-bu-shu/tomcat.md)
+    * [GitBook部署](chapter1/gitbookbu-shu.md)
+  * 九、虚拟化服务
+    * [KVM服务](chapter1/kvmfu-wu-qi-bu-shu.md)
+  * [十、自动化](chapter1/shi-3001-zi-dong-hua.md)
+    * [Ansible](chapter1/shi-3001-zi-dong-hua/ansible.md)
+      * [1、ansible安装](chapter1/shi-3001-zi-dong-hua/ansible/ansiblean-zhuang.md)
+      * [2、ansible基本使用](chapter1/shi-3001-zi-dong-hua/ansible/2ansibleji-ben-shi-yong.md)
+      * [3、常见模块](chapter1/shi-3001-zi-dong-hua/ansible/33001-chang-jian-mo-kuai.md)
+      * [4、playbook-YAML](chapter1/shi-3001-zi-dong-hua/ansible/4playbook-yaml.md)
+      * [5、ansible基础元素](chapter1/shi-3001-zi-dong-hua/ansible/5ansibleji-chu-yuan-su.md)
+      * [6、playbook的组成结构](chapter1/shi-3001-zi-dong-hua/ansible/6playbookde-zu-cheng-jie-gou.md)
+      * [报错信息处理](chapter1/shi-3001-zi-dong-hua/ansible/bao-cuo-xin-xi-chu-li.md)
+    * [Saltstack](chapter1/shi-3001-zi-dong-hua/saltstack.md)
+    * [Puppet](chapter1/shi-3001-zi-dong-hua/puppet.md)
+      * puppet安装
+      * puppet自动注册
+      * puppet证书管理
+      * puppet文件管理
+      * puppet软件包管理
+      * puppet用户管理
+      * puppet任务计划管理
+      * puppet exce管理
+      * puppet service 管理
+      * puppet高级用法（编程语法）
+      * puppet高级用法（类和模块）
+      * 错误
+      * 常用命令帮助
+      * puppet-dashboard安装
+    * [Fabric](chapter1/shi-3001-zi-dong-hua/fabric.md)
+    * [puppet安装](chapter1/shi-3001-zi-dong-hua/puppetan-zhuang.md)
+  * [十一、监控](chapter1/shi-yi-3001-jian-kong.md)
+    * [Zabbix](chapter1/shi-yi-3001-jian-kong/zabbix.md)
+    * [Grafana](chapter1/shi-yi-3001-jian-kong/grafana.md)
+  * 十二、其他
+* [应用服务](fu-wu-bu-shu.md)
+  * [WEB服务](fu-wu-bu-shu/webfu-wu.md)
+    * [一、NGINX](fu-wu-bu-shu/nginx.md)
+    * [二、PHP](fu-wu-bu-shu/php.md)
+    * [三、TOMCAT](fu-wu-bu-shu/tomcat.md)
+  * [数据库服务](fu-wu-bu-shu/shu-ju-ku-fu-wu.md)
+    * [一、MYSQL](fu-wu-bu-shu/mysql.md)
+    * [二、REDIS](fu-wu-bu-shu/redis.md)
+    * [三、MONGO](fu-wu-bu-shu/mongo.md)
+    * 四、Memcache
+    * 五、SSDB
+  * [缓存服务](fu-wu-bu-shu/huan-cun-fu-wu.md)
+    * NGINX
+    * SQUID
+    * [ATA](fu-wu-bu-shu/huan-cun-fu-wu/ata.md)
+  * [负载均衡-高可用服务](fu-wu-bu-shu/fu-zai-jun-8861-gao-ke-yong-fu-wu.md)
+    * LVS
+    * Haproxy
+  * 中间件服务
+  * 大数据服务
 * [Linux基础](linuxji-chu.md)
   * [一、linux目录结构](linuxji-chu/yi-3001-linux-mu-lu-jie-gou.md)
   * [二、文件类型和文件扩展名](linuxji-chu/er-3001-wen-jian-lei-xing-he-wen-jian-kuo-zhan-ming.md)
@@ -52,6 +109,8 @@
     * [3、IO](linuxgao-ji/er-3001-quan-xian-kong-zhi/3io.md)
     * [4、策略路由](linuxgao-ji/er-3001-quan-xian-kong-zhi/43001-ce-lve-lu-you.md)
     * [5、网卡绑定](linuxgao-ji/er-3001-quan-xian-kong-zhi/53001-wang-qia-bang-ding.md)
+
+
 
 
 
