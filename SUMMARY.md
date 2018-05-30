@@ -8,25 +8,30 @@
   * [四、DELL-racadm命令](ying-jian-xin-xi-xiang-guan/si-3001-dell-racadm-ming-ling.md)
   * [五、HP-hpasmcli命令](ying-jian-xin-xi-xiang-guan/wu-3001-hp-hpasmcli-ming-ling.md)
   * [六、查看LINUX本机公网IP](ying-jian-xin-xi-xiang-guan/liu-3001-cha-kan-linux-ben-ji-gong-wang-ip.md)
-* [基础设施服务器部署](chapter1.md)
+* [基础服务](chapter1.md)
   * [一、NTP服务](chapter1/ntpfu-wu-qi-bu-shu.md)
   * [二、DNS服务](chapter1/dnsfu-wu-qi-bu-shu.md)
   * [三、SSH服务](chapter1/san-3001-ssh-fu-wu.md)
-  * [四、YUM源服务](chapter1/yumyuan-fu-wu-qi-bu-shu.md)
+  * [四、YUM服务](chapter1/yumyuan-fu-wu-qi-bu-shu.md)
   * [五、FTP服务](chapter1/ftpfu-wu.md)
   * [六、NFS服务](chapter1/liu-3001-nfs-fu-wu.md)
-  * [七、日志服务 - EFLK部署](chapter1/ri-zhi-fu-wu-qi-eflk-bu-shu.md)
+  * [七、日志服务](chapter1/ri-zhi-fu-wu-qi-eflk-bu-shu.md)
+    * [EFLK部署](chapter1/ri-zhi-fu-wu-qi-eflk-bu-shu/eflkbu-shu.md)
     * [logstash 配置](chapter1/ri-zhi-fu-wu-qi-eflk-bu-shu/logstash-pei-zhi.md)
     * [安装 grokbug 环境](chapter1/ri-zhi-fu-wu-qi-eflk-bu-shu/an-zhuang-grokbug-huan-jing.md)
-  * [八、GitLab服务](chapter1/gitlabfu-wu-qi-bu-shu.md)
+  * [八、版本控制服务](chapter1/gitlabfu-wu-qi-bu-shu.md)
     * [git 使用手册](chapter1/gitlabfu-wu-qi-bu-shu/git-shi-yong-shou-ce.md)
     * [GitBook部署](chapter1/gitbookbu-shu.md)
-  * 九、虚拟化
+  * 九、虚拟化服务
     * [KVM服务](chapter1/kvmfu-wu-qi-bu-shu.md)
-  * 十、自动化
+  * [十、自动化](chapter1/shi-3001-zi-dong-hua.md)
+    * [Ansible](chapter1/shi-3001-zi-dong-hua/ansible.md)
+    * [Saltstack](chapter1/shi-3001-zi-dong-hua/saltstack.md)
+    * Puppet
+    * Fabric
   * 十一、监控
   * 十二、其他
-* [应用服务部署](fu-wu-bu-shu.md)
+* [应用服务](fu-wu-bu-shu.md)
   * [WEB服务](fu-wu-bu-shu/webfu-wu.md)
     * [一、NGINX](fu-wu-bu-shu/nginx.md)
     * [二、PHP](fu-wu-bu-shu/php.md)
