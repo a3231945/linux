@@ -27,7 +27,7 @@
   * [五、FTP服务](chapter1/ftpfu-wu.md)
   * [六、NFS服务](chapter1/liu-3001-nfs-fu-wu.md)
     * [NFS 安装部署](chapter1/liu-3001-nfs-fu-wu/nfs-an-zhuang-bu-shu.md)
-    * NFS 客户端
+    * [NFS 客户端](chapter1/liu-3001-nfs-fu-wu/nfs-ke-hu-duan.md)
   * [七、日志服务](chapter1/ri-zhi-fu-wu-qi-eflk-bu-shu.md)
     * [EFLK部署](chapter1/ri-zhi-fu-wu-qi-eflk-bu-shu/eflkbu-shu.md)
     * [logstash 配置](chapter1/ri-zhi-fu-wu-qi-eflk-bu-shu/logstash-pei-zhi.md)
