@@ -21,15 +21,19 @@
     * [Ntp Client](chapter1/ntpfu-wu-qi-bu-shu/ntp-client.md)
     * [使用案例](chapter1/ntpfu-wu-qi-bu-shu/shi-yong-an-li.md)
   * [二、DNS服务](chapter1/dnsfu-wu-qi-bu-shu.md)
+    * [bind yum 安装](chapter1/dnsfu-wu-qi-bu-shu/bind-yum-an-zhuang.md)
+    * [bind 编译安装](chapter1/dnsfu-wu-qi-bu-shu/bind-bian-yi-an-zhuang.md)
+    * [客户端配置](chapter1/dnsfu-wu-qi-bu-shu/ke-hu-duan-pei-zhi.md)
   * [三、SSH服务](chapter1/san-3001-ssh-fu-wu.md)
   * [四、YUM服务](chapter1/yumyuan-fu-wu-qi-bu-shu.md)
     * [内部yum源同步公网源](chapter1/yumyuan-fu-wu-qi-bu-shu/nei-bu-yum-yuan-tong-bu-gong-wang-yuan.md)
     * [自定义yum源](chapter1/yumyuan-fu-wu-qi-bu-shu/zi-ding-yi-yum-yuan.md)
     * [制作rpm包](chapter1/yumyuan-fu-wu-qi-bu-shu/zi-ding-yi-rpm-bao.md)
+    * bind yum 安装
   * [五、FTP服务](chapter1/ftpfu-wu.md)
   * [六、NFS服务](chapter1/liu-3001-nfs-fu-wu.md)
     * [NFS 安装部署](chapter1/liu-3001-nfs-fu-wu/nfs-an-zhuang-bu-shu.md)
-    * NFS 客户端
+    * [NFS 客户端](chapter1/liu-3001-nfs-fu-wu/nfs-ke-hu-duan.md)
   * [七、日志服务](chapter1/ri-zhi-fu-wu-qi-eflk-bu-shu.md)
     * [EFLK部署](chapter1/ri-zhi-fu-wu-qi-eflk-bu-shu/eflkbu-shu.md)
     * [logstash 配置](chapter1/ri-zhi-fu-wu-qi-eflk-bu-shu/logstash-pei-zhi.md)
@@ -50,20 +54,20 @@
       * [报错信息处理](chapter1/shi-3001-zi-dong-hua/ansible/bao-cuo-xin-xi-chu-li.md)
     * [Saltstack](chapter1/shi-3001-zi-dong-hua/saltstack.md)
     * [Puppet](chapter1/shi-3001-zi-dong-hua/puppet.md)
-      * puppet安装
-      * puppet自动注册
-      * puppet证书管理
-      * puppet文件管理
-      * puppet软件包管理
-      * puppet用户管理
-      * puppet任务计划管理
-      * puppet exce管理
-      * puppet service 管理
-      * puppet高级用法（编程语法）
-      * puppet高级用法（类和模块）
-      * 错误
-      * 常用命令帮助
-      * puppet-dashboard安装
+      * [puppet安装](chapter1/shi-3001-zi-dong-hua/puppet/puppetan-zhuang.md)
+      * [puppet自动注册](chapter1/shi-3001-zi-dong-hua/puppet/puppetzi-dong-zhu-ce.md)
+      * [puppet证书管理](chapter1/shi-3001-zi-dong-hua/puppet/puppetzheng-shu-guan-li.md)
+      * [puppet文件管理](chapter1/shi-3001-zi-dong-hua/puppet/puppetwen-jian-guan-li.md)
+      * [puppet软件包管理](chapter1/shi-3001-zi-dong-hua/puppet/puppetruan-jian-bao-guan-li.md)
+      * [puppet用户管理](chapter1/shi-3001-zi-dong-hua/puppet/puppetyong-hu-guan-li.md)
+      * [puppet任务计划管理](chapter1/shi-3001-zi-dong-hua/puppet/puppetren-wu-ji-hua-guan-li.md)
+      * [puppet exce管理](chapter1/shi-3001-zi-dong-hua/puppet/puppet-exceguan-li.md)
+      * [puppet service 管理](chapter1/shi-3001-zi-dong-hua/puppet/puppet-service-guan-li.md)
+      * [puppet高级用法（编程语法）](chapter1/shi-3001-zi-dong-hua/puppet/puppetgao-ji-yong-fa-ff08-bian-cheng-yu-fa-ff09.md)
+      * [puppet高级用法（类和模块）](chapter1/shi-3001-zi-dong-hua/puppet/puppetgao-ji-yong-fa-ff08-lei-he-mo-kuai-ff09.md)
+      * [错误](chapter1/shi-3001-zi-dong-hua/puppet/cuo-wu.md)
+      * [常用命令帮助](chapter1/shi-3001-zi-dong-hua/puppet/chang-yong-ming-ling-bang-zhu.md)
+      * [puppet-dashboard安装](chapter1/shi-3001-zi-dong-hua/puppet/puppet-dashboardan-zhuang.md)
     * [Fabric](chapter1/shi-3001-zi-dong-hua/fabric.md)
   * [十一、监控](chapter1/shi-yi-3001-jian-kong.md)
     * [Zabbix](chapter1/shi-yi-3001-jian-kong/zabbix.md)
@@ -108,6 +112,8 @@
     * [3、IO](linuxgao-ji/er-3001-quan-xian-kong-zhi/3io.md)
     * [4、策略路由](linuxgao-ji/er-3001-quan-xian-kong-zhi/43001-ce-lve-lu-you.md)
     * [5、网卡绑定](linuxgao-ji/er-3001-quan-xian-kong-zhi/53001-wang-qia-bang-ding.md)
+
+
 
 
 
