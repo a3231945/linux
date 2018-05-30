@@ -43,8 +43,23 @@
       * [6、playbook的组成结构](chapter1/shi-3001-zi-dong-hua/ansible/6playbookde-zu-cheng-jie-gou.md)
       * [报错信息处理](chapter1/shi-3001-zi-dong-hua/ansible/bao-cuo-xin-xi-chu-li.md)
     * [Saltstack](chapter1/shi-3001-zi-dong-hua/saltstack.md)
-    * Puppet
-    * Fabric
+    * [Puppet](chapter1/shi-3001-zi-dong-hua/puppet.md)
+      * puppet安装
+      * puppet自动注册
+      * puppet证书管理
+      * puppet文件管理
+      * puppet软件包管理
+      * puppet用户管理
+      * puppet任务计划管理
+      * puppet exce管理
+      * puppet service 管理
+      * puppet高级用法（编程语法）
+      * puppet高级用法（类和模块）
+      * 错误
+      * 常用命令帮助
+      * puppet-dashboard安装
+    * [Fabric](chapter1/shi-3001-zi-dong-hua/fabric.md)
+    * puppet安装
   * [十一、监控](chapter1/shi-yi-3001-jian-kong.md)
     * Zabbix
     * Grafana
