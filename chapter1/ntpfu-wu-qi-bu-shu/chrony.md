@@ -29,7 +29,7 @@
 
 
 ###四、配置防火墙允许访问Chrony服务
-    [root@nfs-node2 ~]# iptables -p udp -m state --state NEW -m udp --dport 123 -j ACCEPT 
+    [root@nfs-node2 ~]# iptables -I INPUT -p udp -m state --state NEW -m udp --dport 123 -j ACCEPT 
     
 ###五、测试工作是否正常
     
