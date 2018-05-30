@@ -12,7 +12,7 @@
   * [一、NTP服务](chapter1/ntpfu-wu-qi-bu-shu.md)
     * [Ntpd](chapter1/ntpfu-wu-qi-bu-shu/ntpd.md)
     * [Chrony](chapter1/ntpfu-wu-qi-bu-shu/chrony.md)
-    * Ntp Client
+    * [Ntp Client](chapter1/ntpfu-wu-qi-bu-shu/ntp-client.md)
     * [使用案例](chapter1/ntpfu-wu-qi-bu-shu/shi-yong-an-li.md)
   * [二、DNS服务](chapter1/dnsfu-wu-qi-bu-shu.md)
   * [三、SSH服务](chapter1/san-3001-ssh-fu-wu.md)
