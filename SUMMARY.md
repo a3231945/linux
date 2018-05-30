@@ -40,8 +40,8 @@
       * [3、常见模块](chapter1/shi-3001-zi-dong-hua/ansible/33001-chang-jian-mo-kuai.md)
       * [4、playbook-YAML](chapter1/shi-3001-zi-dong-hua/ansible/4playbook-yaml.md)
       * [5、ansible基础元素](chapter1/shi-3001-zi-dong-hua/ansible/5ansibleji-chu-yuan-su.md)
-      * 6、playbook的组成结构
-      * 报错信息处理
+      * [6、playbook的组成结构](chapter1/shi-3001-zi-dong-hua/ansible/6playbookde-zu-cheng-jie-gou.md)
+      * [报错信息处理](chapter1/shi-3001-zi-dong-hua/ansible/bao-cuo-xin-xi-chu-li.md)
     * [Saltstack](chapter1/shi-3001-zi-dong-hua/saltstack.md)
     * Puppet
     * Fabric
