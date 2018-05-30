@@ -1,10 +1,10 @@
-###一、安装Ntpd服务
+###一、安装Chrony服务
 
-    [root@nfs-node2 ~]# yum -y install ntpd
+    [root@nfs-node2 ~]# yum -y install chrony
     
-###二、配置Ntpd服务
+###二、配置Chrony服务
     
-    [root@nfs-node2 ~]# vim/etc/ntp.conf 
+    [root@nfs-node2 ~]# vim /etc/chrony.conf 
     driftfile /var/lib/ntp/drift
     restrict default kod nomodify notrap nopeer noquery
     restrict -6 default kod nomodify notrap nopeer noquery
@@ -12,7 +12,7 @@
     restrict -6 ::1
     
     #允许某个网段使用ntp服务
-    restrict 10.0.0.0 mask 255.255.255.0 nomodify notrap
+    allow 10.0.0.0/24
     
     server 0.centos.pool.ntp.org iburst
     server 1.centos.pool.ntp.org iburst
@@ -23,17 +23,17 @@
     
 ###三、启动服务、配置开机自启动
 
-    [root@nfs-node2 ~]#/etc/init.d/ntpd start
+    [root@nfs-node2 ~]#/etc/rc.d/init.d/chronyd start 
     正在启动 ntpd：                                            [确定]
-    [root@nfs-node2 ~]# chkconfig ntpd on
+    [root@nfs-node2 ~]# chkconfig chronyd on
 
 
-###四、配置防火墙允许访问ntp服务
+###四、配置防火墙允许访问Chrony服务
     [root@nfs-node2 ~]# iptables -p udp -m state --state NEW -m udp --dport 123 -j ACCEPT 
     
 ###五、测试工作是否正常
     
-    [root@nfs-node2 ~]# ntpq -p
+    [root@nfs-node2 ~]# chronyc sources 
      remote           refid      st t when poll reach   delay   offset  jitter
     ==============================================================================
     *85.199.214.101  .GPS.            1 u   61   64    1  310.385   -3.302   2.834

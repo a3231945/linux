@@ -11,7 +11,7 @@
 * [基础服务](chapter1.md)
   * [一、NTP服务](chapter1/ntpfu-wu-qi-bu-shu.md)
     * [Ntpd](chapter1/ntpfu-wu-qi-bu-shu/ntpd.md)
-    * Chrony
+    * [Chrony](chapter1/ntpfu-wu-qi-bu-shu/chrony.md)
     * Ntp Client
     * [使用案例](chapter1/ntpfu-wu-qi-bu-shu/shi-yong-an-li.md)
   * [二、DNS服务](chapter1/dnsfu-wu-qi-bu-shu.md)
