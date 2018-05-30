@@ -11,7 +11,7 @@
 * [基础设施服务器部署](chapter1.md)
   * [一、NTP服务](chapter1/ntpfu-wu-qi-bu-shu.md)
   * [二、DNS服务](chapter1/dnsfu-wu-qi-bu-shu.md)
-  * 三、SSH服务
+  * [三、SSH服务](chapter1/san-3001-ssh-fu-wu.md)
   * [四、YUM源服务](chapter1/yumyuan-fu-wu-qi-bu-shu.md)
   * [五、FTP服务](chapter1/ftpfu-wu.md)
   * [六、NFS服务](chapter1/liu-3001-nfs-fu-wu.md)
@@ -20,21 +20,32 @@
     * [安装 grokbug 环境](chapter1/ri-zhi-fu-wu-qi-eflk-bu-shu/an-zhuang-grokbug-huan-jing.md)
   * [八、GitLab服务](chapter1/gitlabfu-wu-qi-bu-shu.md)
     * [git 使用手册](chapter1/gitlabfu-wu-qi-bu-shu/git-shi-yong-shou-ce.md)
-  * [九、GitBook部署](chapter1/gitbookbu-shu.md)
-  * 十、虚拟化
-    * [十、KVM服务器部署](chapter1/kvmfu-wu-qi-bu-shu.md)
+    * [GitBook部署](chapter1/gitbookbu-shu.md)
+  * 九、虚拟化
+    * [KVM服务](chapter1/kvmfu-wu-qi-bu-shu.md)
+  * 十、自动化
   * 十一、监控
+  * 十二、其他
 * [应用服务部署](fu-wu-bu-shu.md)
-  * WEB服务
+  * [WEB服务](fu-wu-bu-shu/webfu-wu.md)
     * [一、NGINX](fu-wu-bu-shu/nginx.md)
     * [二、PHP](fu-wu-bu-shu/php.md)
     * [三、TOMCAT](fu-wu-bu-shu/tomcat.md)
-  * 数据库服务
+  * [数据库服务](fu-wu-bu-shu/shu-ju-ku-fu-wu.md)
     * [一、MYSQL](fu-wu-bu-shu/mysql.md)
     * [二、REDIS](fu-wu-bu-shu/redis.md)
     * [三、MONGO](fu-wu-bu-shu/mongo.md)
-  * 缓存服务
-  * 负载均衡-高可用服务
+    * 四、Memcache
+    * 五、SSD
+  * [缓存服务](fu-wu-bu-shu/huan-cun-fu-wu.md)
+    * NGINX
+    * SQUID
+    * [ATA](fu-wu-bu-shu/huan-cun-fu-wu/ata.md)
+  * [负载均衡-高可用服务](fu-wu-bu-shu/fu-zai-jun-8861-gao-ke-yong-fu-wu.md)
+    * LVS
+    * Haproxy
+  * 中间件服务
+  * 大数据服务
 * [Linux基础](linuxji-chu.md)
   * [一、linux目录结构](linuxji-chu/yi-3001-linux-mu-lu-jie-gou.md)
   * [二、文件类型和文件扩展名](linuxji-chu/er-3001-wen-jian-lei-xing-he-wen-jian-kuo-zhan-ming.md)
