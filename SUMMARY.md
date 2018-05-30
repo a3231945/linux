@@ -25,12 +25,16 @@
     * [十、KVM服务器部署](chapter1/kvmfu-wu-qi-bu-shu.md)
   * 十一、监控
 * [应用服务部署](fu-wu-bu-shu.md)
-  * [一、NGINX](fu-wu-bu-shu/nginx.md)
-  * [二、PHP](fu-wu-bu-shu/php.md)
-  * [三、MYSQL](fu-wu-bu-shu/mysql.md)
-  * [四、REDIS](fu-wu-bu-shu/redis.md)
-  * [五、MONGO](fu-wu-bu-shu/mongo.md)
-  * [六、TOMCAT](fu-wu-bu-shu/tomcat.md)
+  * WEB服务
+    * [一、NGINX](fu-wu-bu-shu/nginx.md)
+    * [二、PHP](fu-wu-bu-shu/php.md)
+    * [三、TOMCAT](fu-wu-bu-shu/tomcat.md)
+  * 数据库服务
+    * [一、MYSQL](fu-wu-bu-shu/mysql.md)
+    * [二、REDIS](fu-wu-bu-shu/redis.md)
+    * [三、MONGO](fu-wu-bu-shu/mongo.md)
+  * 缓存服务
+  * 负载均衡-高可用服务
 * [Linux基础](linuxji-chu.md)
   * [一、linux目录结构](linuxji-chu/yi-3001-linux-mu-lu-jie-gou.md)
   * [二、文件类型和文件扩展名](linuxji-chu/er-3001-wen-jian-lei-xing-he-wen-jian-kuo-zhan-ming.md)
