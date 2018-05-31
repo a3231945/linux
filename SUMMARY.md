@@ -29,7 +29,8 @@
   * [四、YUM服务](chapter1/yumyuan-fu-wu-qi-bu-shu.md)
     * [内部yum源同步公网源](chapter1/yumyuan-fu-wu-qi-bu-shu/nei-bu-yum-yuan-tong-bu-gong-wang-yuan.md)
     * [自定义yum源](chapter1/yumyuan-fu-wu-qi-bu-shu/zi-ding-yi-yum-yuan.md)
-    * [制作rpm包](chapter1/yumyuan-fu-wu-qi-bu-shu/zi-ding-yi-rpm-bao.md)
+    * [rpmbuild 制作rpm包](chapter1/yumyuan-fu-wu-qi-bu-shu/zi-ding-yi-rpm-bao.md)
+    * [fpm 制作rpm包](chapter1/yumyuan-fu-wu-qi-bu-shu/fpm-zhi-zuo-rpm-bao.md)
   * [五、共享服务](chapter1/ftpfu-wu.md)
     * VSFTP 服务
     * ProFTP 服务
