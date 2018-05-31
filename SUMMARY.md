@@ -52,6 +52,8 @@
     * [GitBook部署](chapter1/gitbookbu-shu.md)
   * 九、虚拟化服务
     * [KVM服务](chapter1/kvmfu-wu-qi-bu-shu.md)
+    * Openstack
+    * Docker
   * [十、自动化](chapter1/shi-3001-zi-dong-hua.md)
     * [Ansible](chapter1/shi-3001-zi-dong-hua/ansible.md)
       * [1、ansible安装](chapter1/shi-3001-zi-dong-hua/ansible/ansiblean-zhuang.md)
@@ -104,6 +106,7 @@
   * [负载均衡-高可用服务](fu-wu-bu-shu/fu-zai-jun-8861-gao-ke-yong-fu-wu.md)
     * LVS
     * Haproxy
+    * Nginx
     * Heartbeat
     * Keepalive
   * 中间件服务

@@ -173,7 +173,13 @@
 
 - 开机自启动 `[root@nfs-node2 ~]# chkconfig named on`
 
-###五、客户端测试结果
+###五、配置防火墙允许访问dns服务
+    [root@nfs-node2 ~]# iptables -I INPUT -p udp -m state --state NEW -m udp --dport 53 -j ACCEPT 
+    [root@nfs-node2 ~]# iptables -I INPUT -p udp -m state --state NEW -m tcp --dport 53 -j ACCEPT 
+
+
+
+###六、客户端测试结果
 
 
 
