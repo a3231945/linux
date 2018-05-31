@@ -18,7 +18,7 @@
     * [bind yum 安装](chapter1/dnsfu-wu-qi-bu-shu/bind-yum-an-zhuang.md)
     * [bind 编译安装](chapter1/dnsfu-wu-qi-bu-shu/bind-bian-yi-an-zhuang.md)
     * [客户端配置](chapter1/dnsfu-wu-qi-bu-shu/ke-hu-duan-pei-zhi.md)
-    * Dnsmasq 安装
+    * [Dnsmasq 安装](chapter1/dnsfu-wu-qi-bu-shu/dnsmasq-an-zhuang.md)
   * [三、SSH服务](chapter1/san-3001-ssh-fu-wu.md)
     * [SSH server安装](chapter1/san-3001-ssh-fu-wu/ssh-serveran-zhuang.md)
     * [SSH client 安装](chapter1/san-3001-ssh-fu-wu/ssh-client-an-zhuang.md)
@@ -39,7 +39,7 @@
     * [NFS 安装部署](chapter1/liu-3001-nfs-fu-wu/nfs-an-zhuang-bu-shu.md)
     * [NFS 客户端](chapter1/liu-3001-nfs-fu-wu/nfs-ke-hu-duan.md)
   * [七、日志服务](chapter1/ri-zhi-fu-wu-qi-eflk-bu-shu.md)
-    * Rsyslog 服务
+    * [Rsyslog 服务](chapter1/ri-zhi-fu-wu-qi-eflk-bu-shu/rsyslog-fu-wu.md)
     * [EFLK 部署](chapter1/ri-zhi-fu-wu-qi-eflk-bu-shu/eflkbu-shu.md)
     * [Logstash 配置](chapter1/ri-zhi-fu-wu-qi-eflk-bu-shu/logstash-pei-zhi.md)
     * [安装 grokbug 环境](chapter1/ri-zhi-fu-wu-qi-eflk-bu-shu/an-zhuang-grokbug-huan-jing.md)
