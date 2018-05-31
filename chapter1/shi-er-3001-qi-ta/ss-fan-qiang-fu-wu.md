@@ -37,3 +37,7 @@
      #重启
      ssserver -c /etc/shadowsocks.json -d restart
      
+### 四、客户端使用
+
+    略
+    
