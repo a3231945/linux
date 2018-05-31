@@ -28,11 +28,13 @@
 
 
  查看负载：
+ 
  ![](/assets/pssh-2.png)
 
 
 
 手动输入密码：
+
 ![](/assets/pssh-3.png)
 
     pscp 参数： 拷贝本地文件到远程主机
@@ -61,6 +63,7 @@
 ![](/assets/pssh-5.png)
 
 **验证结果:**
+
 ![](/assets/pssh-6.png)
 	
     Pnuke 参数： 远程杀进程
