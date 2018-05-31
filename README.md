@@ -29,12 +29,10 @@
     * Dnsmasq 安装
   * [三、SSH服务](chapter1/san-3001-ssh-fu-wu.md)
     * [SSH server安装](chapter1/san-3001-ssh-fu-wu/ssh-serveran-zhuang.md)
-    * SSH client 安装
+    * [SSH client 安装](chapter1/san-3001-ssh-fu-wu/ssh-client-an-zhuang.md)
     * [SSH FORWARD 转发](chapter1/san-3001-ssh-fu-wu/ssh-forward.md)
-    * SSH agent 代理
-    * SSH pass 使用
-    * Pssh 使用
-    * SSH mount 使用
+    * [SSH agent 代理](chapter1/san-3001-ssh-fu-wu/ssh-agent-dai-li.md)
+    * [Pssh 使用](chapter1/san-3001-ssh-fu-wu/pssh-shi-yong.md)
     * Rsync 服务
   * [四、YUM服务](chapter1/yumyuan-fu-wu-qi-bu-shu.md)
     * [内部yum源同步公网源](chapter1/yumyuan-fu-wu-qi-bu-shu/nei-bu-yum-yuan-tong-bu-gong-wang-yuan.md)
@@ -60,6 +58,8 @@
     * [GitBook部署](chapter1/gitbookbu-shu.md)
   * 九、虚拟化服务
     * [KVM服务](chapter1/kvmfu-wu-qi-bu-shu.md)
+    * Openstack
+    * Docker
   * [十、自动化](chapter1/shi-3001-zi-dong-hua.md)
     * [Ansible](chapter1/shi-3001-zi-dong-hua/ansible.md)
       * [1、ansible安装](chapter1/shi-3001-zi-dong-hua/ansible/ansiblean-zhuang.md)
@@ -112,6 +112,7 @@
   * [负载均衡-高可用服务](fu-wu-bu-shu/fu-zai-jun-8861-gao-ke-yong-fu-wu.md)
     * LVS
     * Haproxy
+    * Nginx
     * Heartbeat
     * Keepalive
   * 中间件服务
@@ -135,6 +136,8 @@
     * [3、IO](linuxgao-ji/er-3001-quan-xian-kong-zhi/3io.md)
     * [4、策略路由](linuxgao-ji/er-3001-quan-xian-kong-zhi/43001-ce-lve-lu-you.md)
     * [5、网卡绑定](linuxgao-ji/er-3001-quan-xian-kong-zhi/53001-wang-qia-bang-ding.md)
+
+
 
 
 
