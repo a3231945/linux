@@ -33,8 +33,8 @@
     * [fpm 制作rpm包](chapter1/yumyuan-fu-wu-qi-bu-shu/fpm-zhi-zuo-rpm-bao.md)
   * [五、共享服务](chapter1/ftpfu-wu.md)
     * [VSFTP 服务](chapter1/ftpfu-wu/vsftp-fu-wu.md)
-    * ProFTP 服务
-    * Samba 服务
+    * [ProFTP 服务](chapter1/ftpfu-wu/proftp-fu-wu.md)
+    * [Samba 服务](chapter1/ftpfu-wu/samba-fu-wu.md)
   * [六、NFS服务](chapter1/liu-3001-nfs-fu-wu.md)
     * [NFS 安装部署](chapter1/liu-3001-nfs-fu-wu/nfs-an-zhuang-bu-shu.md)
     * [NFS 客户端](chapter1/liu-3001-nfs-fu-wu/nfs-ke-hu-duan.md)
@@ -82,8 +82,8 @@
     * [Zabbix](chapter1/shi-yi-3001-jian-kong/zabbix.md)
     * [Grafana](chapter1/shi-yi-3001-jian-kong/grafana.md)
   * [十二、其他](chapter1/shi-er-3001-qi-ta.md)
-    * SS 翻墙服务
-    * PXE 批量装机服务
+    * [SS 翻墙服务](chapter1/shi-er-3001-qi-ta/ss-fan-qiang-fu-wu.md)
+    * [PXE 批量装机服务](chapter1/shi-er-3001-qi-ta/pxe-pi-liang-zhuang-ji-fu-wu.md)
     * Redmin 服务
 * [应用服务](fu-wu-bu-shu.md)
   * [WEB服务](fu-wu-bu-shu/webfu-wu.md)
