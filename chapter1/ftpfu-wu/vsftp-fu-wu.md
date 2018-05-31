@@ -21,7 +21,7 @@
      # 允许执行 ls -R
      ls_recurse_enable=YES
      
-     # 用户家父母
+     # 用户家目录
      local_root=public_html
      
      #使用本地时间
