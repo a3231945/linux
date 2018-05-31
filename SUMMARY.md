@@ -32,7 +32,7 @@
     * [rpmbuild 制作rpm包](chapter1/yumyuan-fu-wu-qi-bu-shu/zi-ding-yi-rpm-bao.md)
     * [fpm 制作rpm包](chapter1/yumyuan-fu-wu-qi-bu-shu/fpm-zhi-zuo-rpm-bao.md)
   * [五、共享服务](chapter1/ftpfu-wu.md)
-    * VSFTP 服务
+    * [VSFTP 服务](chapter1/ftpfu-wu/vsftp-fu-wu.md)
     * ProFTP 服务
     * Samba 服务
   * [六、NFS服务](chapter1/liu-3001-nfs-fu-wu.md)
