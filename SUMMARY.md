@@ -61,6 +61,7 @@
       * [5、ansible基础元素](chapter1/shi-3001-zi-dong-hua/ansible/5ansibleji-chu-yuan-su.md)
       * [6、playbook的组成结构](chapter1/shi-3001-zi-dong-hua/ansible/6playbookde-zu-cheng-jie-gou.md)
       * [报错信息处理](chapter1/shi-3001-zi-dong-hua/ansible/bao-cuo-xin-xi-chu-li.md)
+      * [Ansible - windows](chapter1/shi-3001-zi-dong-hua/ansible/ansible-windows.md)
     * [Saltstack](chapter1/shi-3001-zi-dong-hua/saltstack.md)
     * [Puppet](chapter1/shi-3001-zi-dong-hua/puppet.md)
       * [puppet安装](chapter1/shi-3001-zi-dong-hua/puppet/puppetan-zhuang.md)
@@ -84,7 +85,7 @@
   * [十二、其他](chapter1/shi-er-3001-qi-ta.md)
     * [SS 翻墙服务](chapter1/shi-er-3001-qi-ta/ss-fan-qiang-fu-wu.md)
     * [PXE 批量装机服务](chapter1/shi-er-3001-qi-ta/pxe-pi-liang-zhuang-ji-fu-wu.md)
-    * Redmin 服务
+    * [Redmin 服务](chapter1/shi-er-3001-qi-ta/redmin-fu-wu.md)
 * [应用服务](fu-wu-bu-shu.md)
   * [WEB服务](fu-wu-bu-shu/webfu-wu.md)
     * [一、NGINX](fu-wu-bu-shu/nginx.md)
