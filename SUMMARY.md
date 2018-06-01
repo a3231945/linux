@@ -123,7 +123,7 @@
     * LVS
     * Haproxy
     * Nginx
-    * Heartbeat
+    * [Heartbeat](fu-wu-bu-shu/fu-zai-jun-8861-gao-ke-yong-fu-wu/heartbeat.md)
     * Keepalive
   * 中间件服务
   * 大数据服务
