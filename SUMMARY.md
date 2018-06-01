@@ -96,12 +96,27 @@
   * [数据库服务](fu-wu-bu-shu/shu-ju-ku-fu-wu.md)
     * [一、MYSQL](fu-wu-bu-shu/mysql.md)
     * [二、REDIS](fu-wu-bu-shu/redis.md)
+      * [1、安装](fu-wu-bu-shu/redis/an-zhuang.md)
+      * [2、通用key命令操作](fu-wu-bu-shu/redis/23001-tong-yong-key-ming-ling-cao-zuo.md)
+      * [3、string结构及命令](fu-wu-bu-shu/redis/3stringjie-gou-ji-ming-ling.md)
+      * [4、Link链表结构](fu-wu-bu-shu/redis/4linklian-biao-jie-gou.md)
+      * [5、set 集合结构](fu-wu-bu-shu/redis/5set-ji-he-jie-gou.md)
+      * [6、order set有序集合](fu-wu-bu-shu/redis/6order-setyou-xu-ji-he.md)
+      * [7、哈希结构](fu-wu-bu-shu/redis/73001-ha-xi-jie-gou.md)
+      * [8、redis事务及锁应用](fu-wu-bu-shu/redis/8redisshi-wu-ji-suo-ying-yong.md)
+      * [9、redis频道发布与消息订阅](fu-wu-bu-shu/redis/9redispin-dao-fa-bu-yu-xiao-xi-ding-yue.md)
+      * [10、rdb快照持久化](fu-wu-bu-shu/redis/10rdbkuai-zhao-chi-jiu-hua.md)
+      * [11、aof日志持久化](fu-wu-bu-shu/redis/11aof.md)
+      * [12、redis主从复制](fu-wu-bu-shu/redis/12rediszhu-cong-fu-zhi.md)
+      * [13、redis运维常用命令](fu-wu-bu-shu/redis/13redisyun-wei-chang-yong-ming-ling.md)
+      * [14、sentinel 运维监控（哨兵）](fu-wu-bu-shu/redis/14sentinel-yun-wei-jian-kong-ff08-shao-bing-ff09.md)
+      * [15、案例（位图法统计活跃用户）](fu-wu-bu-shu/redis/153001-an-li-ff08-wei-tu-fa-tong-ji-huo-yue-yong-hu-ff09.md)
     * [三、MONGO](fu-wu-bu-shu/mongo.md)
     * 四、Memcache
     * 五、SSDB
   * [缓存服务](fu-wu-bu-shu/huan-cun-fu-wu.md)
     * NGINX
-    * SQUID
+    * [SQUID](fu-wu-bu-shu/huan-cun-fu-wu/squid.md)
     * [ATS](fu-wu-bu-shu/huan-cun-fu-wu/ata.md)
     * Varnish
   * [负载均衡-高可用服务](fu-wu-bu-shu/fu-zai-jun-8861-gao-ke-yong-fu-wu.md)
