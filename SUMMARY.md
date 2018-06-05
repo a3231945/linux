@@ -121,12 +121,12 @@
     * Varnish
   * [负载均衡-高可用服务](fu-wu-bu-shu/fu-zai-jun-8861-gao-ke-yong-fu-wu.md)
     * LVS
-    * Haproxy
+    * [Haproxy](fu-wu-bu-shu/fu-zai-jun-8861-gao-ke-yong-fu-wu/haproxy.md)
     * Nginx
     * [Heartbeat](fu-wu-bu-shu/fu-zai-jun-8861-gao-ke-yong-fu-wu/heartbeat.md)
     * Keepalive
-  * 中间件服务
-  * 大数据服务
+  * [中间件服务](fu-wu-bu-shu/zhong-jian-jian-fu-wu.md)
+  * [大数据服务](fu-wu-bu-shu/da-shu-ju-fu-wu.md)
 * [Linux基础](linuxji-chu.md)
   * [一、linux目录结构](linuxji-chu/yi-3001-linux-mu-lu-jie-gou.md)
   * [二、文件类型和文件扩展名](linuxji-chu/er-3001-wen-jian-lei-xing-he-wen-jian-kuo-zhan-ming.md)
