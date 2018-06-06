@@ -1,5 +1,5 @@
 # Git 命令
------
+
 ### 快速使用 ###
  
 1、hosts 修改 ，编辑 %systemroot%\System32\drivers\etc\hosts 文件
@@ -132,6 +132,7 @@
     git checkout HEAD <file\>
 
 3、撤销指定的提交
+
     git revert <commit\>
 
 -----

@@ -44,8 +44,8 @@
     * [Logstash 配置](chapter1/ri-zhi-fu-wu-qi-eflk-bu-shu/logstash-pei-zhi.md)
     * [安装 grokbug 环境](chapter1/ri-zhi-fu-wu-qi-eflk-bu-shu/an-zhuang-grokbug-huan-jing.md)
   * [八、版本控制服务](chapter1/gitlabfu-wu-qi-bu-shu.md)
-    * SVN 服务
-    * Git 服务
+    * [SVN 服务](chapter1/gitlabfu-wu-qi-bu-shu/svn-fu-wu.md)
+    * [Git 服务](chapter1/gitlabfu-wu-qi-bu-shu/git-fu-wu.md)
     * [Git 使用手册](chapter1/gitlabfu-wu-qi-bu-shu/git-shi-yong-shou-ce.md)
     * [GitBook部署](chapter1/gitbookbu-shu.md)
   * 九、虚拟化服务
