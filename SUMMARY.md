@@ -25,7 +25,7 @@
     * [SSH FORWARD 转发](chapter1/san-3001-ssh-fu-wu/ssh-forward.md)
     * [SSH agent 代理](chapter1/san-3001-ssh-fu-wu/ssh-agent-dai-li.md)
     * [Pssh 使用](chapter1/san-3001-ssh-fu-wu/pssh-shi-yong.md)
-    * Rsync 服务
+    * [Rsync 服务](chapter1/san-3001-ssh-fu-wu/rsync-fu-wu.md)
   * [四、YUM服务](chapter1/yumyuan-fu-wu-qi-bu-shu.md)
     * [内部yum源同步公网源](chapter1/yumyuan-fu-wu-qi-bu-shu/nei-bu-yum-yuan-tong-bu-gong-wang-yuan.md)
     * [自定义yum源](chapter1/yumyuan-fu-wu-qi-bu-shu/zi-ding-yi-yum-yuan.md)
