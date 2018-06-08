@@ -8,6 +8,8 @@
     微信：       18910734468
     联系邮箱：   zhouxulong@peter-zhou.com
  
+
+
 * [简介](README.md)
 * [硬件信息相关](ying-jian-xin-xi-xiang-guan.md)
   * [一、DELL-服务器常见问题技术手册](ying-jian-xin-xi-xiang-guan/yi-3001-dell-fu-wu-qi-chang-jian-wen-ti-ji-zhu-shou-ce.md)
@@ -26,7 +28,7 @@
     * [bind yum 安装](chapter1/dnsfu-wu-qi-bu-shu/bind-yum-an-zhuang.md)
     * [bind 编译安装](chapter1/dnsfu-wu-qi-bu-shu/bind-bian-yi-an-zhuang.md)
     * [客户端配置](chapter1/dnsfu-wu-qi-bu-shu/ke-hu-duan-pei-zhi.md)
-    * Dnsmasq 安装
+    * [Dnsmasq 安装](chapter1/dnsfu-wu-qi-bu-shu/dnsmasq-an-zhuang.md)
   * [三、SSH服务](chapter1/san-3001-ssh-fu-wu.md)
     * [SSH server安装](chapter1/san-3001-ssh-fu-wu/ssh-serveran-zhuang.md)
     * [SSH client 安装](chapter1/san-3001-ssh-fu-wu/ssh-client-an-zhuang.md)
@@ -37,27 +39,29 @@
   * [四、YUM服务](chapter1/yumyuan-fu-wu-qi-bu-shu.md)
     * [内部yum源同步公网源](chapter1/yumyuan-fu-wu-qi-bu-shu/nei-bu-yum-yuan-tong-bu-gong-wang-yuan.md)
     * [自定义yum源](chapter1/yumyuan-fu-wu-qi-bu-shu/zi-ding-yi-yum-yuan.md)
-    * [制作rpm包](chapter1/yumyuan-fu-wu-qi-bu-shu/zi-ding-yi-rpm-bao.md)
-    * bind yum 安装
+    * [rpmbuild 制作rpm包](chapter1/yumyuan-fu-wu-qi-bu-shu/zi-ding-yi-rpm-bao.md)
+    * [fpm 制作rpm包](chapter1/yumyuan-fu-wu-qi-bu-shu/fpm-zhi-zuo-rpm-bao.md)
   * [五、共享服务](chapter1/ftpfu-wu.md)
-    * VSFTP 服务
-    * ProFTP 服务
-    * Samba 服务
+    * [VSFTP 服务](chapter1/ftpfu-wu/vsftp-fu-wu.md)
+    * [ProFTP 服务](chapter1/ftpfu-wu/proftp-fu-wu.md)
+    * [Samba 服务](chapter1/ftpfu-wu/samba-fu-wu.md)
   * [六、NFS服务](chapter1/liu-3001-nfs-fu-wu.md)
     * [NFS 安装部署](chapter1/liu-3001-nfs-fu-wu/nfs-an-zhuang-bu-shu.md)
     * [NFS 客户端](chapter1/liu-3001-nfs-fu-wu/nfs-ke-hu-duan.md)
   * [七、日志服务](chapter1/ri-zhi-fu-wu-qi-eflk-bu-shu.md)
-    * Rsyslog 服务
+    * [Rsyslog 服务](chapter1/ri-zhi-fu-wu-qi-eflk-bu-shu/rsyslog-fu-wu.md)
     * [EFLK 部署](chapter1/ri-zhi-fu-wu-qi-eflk-bu-shu/eflkbu-shu.md)
     * [Logstash 配置](chapter1/ri-zhi-fu-wu-qi-eflk-bu-shu/logstash-pei-zhi.md)
     * [安装 grokbug 环境](chapter1/ri-zhi-fu-wu-qi-eflk-bu-shu/an-zhuang-grokbug-huan-jing.md)
   * [八、版本控制服务](chapter1/gitlabfu-wu-qi-bu-shu.md)
-    * SVN 服务
-    * Git 服务
+    * [SVN 服务](chapter1/gitlabfu-wu-qi-bu-shu/svn-fu-wu.md)
+    * [Git 服务](chapter1/gitlabfu-wu-qi-bu-shu/git-fu-wu.md)
     * [Git 使用手册](chapter1/gitlabfu-wu-qi-bu-shu/git-shi-yong-shou-ce.md)
     * [GitBook部署](chapter1/gitbookbu-shu.md)
-  * 九、虚拟化服务
+  * [九、虚拟化服务](chapter1/jiu-3001-xu-ni-hua-fu-wu.md)
     * [KVM服务](chapter1/kvmfu-wu-qi-bu-shu.md)
+    * VirtualBox
+    * [Vagrant](chapter1/vagrant.md)
     * Openstack
     * Docker
   * [十、自动化](chapter1/shi-3001-zi-dong-hua.md)
@@ -69,6 +73,7 @@
       * [5、ansible基础元素](chapter1/shi-3001-zi-dong-hua/ansible/5ansibleji-chu-yuan-su.md)
       * [6、playbook的组成结构](chapter1/shi-3001-zi-dong-hua/ansible/6playbookde-zu-cheng-jie-gou.md)
       * [报错信息处理](chapter1/shi-3001-zi-dong-hua/ansible/bao-cuo-xin-xi-chu-li.md)
+      * [Ansible - windows](chapter1/shi-3001-zi-dong-hua/ansible/ansible-windows.md)
     * [Saltstack](chapter1/shi-3001-zi-dong-hua/saltstack.md)
     * [Puppet](chapter1/shi-3001-zi-dong-hua/puppet.md)
       * [puppet安装](chapter1/shi-3001-zi-dong-hua/puppet/puppetan-zhuang.md)
@@ -90,9 +95,11 @@
     * [Zabbix](chapter1/shi-yi-3001-jian-kong/zabbix.md)
     * [Grafana](chapter1/shi-yi-3001-jian-kong/grafana.md)
   * [十二、其他](chapter1/shi-er-3001-qi-ta.md)
-    * SS 翻墙服务
-    * PXE 批量装机服务
-    * Redmin 服务
+    * [SS 翻墙服务](chapter1/shi-er-3001-qi-ta/ss-fan-qiang-fu-wu.md)
+    * [PXE 批量装机服务](chapter1/shi-er-3001-qi-ta/pxe-pi-liang-zhuang-ji-fu-wu.md)
+    * [Redmin 服务](chapter1/shi-er-3001-qi-ta/redmin-fu-wu.md)
+    * jira
+    * [nali 使用](chapter1/shi-er-3001-qi-ta/nali-shi-yong.md)
 * [应用服务](fu-wu-bu-shu.md)
   * [WEB服务](fu-wu-bu-shu/webfu-wu.md)
     * [一、NGINX](fu-wu-bu-shu/nginx.md)
@@ -101,22 +108,37 @@
   * [数据库服务](fu-wu-bu-shu/shu-ju-ku-fu-wu.md)
     * [一、MYSQL](fu-wu-bu-shu/mysql.md)
     * [二、REDIS](fu-wu-bu-shu/redis.md)
+      * [1、安装](fu-wu-bu-shu/redis/an-zhuang.md)
+      * [2、通用key命令操作](fu-wu-bu-shu/redis/23001-tong-yong-key-ming-ling-cao-zuo.md)
+      * [3、string结构及命令](fu-wu-bu-shu/redis/3stringjie-gou-ji-ming-ling.md)
+      * [4、Link链表结构](fu-wu-bu-shu/redis/4linklian-biao-jie-gou.md)
+      * [5、set 集合结构](fu-wu-bu-shu/redis/5set-ji-he-jie-gou.md)
+      * [6、order set有序集合](fu-wu-bu-shu/redis/6order-setyou-xu-ji-he.md)
+      * [7、哈希结构](fu-wu-bu-shu/redis/73001-ha-xi-jie-gou.md)
+      * [8、redis事务及锁应用](fu-wu-bu-shu/redis/8redisshi-wu-ji-suo-ying-yong.md)
+      * [9、redis频道发布与消息订阅](fu-wu-bu-shu/redis/9redispin-dao-fa-bu-yu-xiao-xi-ding-yue.md)
+      * [10、rdb快照持久化](fu-wu-bu-shu/redis/10rdbkuai-zhao-chi-jiu-hua.md)
+      * [11、aof日志持久化](fu-wu-bu-shu/redis/11aof.md)
+      * [12、redis主从复制](fu-wu-bu-shu/redis/12rediszhu-cong-fu-zhi.md)
+      * [13、redis运维常用命令](fu-wu-bu-shu/redis/13redisyun-wei-chang-yong-ming-ling.md)
+      * [14、sentinel 运维监控（哨兵）](fu-wu-bu-shu/redis/14sentinel-yun-wei-jian-kong-ff08-shao-bing-ff09.md)
+      * [15、案例（位图法统计活跃用户）](fu-wu-bu-shu/redis/153001-an-li-ff08-wei-tu-fa-tong-ji-huo-yue-yong-hu-ff09.md)
     * [三、MONGO](fu-wu-bu-shu/mongo.md)
     * 四、Memcache
     * 五、SSDB
   * [缓存服务](fu-wu-bu-shu/huan-cun-fu-wu.md)
     * NGINX
-    * SQUID
+    * [SQUID](fu-wu-bu-shu/huan-cun-fu-wu/squid.md)
     * [ATS](fu-wu-bu-shu/huan-cun-fu-wu/ata.md)
     * Varnish
   * [负载均衡-高可用服务](fu-wu-bu-shu/fu-zai-jun-8861-gao-ke-yong-fu-wu.md)
     * LVS
-    * Haproxy
+    * [Haproxy](fu-wu-bu-shu/fu-zai-jun-8861-gao-ke-yong-fu-wu/haproxy.md)
     * Nginx
-    * Heartbeat
+    * [Heartbeat](fu-wu-bu-shu/fu-zai-jun-8861-gao-ke-yong-fu-wu/heartbeat.md)
     * Keepalive
-  * 中间件服务
-  * 大数据服务
+  * [中间件服务](fu-wu-bu-shu/zhong-jian-jian-fu-wu.md)
+  * [大数据服务](fu-wu-bu-shu/da-shu-ju-fu-wu.md)
 * [Linux基础](linuxji-chu.md)
   * [一、linux目录结构](linuxji-chu/yi-3001-linux-mu-lu-jie-gou.md)
   * [二、文件类型和文件扩展名](linuxji-chu/er-3001-wen-jian-lei-xing-he-wen-jian-kuo-zhan-ming.md)
@@ -136,6 +158,8 @@
     * [3、IO](linuxgao-ji/er-3001-quan-xian-kong-zhi/3io.md)
     * [4、策略路由](linuxgao-ji/er-3001-quan-xian-kong-zhi/43001-ce-lve-lu-you.md)
     * [5、网卡绑定](linuxgao-ji/er-3001-quan-xian-kong-zhi/53001-wang-qia-bang-ding.md)
+
+
 
 
 
