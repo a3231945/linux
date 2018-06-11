@@ -41,7 +41,7 @@
     Port    22                  #默认端口
     ListenAddress IP            #监听服务器端的IP，ss -ntl 查看22端口绑定的iP地址
     LoginGraceTime 2m           #登录时不输入密码时超时时间
-    HostKey                   # HostKey本地服务端的公钥路径
+    HostKey                     # HostKey本地服务端的公钥路径
     UseDNS no                   #禁止将IP逆向解析为主机名，然后比对正向解析的结果，防止客户端欺骗
     PermitRootLogin yes         #是否允许root使用SSH远程登录
     MaxAuthTries 6              #密码错误的次数6/2=3(MAN帮助中写明要除2)次后断开连接
@@ -58,7 +58,7 @@
     Banner /path/file           #认证前输出的登录提示信息，指定文件路径
     GSSAPIAuthentication no 
     AllowUsers username         #白名单，如果白名单有用户只有白名单的用户可以登陆
-    DenyUsers                  #黑名单，被拒绝的用户，如果即允许又拒绝则拒绝生效
+    DenyUsers                   #黑名单，被拒绝的用户，如果即允许又拒绝则拒绝生效
     AllowGroups                 #组白名单
     DenyGroups                  #组黑名单
 
