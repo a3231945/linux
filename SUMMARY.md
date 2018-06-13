@@ -17,6 +17,7 @@
   * [二、DNS服务](chapter1/dnsfu-wu-qi-bu-shu.md)
     * [bind yum 安装](chapter1/dnsfu-wu-qi-bu-shu/bind-yum-an-zhuang.md)
     * [bind 编译安装](chapter1/dnsfu-wu-qi-bu-shu/bind-bian-yi-an-zhuang.md)
+    * [bind 故障处理](chapter1/dnsfu-wu-qi-bu-shu/bind-gu-zhang-chu-li.md)
     * [客户端配置](chapter1/dnsfu-wu-qi-bu-shu/ke-hu-duan-pei-zhi.md)
     * [Dnsmasq 安装](chapter1/dnsfu-wu-qi-bu-shu/dnsmasq-an-zhuang.md)
   * [三、SSH服务](chapter1/san-3001-ssh-fu-wu.md)
