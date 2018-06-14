@@ -51,10 +51,13 @@
     * [GitBook部署](chapter1/gitbookbu-shu.md)
   * [九、虚拟化服务](chapter1/jiu-3001-xu-ni-hua-fu-wu.md)
     * [KVM服务](chapter1/kvmfu-wu-qi-bu-shu.md)
-    * VirtualBox
+    * [VirtualBox](chapter1/virtualbox.md)
     * [Vagrant](chapter1/vagrant.md)
     * Openstack
-    * Docker
+    * [Docker](chapter1/docker.md)
+      * [1、基础学习](chapter1/docker/13001-ji-chu-xue-xi.md)
+      * 2、图形化管理工具（三剑客）
+      * 3、K8s学习
   * [十、自动化](chapter1/shi-3001-zi-dong-hua.md)
     * [Ansible](chapter1/shi-3001-zi-dong-hua/ansible.md)
       * [1、ansible安装](chapter1/shi-3001-zi-dong-hua/ansible/ansiblean-zhuang.md)
