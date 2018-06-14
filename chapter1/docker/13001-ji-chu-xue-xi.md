@@ -112,7 +112,7 @@ docker 配置文件：`/etc/sysconfig/docker`
     #Dockerfile
     vim Dockerfile
     -----------
-    #nginx
+    #基础镜像
     FROM centos
     
     #mail
@@ -141,6 +141,38 @@ docker 配置文件：`/etc/sysconfig/docker`
     docker exec -it http-demo /bin/bash
 
 ###四、docker + supervisor管理多进程
+**ssh + python-httpd：**
+    
+    #依赖基础镜像
+    FROM centos
+    
+    #mail
+    MAINTAINER zhouxulong <zhouxulong@peter-zhou.com>
+    
+    #安装软件包
+    RUN yum -y install epel-release   
+    RUN yum -y install net-tools iproute vim vi wget curl openssh-server supervisor
+    RUN echo "123456" |passwd --stdin root
+    
+
+    # 将sshd的UsePAM参数设置成no
+    RUN mkdir -p /var/run/sshd
+    RUN sed -i 's/UsePAM yes/UsePAM no/g' /etc/ssh/sshd_config
+    RUN sed -i "s/#UsePrivilegeSeparation.*/UsePrivilegeSeparation no/g" /etc/ssh/sshd_config
+    RUN ssh-keygen -q -t dsa -b 1024 -f /etc/ssh/ssh_host_dsa_key -N '' 
+    RUN ssh-keygen -q -t rsa -b 1024 -f /etc/ssh/ssh_host_rsa_key -N '' 
+    RUN ssh-keygen -q -t ecdsa -f /etc/ssh/ssh_host_ecdsa_key -N ''
+    RUN ssh-keygen -q -t dsa -f /etc/ssh/ssh_host_ed25519_key  -N '' 
+    
+    copy supervisord.conf /etc/supervisord.d/supervisord.conf
+    
+    #docker 开启22端口
+    EXPOSE 22
+    EXPOSE 80
+    
+    #前台运行程序
+    CMD ["/bin/bash","-c","/usr/bin/supervisord -c /etc/supervisord.d/supervisord.conf"]
+
 
 ###五、docker volume（数据的共享）的互联
 
@@ -308,3 +340,13 @@ docker 配置文件：`/etc/sysconfig/docker`
 **4、neutron网络**
 
 **5、官方的Libnetwork**
+
+
+    
+
+
+    
+    
+     
+    
+    
