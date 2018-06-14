@@ -56,6 +56,7 @@
     * Openstack
     * [Docker](chapter1/docker.md)
       * [1、基础学习](chapter1/docker/13001-ji-chu-xue-xi.md)
+        * [nginx-Dockerfile](chapter1/docker/13001-ji-chu-xue-xi/nginx-dockerfile.md)
       * 2、图形化管理工具（三剑客）
       * 3、K8s学习
   * [十、自动化](chapter1/shi-3001-zi-dong-hua.md)
