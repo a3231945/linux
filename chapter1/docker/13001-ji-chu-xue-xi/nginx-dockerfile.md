@@ -1,3 +1,4 @@
+**1、dockerfile**
 	#基础镜像
 	FROM centos
 	
@@ -51,3 +52,17 @@
 	
 	#前台运行程序
 	CMD ["/bin/bash","-c","/usr/bin/supervisord -c /etc/supervisord.d/supervisord.conf"]
+	
+**2、supvervisord**
+
+	[supervisord]
+	nodaemon=true
+	
+	# 注意这里service.sh脚本不能使用后台启动（nohup或者&）
+	[program:sshd]
+	command=/usr/sbin/sshd -D
+	
+	[program:nginx]
+	command=/usr/local/nginx/sbin/nginx
+
+

@@ -56,7 +56,10 @@
     * Openstack
     * [Docker](chapter1/docker.md)
       * [1、基础学习](chapter1/docker/13001-ji-chu-xue-xi.md)
+        * [Dockerfile 指令详解](chapter1/docker/13001-ji-chu-xue-xi/dockerfile-zhi-ling-xiang-jie.md)
         * [nginx-Dockerfile](chapter1/docker/13001-ji-chu-xue-xi/nginx-dockerfile.md)
+        * [php5.6-Dockerfile](chapter1/docker/13001-ji-chu-xue-xi/php56-dockerfile.md)
+        * [docker 私有镜像库](chapter1/docker/13001-ji-chu-xue-xi/docker-si-you-jing-xiang-ku.md)
       * 2、图形化管理工具（三剑客）
       * 3、K8s学习
   * [十、自动化](chapter1/shi-3001-zi-dong-hua.md)
