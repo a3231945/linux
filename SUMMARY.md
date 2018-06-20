@@ -51,6 +51,7 @@
     * [GitBook部署](chapter1/gitbookbu-shu.md)
   * [九、虚拟化服务](chapter1/jiu-3001-xu-ni-hua-fu-wu.md)
     * [KVM服务](chapter1/kvmfu-wu-qi-bu-shu.md)
+    * [LXC](chapter1/lxc.md)
     * [VirtualBox](chapter1/virtualbox.md)
     * [Vagrant](chapter1/vagrant.md)
     * Openstack
@@ -60,7 +61,10 @@
         * [Dockerfile 指令详解](chapter1/docker/13001-ji-chu-xue-xi/dockerfile-zhi-ling-xiang-jie.md)
         * [nginx-Dockerfile](chapter1/docker/13001-ji-chu-xue-xi/nginx-dockerfile.md)
         * [php5.6-Dockerfile](chapter1/docker/13001-ji-chu-xue-xi/php56-dockerfile.md)
-      * 2、图形化管理工具（三剑客）
+      * [2、图形化管理工具（三剑客）](chapter1/docker/23001-tu-xing-hua-guan-li-gong-ju-ff08-san-jian-ke-ff09.md)
+        * 1、Compose
+        * [2、Machine](chapter1/docker/23001-tu-xing-hua-guan-li-gong-ju-ff08-san-jian-ke-ff09/1machine.md)
+        * 3、Swarm
       * 3、K8s学习
   * [十、自动化](chapter1/shi-3001-zi-dong-hua.md)
     * [Ansible](chapter1/shi-3001-zi-dong-hua/ansible.md)
