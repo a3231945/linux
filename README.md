@@ -27,6 +27,7 @@
   * [二、DNS服务](chapter1/dnsfu-wu-qi-bu-shu.md)
     * [bind yum 安装](chapter1/dnsfu-wu-qi-bu-shu/bind-yum-an-zhuang.md)
     * [bind 编译安装](chapter1/dnsfu-wu-qi-bu-shu/bind-bian-yi-an-zhuang.md)
+    * [bind 故障处理](chapter1/dnsfu-wu-qi-bu-shu/bind-gu-zhang-chu-li.md)
     * [客户端配置](chapter1/dnsfu-wu-qi-bu-shu/ke-hu-duan-pei-zhi.md)
     * [Dnsmasq 安装](chapter1/dnsfu-wu-qi-bu-shu/dnsmasq-an-zhuang.md)
   * [三、SSH服务](chapter1/san-3001-ssh-fu-wu.md)
@@ -35,7 +36,7 @@
     * [SSH FORWARD 转发](chapter1/san-3001-ssh-fu-wu/ssh-forward.md)
     * [SSH agent 代理](chapter1/san-3001-ssh-fu-wu/ssh-agent-dai-li.md)
     * [Pssh 使用](chapter1/san-3001-ssh-fu-wu/pssh-shi-yong.md)
-    * Rsync 服务
+    * [Rsync 服务](chapter1/san-3001-ssh-fu-wu/rsync-fu-wu.md)
   * [四、YUM服务](chapter1/yumyuan-fu-wu-qi-bu-shu.md)
     * [内部yum源同步公网源](chapter1/yumyuan-fu-wu-qi-bu-shu/nei-bu-yum-yuan-tong-bu-gong-wang-yuan.md)
     * [自定义yum源](chapter1/yumyuan-fu-wu-qi-bu-shu/zi-ding-yi-yum-yuan.md)
@@ -60,10 +61,21 @@
     * [GitBook部署](chapter1/gitbookbu-shu.md)
   * [九、虚拟化服务](chapter1/jiu-3001-xu-ni-hua-fu-wu.md)
     * [KVM服务](chapter1/kvmfu-wu-qi-bu-shu.md)
-    * VirtualBox
+    * [LXC](chapter1/lxc.md)
+    * [VirtualBox](chapter1/virtualbox.md)
     * [Vagrant](chapter1/vagrant.md)
-    * Openstack
-    * Docker
+    * [Openstack](chapter1/openstack.md)
+    * [Docker](chapter1/docker.md)
+      * [1、基础学习](chapter1/docker/13001-ji-chu-xue-xi.md)
+        * [docker 私有镜像库](chapter1/docker/13001-ji-chu-xue-xi/docker-si-you-jing-xiang-ku.md)
+        * [Dockerfile 指令详解](chapter1/docker/13001-ji-chu-xue-xi/dockerfile-zhi-ling-xiang-jie.md)
+        * [nginx-Dockerfile](chapter1/docker/13001-ji-chu-xue-xi/nginx-dockerfile.md)
+        * [php5.6-Dockerfile](chapter1/docker/13001-ji-chu-xue-xi/php56-dockerfile.md)
+      * [2、图形化管理工具（三剑客）](chapter1/docker/23001-tu-xing-hua-guan-li-gong-ju-ff08-san-jian-ke-ff09.md)
+        * 1、Compose
+        * [2、Machine](chapter1/docker/23001-tu-xing-hua-guan-li-gong-ju-ff08-san-jian-ke-ff09/1machine.md)
+        * 3、Swarm
+      * 3、K8s学习
   * [十、自动化](chapter1/shi-3001-zi-dong-hua.md)
     * [Ansible](chapter1/shi-3001-zi-dong-hua/ansible.md)
       * [1、ansible安装](chapter1/shi-3001-zi-dong-hua/ansible/ansiblean-zhuang.md)
@@ -158,6 +170,8 @@
     * [3、IO](linuxgao-ji/er-3001-quan-xian-kong-zhi/3io.md)
     * [4、策略路由](linuxgao-ji/er-3001-quan-xian-kong-zhi/43001-ce-lve-lu-you.md)
     * [5、网卡绑定](linuxgao-ji/er-3001-quan-xian-kong-zhi/53001-wang-qia-bang-ding.md)
+
+
 
 
 
