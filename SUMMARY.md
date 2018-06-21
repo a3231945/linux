@@ -54,7 +54,7 @@
     * [LXC](chapter1/lxc.md)
     * [VirtualBox](chapter1/virtualbox.md)
     * [Vagrant](chapter1/vagrant.md)
-    * Openstack
+    * [Openstack](chapter1/openstack.md)
     * [Docker](chapter1/docker.md)
       * [1、基础学习](chapter1/docker/13001-ji-chu-xue-xi.md)
         * [docker 私有镜像库](chapter1/docker/13001-ji-chu-xue-xi/docker-si-you-jing-xiang-ku.md)
