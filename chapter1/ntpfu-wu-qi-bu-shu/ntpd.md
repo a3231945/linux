@@ -11,7 +11,7 @@
     restrict 127.0.0.1 
     restrict -6 ::1
     
-    #允许某个网段使用ntp服务
+    #允许上层ntp server 修改本地时间
     restrict 10.0.0.0 mask 255.255.255.0 nomodify notrap
     
     server 0.centos.pool.ntp.org iburst
