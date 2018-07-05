@@ -132,7 +132,7 @@
     * NGINX
     * [SQUID](fu-wu-bu-shu/huan-cun-fu-wu/squid.md)
     * [ATS](fu-wu-bu-shu/huan-cun-fu-wu/ata.md)
-    * Varnish
+    * [Varnish](fu-wu-bu-shu/huan-cun-fu-wu/varnish.md)
   * [负载均衡-高可用服务](fu-wu-bu-shu/fu-zai-jun-8861-gao-ke-yong-fu-wu.md)
     * [LVS](fu-wu-bu-shu/fu-zai-jun-8861-gao-ke-yong-fu-wu/lvs.md)
     * [Haproxy](fu-wu-bu-shu/fu-zai-jun-8861-gao-ke-yong-fu-wu/haproxy.md)
