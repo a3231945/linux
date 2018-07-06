@@ -44,6 +44,7 @@
     * [EFLK 部署](chapter1/ri-zhi-fu-wu-qi-eflk-bu-shu/eflkbu-shu.md)
     * [Logstash 配置](chapter1/ri-zhi-fu-wu-qi-eflk-bu-shu/logstash-pei-zhi.md)
     * [安装 grokbug 环境](chapter1/ri-zhi-fu-wu-qi-eflk-bu-shu/an-zhuang-grokbug-huan-jing.md)
+    * [Goaccess 日志分析](chapter1/ri-zhi-fu-wu-qi-eflk-bu-shu/goaccess-ri-zhi-fen-xi.md)
   * [八、版本控制服务](chapter1/gitlabfu-wu-qi-bu-shu.md)
     * [SVN 服务](chapter1/gitlabfu-wu-qi-bu-shu/svn-fu-wu.md)
     * [Git 服务](chapter1/gitlabfu-wu-qi-bu-shu/git-fu-wu.md)
