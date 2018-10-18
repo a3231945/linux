@@ -103,6 +103,7 @@
     * [Redmin 服务](chapter1/shi-er-3001-qi-ta/redmin-fu-wu.md)
     * jira
     * [nali 使用](chapter1/shi-er-3001-qi-ta/nali-shi-yong.md)
+    * [vim 插件](chapter1/shi-er-3001-qi-ta/vim-cha-jian.md)
 * [应用服务](fu-wu-bu-shu.md)
   * [WEB服务](fu-wu-bu-shu/webfu-wu.md)
     * [一、NGINX](fu-wu-bu-shu/nginx.md)
