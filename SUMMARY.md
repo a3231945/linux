@@ -97,6 +97,7 @@
   * [十一、监控](chapter1/shi-yi-3001-jian-kong.md)
     * [Zabbix](chapter1/shi-yi-3001-jian-kong/zabbix.md)
     * [Grafana](chapter1/shi-yi-3001-jian-kong/grafana.md)
+    * [APM-Pinpoint ](chapter1/shi-yi-3001-jian-kong/apm.md)
   * [十二、其他](chapter1/shi-er-3001-qi-ta.md)
     * [SS 翻墙服务](chapter1/shi-er-3001-qi-ta/ss-fan-qiang-fu-wu.md)
     * [PXE 批量装机服务](chapter1/shi-er-3001-qi-ta/pxe-pi-liang-zhuang-ji-fu-wu.md)
