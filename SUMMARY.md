@@ -113,6 +113,7 @@
     * [三、TOMCAT](fu-wu-bu-shu/tomcat.md)
   * [数据库服务](fu-wu-bu-shu/shu-ju-ku-fu-wu.md)
     * [一、MYSQL](fu-wu-bu-shu/mysql.md)
+      * [Mysql-慢查询分析](fu-wu-bu-shu/mysql/mysqlman-cha-xun-fen-xi.md)
     * [二、REDIS](fu-wu-bu-shu/redis.md)
       * [1、安装](fu-wu-bu-shu/redis/an-zhuang.md)
       * [2、通用key命令操作](fu-wu-bu-shu/redis/23001-tong-yong-key-ming-ling-cao-zuo.md)
