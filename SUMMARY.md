@@ -143,6 +143,7 @@
   * [负载均衡-高可用服务](fu-wu-bu-shu/fu-zai-jun-8861-gao-ke-yong-fu-wu.md)
     * [LVS](fu-wu-bu-shu/fu-zai-jun-8861-gao-ke-yong-fu-wu/lvs.md)
       * [lvs-nat](fu-wu-bu-shu/fu-zai-jun-8861-gao-ke-yong-fu-wu/lvs/lvs-nat.md)
+      * [lvs-dr](fu-wu-bu-shu/fu-zai-jun-8861-gao-ke-yong-fu-wu/lvs/lvs-dr.md)
     * [Haproxy](fu-wu-bu-shu/fu-zai-jun-8861-gao-ke-yong-fu-wu/haproxy.md)
     * [Nginx](fu-wu-bu-shu/fu-zai-jun-8861-gao-ke-yong-fu-wu/nginx.md)
     * [Heartbeat](fu-wu-bu-shu/fu-zai-jun-8861-gao-ke-yong-fu-wu/heartbeat.md)
