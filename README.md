@@ -8,8 +8,6 @@
     微信：       18910734468
     联系邮箱：   zhouxulong@peter-zhou.com
  
-
-
 * [简介](README.md)
 * [硬件信息相关](ying-jian-xin-xi-xiang-guan.md)
   * [一、DELL-服务器常见问题技术手册](ying-jian-xin-xi-xiang-guan/yi-3001-dell-fu-wu-qi-chang-jian-wen-ti-ji-zhu-shou-ce.md)
@@ -152,6 +150,8 @@
     * [Varnish](fu-wu-bu-shu/huan-cun-fu-wu/varnish.md)
   * [负载均衡-高可用服务](fu-wu-bu-shu/fu-zai-jun-8861-gao-ke-yong-fu-wu.md)
     * [LVS](fu-wu-bu-shu/fu-zai-jun-8861-gao-ke-yong-fu-wu/lvs.md)
+      * [lvs-nat](fu-wu-bu-shu/fu-zai-jun-8861-gao-ke-yong-fu-wu/lvs/lvs-nat.md)
+      * [lvs-dr](fu-wu-bu-shu/fu-zai-jun-8861-gao-ke-yong-fu-wu/lvs/lvs-dr.md)
     * [Haproxy](fu-wu-bu-shu/fu-zai-jun-8861-gao-ke-yong-fu-wu/haproxy.md)
     * [Nginx](fu-wu-bu-shu/fu-zai-jun-8861-gao-ke-yong-fu-wu/nginx.md)
     * [Heartbeat](fu-wu-bu-shu/fu-zai-jun-8861-gao-ke-yong-fu-wu/heartbeat.md)
@@ -187,7 +187,6 @@
     * [3、IO](linuxgao-ji/er-3001-quan-xian-kong-zhi/3io.md)
     * [4、策略路由](linuxgao-ji/er-3001-quan-xian-kong-zhi/43001-ce-lve-lu-you.md)
     * [5、网卡绑定](linuxgao-ji/er-3001-quan-xian-kong-zhi/53001-wang-qia-bang-ding.md)
-
 
 
 
