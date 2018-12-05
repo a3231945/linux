@@ -37,6 +37,8 @@
     * [SSH agent 代理](chapter1/san-3001-ssh-fu-wu/ssh-agent-dai-li.md)
     * [Pssh 使用](chapter1/san-3001-ssh-fu-wu/pssh-shi-yong.md)
     * [Rsync 服务](chapter1/san-3001-ssh-fu-wu/rsync-fu-wu.md)
+    * [SSH 爆破工具-hydra](chapter1/san-3001-ssh-fu-wu/ssh-bao-po-gong-5177-hydra.md)
+    * [SSH 爆破工具-medusa](chapter1/san-3001-ssh-fu-wu/ssh-bao-po-gong-5177-medusa.md)
   * [四、YUM服务](chapter1/yumyuan-fu-wu-qi-bu-shu.md)
     * [内部yum源同步公网源](chapter1/yumyuan-fu-wu-qi-bu-shu/nei-bu-yum-yuan-tong-bu-gong-wang-yuan.md)
     * [自定义yum源](chapter1/yumyuan-fu-wu-qi-bu-shu/zi-ding-yi-yum-yuan.md)
@@ -54,6 +56,7 @@
     * [EFLK 部署](chapter1/ri-zhi-fu-wu-qi-eflk-bu-shu/eflkbu-shu.md)
     * [Logstash 配置](chapter1/ri-zhi-fu-wu-qi-eflk-bu-shu/logstash-pei-zhi.md)
     * [安装 grokbug 环境](chapter1/ri-zhi-fu-wu-qi-eflk-bu-shu/an-zhuang-grokbug-huan-jing.md)
+    * [Goaccess 日志分析](chapter1/ri-zhi-fu-wu-qi-eflk-bu-shu/goaccess-ri-zhi-fen-xi.md)
   * [八、版本控制服务](chapter1/gitlabfu-wu-qi-bu-shu.md)
     * [SVN 服务](chapter1/gitlabfu-wu-qi-bu-shu/svn-fu-wu.md)
     * [Git 服务](chapter1/gitlabfu-wu-qi-bu-shu/git-fu-wu.md)
@@ -106,12 +109,15 @@
   * [十一、监控](chapter1/shi-yi-3001-jian-kong.md)
     * [Zabbix](chapter1/shi-yi-3001-jian-kong/zabbix.md)
     * [Grafana](chapter1/shi-yi-3001-jian-kong/grafana.md)
+    * [APM-Pinpoint ](chapter1/shi-yi-3001-jian-kong/apm.md)
   * [十二、其他](chapter1/shi-er-3001-qi-ta.md)
     * [SS 翻墙服务](chapter1/shi-er-3001-qi-ta/ss-fan-qiang-fu-wu.md)
     * [PXE 批量装机服务](chapter1/shi-er-3001-qi-ta/pxe-pi-liang-zhuang-ji-fu-wu.md)
     * [Redmin 服务](chapter1/shi-er-3001-qi-ta/redmin-fu-wu.md)
     * jira
     * [nali 使用](chapter1/shi-er-3001-qi-ta/nali-shi-yong.md)
+    * [vim 插件](chapter1/shi-er-3001-qi-ta/vim-cha-jian.md)
+      * [vimrc](chapter1/shi-er-3001-qi-ta/vim-cha-jian/vimrc.md)
 * [应用服务](fu-wu-bu-shu.md)
   * [WEB服务](fu-wu-bu-shu/webfu-wu.md)
     * [一、NGINX](fu-wu-bu-shu/nginx.md)
@@ -119,6 +125,7 @@
     * [三、TOMCAT](fu-wu-bu-shu/tomcat.md)
   * [数据库服务](fu-wu-bu-shu/shu-ju-ku-fu-wu.md)
     * [一、MYSQL](fu-wu-bu-shu/mysql.md)
+      * [Mysql-慢查询分析](fu-wu-bu-shu/mysql/mysqlman-cha-xun-fen-xi.md)
     * [二、REDIS](fu-wu-bu-shu/redis.md)
       * [1、安装](fu-wu-bu-shu/redis/an-zhuang.md)
       * [2、通用key命令操作](fu-wu-bu-shu/redis/23001-tong-yong-key-ming-ling-cao-zuo.md)
@@ -136,19 +143,19 @@
       * [14、sentinel 运维监控（哨兵）](fu-wu-bu-shu/redis/14sentinel-yun-wei-jian-kong-ff08-shao-bing-ff09.md)
       * [15、案例（位图法统计活跃用户）](fu-wu-bu-shu/redis/153001-an-li-ff08-wei-tu-fa-tong-ji-huo-yue-yong-hu-ff09.md)
     * [三、MONGO](fu-wu-bu-shu/mongo.md)
-    * 四、Memcache
-    * 五、SSDB
+    * [四、Memcache](fu-wu-bu-shu/si-3001-memcache.md)
+    * [五、SSDB](fu-wu-bu-shu/wu-3001-ssdb.md)
   * [缓存服务](fu-wu-bu-shu/huan-cun-fu-wu.md)
     * NGINX
     * [SQUID](fu-wu-bu-shu/huan-cun-fu-wu/squid.md)
     * [ATS](fu-wu-bu-shu/huan-cun-fu-wu/ata.md)
-    * Varnish
+    * [Varnish](fu-wu-bu-shu/huan-cun-fu-wu/varnish.md)
   * [负载均衡-高可用服务](fu-wu-bu-shu/fu-zai-jun-8861-gao-ke-yong-fu-wu.md)
-    * LVS
+    * [LVS](fu-wu-bu-shu/fu-zai-jun-8861-gao-ke-yong-fu-wu/lvs.md)
     * [Haproxy](fu-wu-bu-shu/fu-zai-jun-8861-gao-ke-yong-fu-wu/haproxy.md)
-    * Nginx
+    * [Nginx](fu-wu-bu-shu/fu-zai-jun-8861-gao-ke-yong-fu-wu/nginx.md)
     * [Heartbeat](fu-wu-bu-shu/fu-zai-jun-8861-gao-ke-yong-fu-wu/heartbeat.md)
-    * Keepalive
+    * [Keepalive](fu-wu-bu-shu/fu-zai-jun-8861-gao-ke-yong-fu-wu/keepalive.md)
   * [中间件服务](fu-wu-bu-shu/zhong-jian-jian-fu-wu.md)
   * [大数据服务](fu-wu-bu-shu/da-shu-ju-fu-wu.md)
 * [Linux基础](linuxji-chu.md)
@@ -163,13 +170,25 @@
 * [Linux高级](linuxgao-ji.md)
   * [一、防火墙配置-iptables](linuxgao-ji/iptables-pei-zhi.md)
   * [二、权限控制](linuxgao-ji/er-3001-quan-xian-kong-zhi.md)
+    * [基本权限](linuxgao-ji/er-3001-quan-xian-kong-zhi/ji-ben-quan-xian.md)
+    * sudo权限
+    * [mount权限](linuxgao-ji/er-3001-quan-xian-kong-zhi/mountquan-xian.md)
+    * [pam](linuxgao-ji/er-3001-quan-xian-kong-zhi/pam.md)
+    * [selinux](linuxgao-ji/er-3001-quan-xian-kong-zhi/selinux.md)
   * [三、数据安全](linuxgao-ji/shu-ju-an-quan.md)
+    * [窃听](linuxgao-ji/shu-ju-an-quan/qie-ting.md)
+    * [篡改](linuxgao-ji/shu-ju-an-quan/cuan-gai.md)
+    * [伪装](linuxgao-ji/shu-ju-an-quan/wei-zhuang.md)
+    * [物理中断](linuxgao-ji/shu-ju-an-quan/wu-li-zhong-duan.md)
+    * [HIDS\(主机性检测系统\)](linuxgao-ji/shu-ju-an-quan/hidszhu-ji-xing-jian-ce-xi-7edf29.md)
   * [四、调优](linuxgao-ji/diao-you.md)
     * [1、CPU](linuxgao-ji/er-3001-quan-xian-kong-zhi/1cpu.md)
     * [2、MEM](linuxgao-ji/er-3001-quan-xian-kong-zhi/2mem.md)
     * [3、IO](linuxgao-ji/er-3001-quan-xian-kong-zhi/3io.md)
     * [4、策略路由](linuxgao-ji/er-3001-quan-xian-kong-zhi/43001-ce-lve-lu-you.md)
     * [5、网卡绑定](linuxgao-ji/er-3001-quan-xian-kong-zhi/53001-wang-qia-bang-ding.md)
+
+
 
 
 
