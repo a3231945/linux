@@ -5,8 +5,9 @@
 **2、配置文件**
 
     
-    >/etc/dhcp/dhcpd.conf
-    vi /etc/dhcp/dhcpd.conf
+    
+    echo >/etc/dhcp/dhcpd.conf
+    vim /etc/dhcp/dhcpd.conf
     -----------------------------
     option domain-name "example.org";
     #option domain-name-servers ns1.example.org, ns2.example.org;
@@ -16,11 +17,11 @@
     next-server 192.168.1.118;
     filename "pxelinux.0";
     subnet 192.168.1.0 netmask 255.255.255.0 {
-      range 192.168.1.50 192.168.1.100;
-      option routers 192.168.1.254;
-      default-lease-time 600;
-      max-lease-time 7200;
-      
+    range 192.168.1.50 192.168.1.100;
+    option routers 192.168.1.254;
+    default-lease-time 600;
+    max-lease-time 7200;
+    
     }
 
 **3、启动服务、配置开机自启动**
