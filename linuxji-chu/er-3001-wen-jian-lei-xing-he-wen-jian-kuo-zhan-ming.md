@@ -13,27 +13,28 @@
 ###二、文件类型分别介绍：
 **1、普通文件（regular file） :** 一般是相关的应用程序或系统命令创建，比如：touch cp tar 等工具
 
-		删除方式： rm
+	删除方式： rm
 		
 **2、目录（directory）：** 带d 开头的文件表示目录。目录在Linux中是一个比较特殊的文件
 
-		查看	ls -ld
-		删除方式： rm  rmdir(删除空目录)	
-		查看： ls -F 目录后面会多一个斜线
-		ls -F /etc/ | grep '/'
-		ls -l /etc/ | grep '^d'
+	查看	ls -ld
+	删除方式： rm  rmdir(删除空目录)	
+	查看： ls -F 目录后面会多一个斜线
+	ls -F /etc/ | grep '/'
+	ls -l /etc/ | grep '^d'
 **3、字符设备或块设备：** 带b或c开头的 c 表示字符设备 b表示块设备
 
-		mknod 创建	
-		rm  	删除
+	mknod 创建	
+	rm  	删除
 	
 **4、套接口文件：**当我们启动mysql服务时，会产生一个mysql.sock文件。这个文件的属性的第一个字符是s，这类文件通常用在网络之间进行数据连接。	
-		例如：
-			mysql -uroot -ppass -S /data/3306/mysql.sock 这就是一个MySQL客户端程序连接服务器的命令
+
+	例如：
+		mysql -uroot -ppass -S /data/3306/mysql.sock 这就是一个MySQL客户端程序连接服务器的命令
 
 **5、符号链接文件：** l开头。l表示链接文件（和windows下的快捷方式相似）
 		
-		ln -s 源文件名 新文件名
+	ln -s 源文件名 新文件名
 
 
 	

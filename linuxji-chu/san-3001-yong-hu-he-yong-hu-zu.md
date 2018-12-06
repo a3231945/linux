@@ -78,6 +78,7 @@ _多用户系统从实际上来说使得系统更为方便。从安全角度来�
 
 - **用户：**
 
+
 	useradd 	同 adduser，执行命令可在系统中添加用户。
 	passwd 		执行此命令可为用户设置密码。	
 	usermod 	修改用户的命令，可以通过usermod来修改用户登录名，用户的家目录等等
@@ -93,6 +94,7 @@ _多用户系统从实际上来说使得系统更为方便。从安全角度来�
 	sudoedit	和sudo功能差不多
 
 - **用户组：**
+
 
 	groupadd 	添加用户组
 	groupdel	删除用户组
@@ -194,6 +196,7 @@ _当我们用useradd命令添加新用户的时候，Linux系统会自动复制/
 	
 	
 - **useradd 参数详解：**
+
 
 	-c comment 	新账号password档的说明栏
 	-d home_dir 	新账号每次登入时所使用的home_dir。预设置位 login名称、

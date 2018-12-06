@@ -163,7 +163,7 @@
   * [一、防火墙配置-iptables](linuxgao-ji/iptables-pei-zhi.md)
   * [二、权限控制](linuxgao-ji/er-3001-quan-xian-kong-zhi.md)
     * [基本权限](linuxgao-ji/er-3001-quan-xian-kong-zhi/ji-ben-quan-xian.md)
-    * sudo权限
+    * [sudo权限](linuxgao-ji/er-3001-quan-xian-kong-zhi/sudoquan-xian.md)
     * [mount权限](linuxgao-ji/er-3001-quan-xian-kong-zhi/mountquan-xian.md)
     * [pam](linuxgao-ji/er-3001-quan-xian-kong-zhi/pam.md)
     * [selinux](linuxgao-ji/er-3001-quan-xian-kong-zhi/selinux.md)
