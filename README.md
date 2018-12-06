@@ -7,7 +7,7 @@
     联系人：     周先生
     微信：       18910734468
     联系邮箱：   zhouxulong@peter-zhou.com
- 
+    
 * [简介](README.md)
 * [硬件信息相关](ying-jian-xin-xi-xiang-guan.md)
   * [一、DELL-服务器常见问题技术手册](ying-jian-xin-xi-xiang-guan/yi-3001-dell-fu-wu-qi-chang-jian-wen-ti-ji-zhu-shou-ce.md)
@@ -171,7 +171,7 @@
   * [一、防火墙配置-iptables](linuxgao-ji/iptables-pei-zhi.md)
   * [二、权限控制](linuxgao-ji/er-3001-quan-xian-kong-zhi.md)
     * [基本权限](linuxgao-ji/er-3001-quan-xian-kong-zhi/ji-ben-quan-xian.md)
-    * sudo权限
+    * [sudo权限](linuxgao-ji/er-3001-quan-xian-kong-zhi/sudoquan-xian.md)
     * [mount权限](linuxgao-ji/er-3001-quan-xian-kong-zhi/mountquan-xian.md)
     * [pam](linuxgao-ji/er-3001-quan-xian-kong-zhi/pam.md)
     * [selinux](linuxgao-ji/er-3001-quan-xian-kong-zhi/selinux.md)
@@ -187,6 +187,7 @@
     * [3、IO](linuxgao-ji/er-3001-quan-xian-kong-zhi/3io.md)
     * [4、策略路由](linuxgao-ji/er-3001-quan-xian-kong-zhi/43001-ce-lve-lu-you.md)
     * [5、网卡绑定](linuxgao-ji/er-3001-quan-xian-kong-zhi/53001-wang-qia-bang-ding.md)
+
 
 
 
