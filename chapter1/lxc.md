@@ -1,6 +1,8 @@
 
 #LXC 学习
+
 ###一、安装LXC
+
 **1、配置epel源**
 
     yum -y install  epel-release
@@ -29,6 +31,7 @@
     lxc-checkconfig
      
 ###二、容器管理
+
 **1、创建/删除容器**
     
     #创建
