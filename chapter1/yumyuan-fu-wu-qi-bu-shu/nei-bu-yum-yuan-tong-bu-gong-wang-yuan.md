@@ -11,7 +11,7 @@ yum -y install  cobbler
 **2、配置同步yum源配置**
 
 ```
-#配置centos源（中科大）
+#配置centos-6源（中科大）
 cobbler repo add --name=centos6.5-x86_64-base --mirror=rsync://mirrors.ustc.edu.cn/centos/6/os/x86_64/ --arch=x86_64 --breed=rsync
 cobbler repo add --name=centos6.5-x86_64-updates --mirror=rsync://mirrors.ustc.edu.cn/centos/6/updates/x86_64/ --arch=x86_64 --breed=rsync
 cobbler repo add --name=centos6.5-x86_64-extras --mirror=rsync://mirrors.ustc.edu.cn/centos/6/extras/x86_64/ --arch=x86_64 --breed=rsync
@@ -19,8 +19,20 @@ cobbler repo add --name=centos6.5-x86_64-centosplus --mirror=rsync://mirrors.ust
 cobbler repo add --name=centos6.5-x86_64-contrib --mirror=rsync://mirrors.ustc.edu.cn/centos/6/contrib/x86_64/ --arch=x86_64 --breed=rsync
 cobbler repo add --name=centos6.5-x86_64-fasttrack --mirror=rsync://mirrors.ustc.edu.cn/centos/6/fasttrack/x86_64/ --arch=x86_64 --breed=rsync
 
-#配置epel源
+#配置centos-7源（中科大）
+cobbler repo add --name=centos7.5-x86_64-base --mirror=http://mirrors.aliyun.com/centos/7.5.1804/os/x86_64/ --arch=x86_64 --breed=yum
+cobbler repo add --name=centos7.5-x86_64-updates --mirror=http://mirrors.aliyun.com/centos/7.5.1804/updates/x86_64/ --arch=x86_64 --breed=yum
+cobbler repo add --name=centos7.5-x86_64-extras --mirror=http://mirrors.aliyun.com/centos/7.5.1804/extras/x86_64/ --arch=x86_64 --breed=yum
+cobbler repo add --name=centos7.5-x86_64-centosplus --mirror=http://mirrors.aliyun.com/centos/7.5.1804/centosplus/x86_64/ --arch=x86_64 --breed=yum
+cobbler repo add --name=centos7.5-x86_64-contrib --mirror=http://mirrors.aliyun.com/centos/7.5.1804/contrib/x86_64/ --arch=x86_64 --breed=yum
+cobbler repo add --name=centos7.5-x86_64-fasttrack --mirror=http://mirrors.aliyun.com/centos/7.5.1804/fasttrack/x86_64/ --arch=x86_64 --breed=yum
+
+#配置epel-6源
 cobbler repo add --name=epel-6 --mirror=rsync://mirrors.ustc.edu.cn/epel/6/x86_64/ --arch=x86_64 --breed=rsync
+
+#配置epel-7源
+cobbler repo add --name=epel-7 --mirror=rysnc://mirrors.ustc.edu.cn/epel/7/x86_64/ --arch=x86_64 --breed=rsync
+
 
 #配置其他源（pipy npm gem等）
 ```
@@ -64,7 +76,9 @@ crontab -e
     }
 
 **5、客户端配置**
-
+- centos-6
+  
+  
     ####vim /etc/yum.repos.d/yum.repo
     
     #centos6.5-x86_64-base 
@@ -132,7 +146,75 @@ crontab -e
     #gpgcheck=0
     
 
+- centos-7
 
+
+    ####vim /etc/yum.repos.d/yum.repo
+
+    #centos7.5-x87_74-base 
+    [base]
+    name=centos7.5-x87_74-base
+    baseurl=http://yum.srv.dom/centos7.5-x87_74-base/
+    gpgcheck=0
+    gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-CentOS-7
+    
+    #centos7.5-x87_74-updates
+    [updates]
+    name=centos7.5-x87_74-updates
+    baseurl=http://yum.srv.dom/centos7.5-x87_74-updates/
+    gpgcheck=0
+    gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-CentOS-7
+    
+    #centos7.5-x87_74-extras
+    [extras]
+    name=centos7.5-x87_74-extras
+    baseurl=http://yum.srv.dom/centos7.5-x87_74-extras/
+    gpgcheck=0
+    gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-CentOS-7
+    
+    #centos7.5-x87_74-centosplus
+    [centosplus]
+    name=centos7.5-x87_74-centosplus
+    baseurl=http://yum.srv.dom/centos7.5-x87_74-centosplus/
+    gpgcheck=0
+    enabled=0
+    gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-CentOS-7
+    
+    #centos7.5-x87_74-contrib
+    [contrib]
+    name=centos7.5-x87_74-contrib
+    baseurl=http://yum.srv.dom/centos7.5-x87_74-contrib/
+    gpgcheck=0
+    enabled=0
+    gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-CentOS-7
+    
+    #epel-7
+    [epel]
+    name=epel-7
+    baseurl=http://yum.srv.dom/epel-7/
+    failovermethod=priority
+    enabled=1
+    gpgcheck=0
+    gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-EPEL-7
+    
+    #epel-7-debug
+    [epel-debuginfo]
+    name=epel-7-debug
+    baseurl=http://yum.srv.dom/epel-7/debug
+    failovermethod=priority
+    enabled=0
+    gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-EPEL-7
+    gpgcheck=0
+    
+    #epel-7-source
+    #[epel-source]
+    #name=Extra Packages for Enterprise Linux 7 - $basearch - Source
+    #baseurl=http://download.fedoraproject.org/pub/epel/7/SRPMS
+    #failovermethod=priority
+    #enabled=0
+    #gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-EPEL-7
+    #gpgcheck=0
+    
 
 
 
