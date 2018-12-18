@@ -31,7 +31,7 @@ cobbler repo add --name=centos7.5-x86_64-fasttrack --mirror=http://mirrors.aliyu
 cobbler repo add --name=epel-6 --mirror=rsync://mirrors.ustc.edu.cn/epel/6/x86_64/ --arch=x86_64 --breed=rsync
 
 #配置epel-7源
-cobbler repo add --name=epel-7 --mirror=rysnc://mirrors.ustc.edu.cn/epel/7/x86_64/ --arch=x86_64 --breed=rsync
+cobbler repo add --name=epel-7 --mirror=rsync://mirrors.ustc.edu.cn/epel/7/x86_64/ --arch=x86_64 --breed=rsync
 
 
 #配置其他源（pipy npm gem等）
