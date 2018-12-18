@@ -162,7 +162,7 @@
     # Disk partitioning information
     part /boot --fstype="xfs" --size=512 --ondrive=sda
     part swap --fstype="swap" --size=4096 --ondrive=sda
-    part biosboot  --size=1 --ondrive=sda
+    part biosboot --size=1 --ondrive=sda
     part / --fstype="xfs" --grow --size=1 --ondrive=sda
     
     
