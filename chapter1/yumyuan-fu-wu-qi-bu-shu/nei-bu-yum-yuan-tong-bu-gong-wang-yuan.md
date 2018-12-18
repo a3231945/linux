@@ -11,15 +11,15 @@ yum -y install  cobbler
 **2、配置同步yum源配置**
 
 ```
-#配置centos-6源（中科大）
-cobbler repo add --name=centos6.5-x86_64-base --mirror=rsync://mirrors.ustc.edu.cn/centos/6/os/x86_64/ --arch=x86_64 --breed=rsync
-cobbler repo add --name=centos6.5-x86_64-updates --mirror=rsync://mirrors.ustc.edu.cn/centos/6/updates/x86_64/ --arch=x86_64 --breed=rsync
-cobbler repo add --name=centos6.5-x86_64-extras --mirror=rsync://mirrors.ustc.edu.cn/centos/6/extras/x86_64/ --arch=x86_64 --breed=rsync
-cobbler repo add --name=centos6.5-x86_64-centosplus --mirror=rsync://mirrors.ustc.edu.cn/centos/6/centosplus/x86_64/ --arch=x86_64 --breed=rsync
-cobbler repo add --name=centos6.5-x86_64-contrib --mirror=rsync://mirrors.ustc.edu.cn/centos/6/contrib/x86_64/ --arch=x86_64 --breed=rsync
-cobbler repo add --name=centos6.5-x86_64-fasttrack --mirror=rsync://mirrors.ustc.edu.cn/centos/6/fasttrack/x86_64/ --arch=x86_64 --breed=rsync
+#配置centos-6源（阿里云）
+cobbler repo add --name=centos6.5-x86_64-base --mirror=http://mirrors.aliyun.com/centos/6/os/x86_64/ --arch=x86_64 --breed=yum
+cobbler repo add --name=centos6.5-x86_64-updates --mirror=http://mirrors.aliyun.com/centos/6/updates/x86_64/ --arch=x86_64 --breed=yum
+cobbler repo add --name=centos6.5-x86_64-extras --mirror=http://mirrors.aliyun.com/centos/6/extras/x86_64/ --arch=x86_64 --breed=yum
+cobbler repo add --name=centos6.5-x86_64-centosplus --mirror=http://mirrors.aliyun.com/centos/6/centosplus/x86_64/ --arch=x86_64 --breed=yum
+cobbler repo add --name=centos6.5-x86_64-contrib --mirror=http://mirrors.aliyun.com/centos/6/contrib/x86_64/ --arch=x86_64 --breed=yum
+cobbler repo add --name=centos6.5-x86_64-fasttrack --mirror=http://mirrors.aliyun.com/centos/6/fasttrack/x86_64/ --arch=x86_64 --breed=yum
 
-#配置centos-7源（中科大）
+#配置centos-7源（阿里云）
 cobbler repo add --name=centos7.5-x86_64-base --mirror=http://mirrors.aliyun.com/centos/7.5.1804/os/x86_64/ --arch=x86_64 --breed=yum
 cobbler repo add --name=centos7.5-x86_64-updates --mirror=http://mirrors.aliyun.com/centos/7.5.1804/updates/x86_64/ --arch=x86_64 --breed=yum
 cobbler repo add --name=centos7.5-x86_64-extras --mirror=http://mirrors.aliyun.com/centos/7.5.1804/extras/x86_64/ --arch=x86_64 --breed=yum
@@ -27,10 +27,10 @@ cobbler repo add --name=centos7.5-x86_64-centosplus --mirror=http://mirrors.aliy
 cobbler repo add --name=centos7.5-x86_64-contrib --mirror=http://mirrors.aliyun.com/centos/7.5.1804/contrib/x86_64/ --arch=x86_64 --breed=yum
 cobbler repo add --name=centos7.5-x86_64-fasttrack --mirror=http://mirrors.aliyun.com/centos/7.5.1804/fasttrack/x86_64/ --arch=x86_64 --breed=yum
 
-#配置epel-6源
+#配置epel-6源（中科大）
 cobbler repo add --name=epel-6 --mirror=rsync://mirrors.ustc.edu.cn/epel/6/x86_64/ --arch=x86_64 --breed=rsync
 
-#配置epel-7源
+#配置epel-7源（中科大）
 cobbler repo add --name=epel-7 --mirror=rsync://mirrors.ustc.edu.cn/epel/7/x86_64/ --arch=x86_64 --breed=rsync
 
 
