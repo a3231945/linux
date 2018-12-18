@@ -17,7 +17,7 @@
 3、安装kvm软件包
     
     #命令行管理
-    yum -y install qemu-kvm libvirt python-virtinst bridge-utils 
+    yum -y install qemu-kvm libvirt python-virtinst bridge-utils virt-viewer
     #图形化管理包
     yum -y install virt-viewer virt-manager
     #安装管理工具
@@ -74,11 +74,21 @@
  
 7、安装模板机
 
-    #安装linux
+    #安装linux-6
     virt-install --name moban-centos6.8 --boot network,cdrom,menu=on --ram 1024 --vcpus=1 --os-type=linux --accelerate --cdrom /mnt/iso/CentOS-6.8-x86_64-bin-DVD1.iso --disk path=/mnt/vhost/moban_centos_6-8.img,size=4,format=qcow2,bus=ide --bridge=br0 --vnc --vncport=5991 --vnclisten=0.0.0.0
 
     --extra-args 'console=ttyS0,115200n8 serial'   配置clonsole  未测试
 
+    #安装centos-7
+    virt-install  --name CentOS75 --ram 4096  \
+    --disk     path=/data/os/kvm/system/CentOS75.img,size=4,format=qcow2 \
+    --vcpus 2 \
+    --os-type=linux \
+    --os-variant rhel7 \
+    --network bridge=br0 \
+    --graphics vnc,port=5910 \
+    --cdrom /data/os/kvm/images/CentOS-7-x86_64-DVD-1804.iso  \
+    --boot network,cdrom,menu=on 
 
 
     #安装windows
@@ -97,7 +107,7 @@
     centos7:
         grubby --update-kernel=ALL --args="console=ttyS0"
 ### 二、virsh 使用 ###
-1、virsh基本使用
+**1、virsh基本使用**
 
     查看当前所有开机虚拟机 
     virsh list 
@@ -147,7 +157,7 @@
     
     
 
-2、virsh 高级使用
+**2、virsh 高级使用**
 
 **配置编辑：**    
 
@@ -249,7 +259,8 @@
 
     
 
-3、虚拟机克隆
+**3、虚拟机克隆**
+
     #例如：
     virt-clone -o moban-centos6.8 -n  demo -f /mnt/vhost/demo.img 
 
@@ -264,7 +275,7 @@
     修改vnc端口
     
      
-4、虚拟机快照
+**4、虚拟机快照**
 
     #磁盘格式为qcow2
 
@@ -288,7 +299,7 @@
     virsh snapshot-revent DOMAIN-NAME SNAPSHOT-ID
 
     
-5、虚拟机迁移
+**5、虚拟机迁移**
     
     导出虚拟机xml 文件
     virsh dumpxml  DOMAIN > /tmp/dump.xml
@@ -302,7 +313,7 @@
     virsh list --all 查看
 
 ### 三、虚拟机配额 ###
-1、CPU
+**1、CPU**
     
     #绑定CPU 到指定核心
     virsh emulatorpin win7-demo 1-3 --config
@@ -317,7 +328,7 @@
     查看
     taskset -cp 1947
     
-2、内存（MEM)
+**2、内存（MEM)**
 
     #设置内存配额
     hard-limit 强制最大内存
@@ -331,9 +342,9 @@
     </memtune>
 
 
-3、磁盘（IO)
+**3、磁盘（IO)**
      
-     #设置磁盘IO
+     #设置磁盘IOPS
      virsh blkdeviotune win7-demo  hda --read-bytes-sec 4096 --write-bytes-sec 2048 --read-iops-sec 20  --write-iops-sec 20 --config
      
      #设置磁盘权重
@@ -353,7 +364,11 @@
     </disk>
 
      
-4、网络（IO)
+**4、网络（IO)**
+    
+    #配置带宽限速
+    virsh domiftune win7-demo 52:54:00:10:8b:bb --inbound 3000,3000,3000 --outbound 3000,3000,3000 --config
+
     
     
 
