@@ -118,7 +118,71 @@
     unzip
     sysstat
     %end
+   
+- centos7
+
+ 
     
+    #platform=x86, AMD64, 或 Intel EM64T
+    #version=DEVEL
+    #key --skip
+    # Firewall configuration
+    firewall --disabled
+    # Install OS instead of upgrade
+    install
+    # Use network installation
+    url --url="http://192.168.1.118/repo-7"
+    # Root password
+    rootpw --iscrypted $1$g0tQ5JMU$emqWnmOy0b1c5DeF.LUAw0
+    # System authorization information
+    auth  --useshadow  --passalgo=sha512
+    # Use graphical install
+    text
+    # System keyboard
+    keyboard us
+    # System language
+    lang en_US
+    # SELinux configuration
+    selinux --disabled
+    # Do not configure the X Window System
+    skipx
+    # Installation logging level
+    logging --level=info
+    # Reboot after installation
+    reboot
+    # System timezone
+    timezone Asia/Shanghai
+    # System bootloader configuration
+    bootloader --location=mbr --driveorder=sda --append="auto rhgb quiet biosdevname=0 net.ifnames=0"
+    
+    # Clear the Master Boot Record
+    zerombr
+    # Partition clearing information
+    clearpart --all --initlabel
+    # Disk partitioning information
+    part /boot --fstype="xfs" --size=512 --ondrive=sda
+    part swap --fstype="swap" --size=4096 --ondrive=sda
+    part biosboot  --fstype="biosboot" --size=1 --ondrive=sda
+    part / --fstype="xfs" --grow --size=1 --ondrive=sda
+    
+    
+    %packages
+    @base
+    @development
+    vim
+    lrzsz
+    unzip
+    sysstat
+    tree
+    telnet
+    nc
+    iotop
+    %end
+    
+    %post
+    curl "http://192.168.1.118/shell/system_init-7.sh" | bash
+    %end
+     
 
 
 
