@@ -103,6 +103,7 @@
   * [十二、其他](chapter1/shi-er-3001-qi-ta.md)
     * [SS 翻墙服务](chapter1/shi-er-3001-qi-ta/ss-fan-qiang-fu-wu.md)
     * [PXE 批量装机服务](chapter1/shi-er-3001-qi-ta/pxe-pi-liang-zhuang-ji-fu-wu.md)
+    * [linux一键安装光盘制作](chapter1/shi-er-3001-qi-ta/linuxyi-jian-an-zhuang-guang-pan-zhi-zuo.md)
     * [Redmin 服务](chapter1/shi-er-3001-qi-ta/redmin-fu-wu.md)
     * jira
     * [nali 使用](chapter1/shi-er-3001-qi-ta/nali-shi-yong.md)
