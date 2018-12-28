@@ -8,6 +8,9 @@
     微信：       18910734468
     联系邮箱：   zhouxulong@peter-zhou.com
     
+
+# Summary
+
 * [简介](README.md)
 * [硬件信息相关](ying-jian-xin-xi-xiang-guan.md)
   * [一、DELL-服务器常见问题技术手册](ying-jian-xin-xi-xiang-guan/yi-3001-dell-fu-wu-qi-chang-jian-wen-ti-ji-zhu-shou-ce.md)
@@ -111,6 +114,7 @@
   * [十二、其他](chapter1/shi-er-3001-qi-ta.md)
     * [SS 翻墙服务](chapter1/shi-er-3001-qi-ta/ss-fan-qiang-fu-wu.md)
     * [PXE 批量装机服务](chapter1/shi-er-3001-qi-ta/pxe-pi-liang-zhuang-ji-fu-wu.md)
+    * [linux一键安装光盘制作](chapter1/shi-er-3001-qi-ta/linuxyi-jian-an-zhuang-guang-pan-zhi-zuo.md)
     * [Redmin 服务](chapter1/shi-er-3001-qi-ta/redmin-fu-wu.md)
     * jira
     * [nali 使用](chapter1/shi-er-3001-qi-ta/nali-shi-yong.md)
@@ -187,8 +191,6 @@
     * [3、IO](linuxgao-ji/er-3001-quan-xian-kong-zhi/3io.md)
     * [4、策略路由](linuxgao-ji/er-3001-quan-xian-kong-zhi/43001-ce-lve-lu-you.md)
     * [5、网卡绑定](linuxgao-ji/er-3001-quan-xian-kong-zhi/53001-wang-qia-bang-ding.md)
-
-
 
 
 
