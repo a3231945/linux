@@ -65,7 +65,8 @@
 
     gitbook  serve --port 3000
 
-**3、**
+**3、生成静态文件**
+    gitbook build .
 
 
 ### 四、附录 ###
