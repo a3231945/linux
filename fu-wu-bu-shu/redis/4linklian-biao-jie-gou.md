@@ -1,4 +1,4 @@
-###Link链表结构
+### Link链表结构
 
 **1、从左边插入一个值：** `lpush character a`
 

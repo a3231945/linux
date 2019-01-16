@@ -1,4 +1,4 @@
-###redis频道发布与消息订阅
+### redis频道发布与消息订阅
 
 	发布一个频道：publish news 'today is sunshine'
 	

@@ -1,6 +1,6 @@
-##通用key命令操作
+## 通用key命令操作
 
-###一、查询
+### 一、查询
 
 **1、查看所有key:** `keys *`
 **2、匹配查看 *：** `keys sit*`
@@ -8,12 +8,12 @@
 **4、可选匹配 []:** `keys sit[e|y]`
 
 
-###二、判断KEY类型
+### 二、判断KEY类型
 **1、随机返回一个KEY：** `randomkey`
 **2、判断key 是否存在（0|1）：** `exists site #1 表示存在 0 表示不存在`
 **3、返回KEY的类型：**	`type site #数据类型有 string ,link ,set ,order set ,hash`
 
-###3、KEY的基本操作
+### 三、KEY的基本操作
 **1、删除KEY:** `del site`
 
 **2、重命名KEY:** `rename site web-site # site为旧名称 web-site 为新名称`
