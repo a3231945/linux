@@ -1,6 +1,6 @@
-#redis 数据迁移
+# redis 数据迁移
 
-###一、redis-dump /redis-load
+### 一、redis-dump /redis-load
 
 **1、安装**
 
@@ -31,7 +31,7 @@
 
 
 
-###二、redis-port
+### 二、redis-port
 
 **1、安装**
 
