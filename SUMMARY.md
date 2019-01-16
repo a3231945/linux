@@ -133,6 +133,7 @@
       * [13、redis运维常用命令](fu-wu-bu-shu/redis/13redisyun-wei-chang-yong-ming-ling.md)
       * [14、sentinel 运维监控（哨兵）](fu-wu-bu-shu/redis/14sentinel-yun-wei-jian-kong-ff08-shao-bing-ff09.md)
       * [15、案例（位图法统计活跃用户）](fu-wu-bu-shu/redis/153001-an-li-ff08-wei-tu-fa-tong-ji-huo-yue-yong-hu-ff09.md)
+      * [redis迁移](fu-wu-bu-shu/redis/redisqian-yi.md)
     * [三、MONGO](fu-wu-bu-shu/mongo.md)
     * [四、Memcache](fu-wu-bu-shu/si-3001-memcache.md)
     * [五、SSDB](fu-wu-bu-shu/wu-3001-ssdb.md)
