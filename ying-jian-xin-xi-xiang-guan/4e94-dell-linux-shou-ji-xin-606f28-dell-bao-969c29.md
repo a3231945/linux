@@ -83,7 +83,7 @@
     包示例：DSET-Report-for-[SvcTag-XXX<序列号>-PE-R430]-on-01-17-2019-at-10.51-AM.zip
     
     
-4、其他方式收集
+### 4、其他方式收集
 
     idrac收集       略
     bios-u盘收集    略      
