@@ -45,13 +45,13 @@ Markdown 支持两种形式的链接语法：行内式和参考式两种形式�
     
     1.欢迎来到[www.peter-zhou.com](http://www.peter-zhou.com)
     2.
-    3.欢迎来到[周先生的博客](http://www.peter-zhou.com "翼鸥教育欢迎你")
+    3.欢迎来到[周先生的博客](http://www.peter-zhou.com "周先生的博客")
 
 **显示效果：**
 
 欢迎来到[www.peter-zhou.com](http://www.peter-zhou.com)
 
-欢迎来到[周先生的博客](http://www.peter-zhou.com "翼鸥教育欢迎你")
+欢迎来到[周先生的博客](http://www.peter-zhou.com "周先生的博客")
 
 
 #### 3.2 参考式 ####
@@ -168,16 +168,16 @@ Markdown 支持两种形式的链接语法：行内式和参考式两种形式�
 
 **代码：**
     
-    1.>>> 请问 翼鸥教育 怎么样？ - 小白
+    1.>>> 请问 xxx 怎么样？ - 小白
     2.>>
-    3.>> http://www.eeo.cn  - 翼鸥客服
+    3.>> http://xxx  - xx客服
     4.>
     5.> 感觉不错 - 小白
 **显示效果：**
 
->>> 请问 翼鸥教育 怎么样？ - 小白
+>>> 请问 xxx 怎么样？ - 小白
 >>
->> http://www.eeo.cn  - 翼鸥客服
+>> http://xxx  - xx客服
 >
 > 感觉不错 - 小白
 
@@ -192,31 +192,30 @@ Markdown 支持两种形式的链接语法：行内式和参考式两种形式�
 
 **代码：**
     
-    1.翼鸥教育：
-    2.![not found](http://www.eeo.cn/images/eeoweb/logo.png "翼鸥教育")
+    1.xxx：
+    2.![not found](http://xxx/logo.png "xxx")
 
 **显示效果：**
 
-翼鸥教育：
-![not found](http://www.eeo.cn/images/eeoweb/logo.png "翼鸥教育")
+xxx：
+![not found](http://xxx/logo.png "xxx")
+
 
 #### 7.2  参考式  ####
 **语法说明：** 在文档要插入图片的地方写 ![图片][标记] 在文档的最后写上[标记]:图片地址 "title"
 
 **代码:**
 
-    1.翼鸥教育
-    2.![翼鸥教育][logo]
+    1.xxx：
+    2.![xxx][logo]
     3.
-    4.[logo]:http://www.eeo.cn/images/eeoweb/logo.png "翼鸥教育"
+    4.[logo]:http://xxx/logo.png "xxx"
 
 **显示效果：**
 
-翼鸥教育：
+![xxx][logo]
 
-![翼鸥教育][logo]
-
-[logo]:http://www.eeo.cn/images/eeoweb/logo.png "翼鸥教育"
+[logo]:http://xxx/logo.png "xxx"
 ### 8、内容目录 ###
 ### 9、表格 ###
 **语法说明：**
@@ -247,8 +246,9 @@ Markdown 支持两种形式的链接语法：行内式和参考式两种形式�
     1.平台|效果
     2.-：|-
     3.普通直播(yy语音，腾讯课堂等)| 一般
-    4.ClassIn线上教育| 非常好
-**效果：**
+    4.1对1上课| 非常好
+
+** 效果：**
 简单写法：
 
 学号|姓名|分数
@@ -270,7 +270,7 @@ Markdown 支持两种形式的链接语法：行内式和参考式两种形式�
 平台|效果
 -:|-
 普通直播(yy语音，腾讯课堂等)| 一般
-ClassIn线上教育| 非常好
+1对1上课| 非常好
 
 
 ### 10、分割线 ###
@@ -314,7 +314,7 @@ C语言里的函数`scanf()`怎么使用？
     1.  #include <stdio.h>
     2.  int main(void)
     3.  {
-    4.        printf("翼鸥教育\n");
+    4.        printf("周先生的博客\n");
     5.  }
 
 ** 显示效果：**
@@ -322,7 +322,7 @@ C语言里的函数`scanf()`怎么使用？
     #include <stdio.h>
     int main(void)
     {
-       printf("翼鸥教育\n"); 
+       printf("周先生的博客\n"); 
     }
 
 #### 11.3 六个`包裹多行代码 ####
@@ -333,7 +333,7 @@ C语言里的函数`scanf()`怎么使用？
     2.#include<stdio.h>
     3.int main(void)
     4.{
-    5.    printf("翼鸥教育");
+    5.    printf("周先生的博客");
     6.}
     7.```  
    
@@ -343,7 +343,7 @@ C语言里的函数`scanf()`怎么使用？
 #include <stdio.h>
 int main(void)
 {
-    printf("翼鸥教育");
+    printf("周先生的博客");
 }
 ```
 
