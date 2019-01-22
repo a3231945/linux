@@ -223,8 +223,10 @@
       reload.enabled: false
     setup.template.settings:
       index.number_of_shards: 3
-    output.logstash:
-      hosts: ["10.0.0.200:5044"]
+    output.kafka:
+      hosts: ["10.0.0.200:9092"]
+      topic: 'elk'
+
 
 2-1、**kafka配置文件**：`/usr/local/zookeeper-3.4.10/conf/zoo.cfg `
 
