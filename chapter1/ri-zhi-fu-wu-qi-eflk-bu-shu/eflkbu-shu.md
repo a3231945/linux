@@ -56,14 +56,14 @@
 5、**当前日志格式**
 **nginx**：
     
-*www.eeo.cn 访问日志： 日志格式可修改*
+*访问日志： 日志格式可修改*
 
      '$upstream_addr - $remote_addr - $remote_user [$time_local] "$request_method $scheme://$http_host$request_uri $server_protocol" '
      '$status $body_bytes_sent "$http_referer" '
      '"$http_user_agent" "$http_x_forwarded_for" $request_time $upstream_response_time'
 
      例如：
-     10.1.0.39:61185 - 139.199.33.45 - - [04/Apr/2018:09:53:29 +0800] "POST http://www.eeo.cn/partner/api/course.api.php?action=addClassLabels HTTP/1.1" 200 172 "-" "Java/1.7.0_80" "211.103.152.75" 0.072 0.072
+     10.1.0.39:61185 - 139.199.33.45 - - [04/Apr/2018:09:53:29 +0800] "POST http://www.longge.cn/partner/api/course.api.php?action=addClassLabels HTTP/1.1" 200 172 "-" "Java/1.7.0_80" "211.103.152.75" 0.072 0.072
 
      名词解释：
       upstream_addr ：后端节点ip及端口
@@ -82,7 +82,7 @@
       request_time  :  响应改请求总共多少时间（单位毫秒）
       upstream_respone_time : 后端代理 响应时间（单位毫秒）
 
-*www.eeo.cn 错误日志：日志格式不可修改*
+*错误日志：日志格式不可修改*
    
       time_local   [log_level]  proccess_id  info 
     
@@ -122,7 +122,7 @@
     [%{%Y-%m-%d:%H:%M:%S}tl.%03tu] %6tr %dt %>a:%>p %Ss/%03>Hs %<st %rm %ru %[un %Sh/%<A %mt
 
     例如：
-    [2018-04-01:08:43:30.343]     39 - 113.78.66.111:63453 TCP_MISS/304 250 GET https://h1237-wb.eeo.cn/saas/common/theme-classin/index.css?version=1522222822811 - ROUNDROBIN_PARENT/peer_eeo_www2 -
+    [2018-04-01:08:43:30.343]     39 - 113.78.66.111:63453 TCP_MISS/304 250 GET https://www.longge.cn/saas/common/theme-classin/index.css?version=1522222822811 - ROUNDROBIN_PARENT/peer_eeo_www2 -
 
     名词解释：
        [%{%Y-%m-%d:%H:%M:%S}tl.%03tu]  ：时间戳
