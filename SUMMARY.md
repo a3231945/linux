@@ -115,6 +115,8 @@
 * [应用服务](fu-wu-bu-shu.md)
   * [WEB服务](fu-wu-bu-shu/webfu-wu.md)
     * [一、NGINX](fu-wu-bu-shu/nginx.md)
+      * [核心 配置分类](fu-wu-bu-shu/nginx/he-xin-pei-zhi-fen-lei.md)
+      * [WEB配置分类](fu-wu-bu-shu/nginx/webpei-zhi-fen-lei.md)
     * [二、PHP](fu-wu-bu-shu/php.md)
     * [三、TOMCAT](fu-wu-bu-shu/tomcat.md)
   * [数据库服务](fu-wu-bu-shu/shu-ju-ku-fu-wu.md)
