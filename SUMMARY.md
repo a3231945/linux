@@ -119,6 +119,7 @@
       * [核心 配置分类](fu-wu-bu-shu/nginx/he-xin-pei-zhi-fen-lei.md)
       * [WEB配置分类](fu-wu-bu-shu/nginx/webpei-zhi-fen-lei.md)
     * [二、PHP](fu-wu-bu-shu/php.md)
+      * [php 获取头信息](fu-wu-bu-shu/php/php-huo-qu-tou-xin-xi.md)
     * [三、TOMCAT](fu-wu-bu-shu/tomcat.md)
   * [数据库服务](fu-wu-bu-shu/shu-ju-ku-fu-wu.md)
     * [一、MYSQL](fu-wu-bu-shu/mysql.md)
