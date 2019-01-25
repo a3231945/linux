@@ -1,5 +1,5 @@
 ### Wget使用
-
+####一、常用使用方法
 **1、下载单个文件**
 
     wget http://URL
@@ -62,12 +62,38 @@
 
     wget -r -A.png http://URL
 
-**15、代理下载**
+**15、代理**
 
     wget -e "http_proxy=http://IP:PORT" http://URL
     wget -e "https_proxy=http://IP:PORT" http://URL
 
-**16、debug 下载**
+**16、debug **
     
     wget -d http://URL
+  
+**17、指定refer **
+
+    wget --referer=http://URL http://URL  
+
+**18、添加header **
+
+    wget  --header="test:test1" http://URL
+
+**19、指定cookies**
+
+    wget --load-cookies cookies.txt http://URL
+
+**20、post 请求**
+
+    wget --post-data "username=xxx&&password=xxx" http://URL
+#### 二、配置文件
+
+- .wgetrc
+
+
+    略
     
+- /etc/wgetrc
+
+
+    略
