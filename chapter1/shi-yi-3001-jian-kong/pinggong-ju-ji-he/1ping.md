@@ -27,5 +27,8 @@
 **7、ping攻击**
 
     ping -f -s 60000 XXX
-    
+ 
+**8、ping 广播地址**   
+
+    ping -b broadcast
     
