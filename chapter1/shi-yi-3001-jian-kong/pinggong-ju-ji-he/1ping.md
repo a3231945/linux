@@ -31,4 +31,12 @@
 **8、ping 广播地址**   
 
     ping -b broadcast
+
+**9、禁|解ping**
+
+    禁止：
+    echo 1 > /proc/sys/net/ipv4/icmp_echo_ignore_all
+    
+    允许： 
+    echo 0 > /proc/sys/net/ipv4/icmp_echo_ignore_all 
     
