@@ -120,6 +120,7 @@
       * [vimrc](chapter1/shi-er-3001-qi-ta/vim-cha-jian/vimrc.md)
     * [markdown语法手册](chapter1/shi-er-3001-qi-ta/markdownyu-fa-shou-ce.md)
     * [Wget 使用](chapter1/shi-er-3001-qi-ta/wget-shi-yong.md)
+    * [linux 欢迎页面-motd](chapter1/shi-er-3001-qi-ta/linux-huan-ying-ye-9762-motd.md)
 * [应用服务](fu-wu-bu-shu.md)
   * [WEB服务](fu-wu-bu-shu/webfu-wu.md)
     * [一、NGINX](fu-wu-bu-shu/nginx.md)
