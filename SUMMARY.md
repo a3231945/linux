@@ -110,7 +110,7 @@
       * [5、httping](chapter1/shi-yi-3001-jian-kong/pinggong-ju-ji-he/5httping.md)
       * [6、hping](chapter1/shi-yi-3001-jian-kong/pinggong-ju-ji-he/hping.md)
     * [监控命令集合](chapter1/shi-yi-3001-jian-kong/jian-kong-ming-ling-ji-he.md)
-      * nicstat
+      * [nicstat](chapter1/shi-yi-3001-jian-kong/jian-kong-ming-ling-ji-he/nicstat.md)
       * oprofile
       * perf
       * systemtap
