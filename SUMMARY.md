@@ -109,6 +109,23 @@
       * [4、tcping](chapter1/shi-yi-3001-jian-kong/pinggong-ju-ji-he/4tcping.md)
       * [5、httping](chapter1/shi-yi-3001-jian-kong/pinggong-ju-ji-he/5httping.md)
       * [6、hping](chapter1/shi-yi-3001-jian-kong/pinggong-ju-ji-he/hping.md)
+    * [监控命令集合](chapter1/shi-yi-3001-jian-kong/jian-kong-ming-ling-ji-he.md)
+      * nicstat
+      * oprofile
+      * perf
+      * systemtap
+      * iotop
+      * blktrace
+      * dstat
+      * strace
+      * pidstat
+      * vmstat
+      * slabtop
+      * tcpdump
+      * free
+      * mpstat
+      * netstat
+      * tcprstat
   * [十二、其他](chapter1/shi-er-3001-qi-ta.md)
     * [SS 翻墙服务](chapter1/shi-er-3001-qi-ta/ss-fan-qiang-fu-wu.md)
     * [PXE 批量装机服务](chapter1/shi-er-3001-qi-ta/pxe-pi-liang-zhuang-ji-fu-wu.md)
@@ -154,7 +171,7 @@
     * [四、Memcache](fu-wu-bu-shu/si-3001-memcache.md)
     * [五、SSDB](fu-wu-bu-shu/wu-3001-ssdb.md)
   * [缓存服务](fu-wu-bu-shu/huan-cun-fu-wu.md)
-    * NGINX
+    * [NGINX](fu-wu-bu-shu/huan-cun-fu-wu/nginx.md)
     * [SQUID](fu-wu-bu-shu/huan-cun-fu-wu/squid.md)
     * [ATS](fu-wu-bu-shu/huan-cun-fu-wu/ata.md)
     * [Varnish](fu-wu-bu-shu/huan-cun-fu-wu/varnish.md)
