@@ -126,6 +126,10 @@
       * mpstat
       * netstat
       * tcprstat
+    * 关于CPU
+    * 关于IO
+    * 关于内存
+    * 关于网络
   * [十二、其他](chapter1/shi-er-3001-qi-ta.md)
     * [SS 翻墙服务](chapter1/shi-er-3001-qi-ta/ss-fan-qiang-fu-wu.md)
     * [PXE 批量装机服务](chapter1/shi-er-3001-qi-ta/pxe-pi-liang-zhuang-ji-fu-wu.md)
