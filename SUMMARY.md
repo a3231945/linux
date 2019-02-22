@@ -148,6 +148,7 @@
     * [一、NGINX](fu-wu-bu-shu/nginx.md)
       * [核心 配置分类](fu-wu-bu-shu/nginx/he-xin-pei-zhi-fen-lei.md)
       * [WEB配置分类](fu-wu-bu-shu/nginx/webpei-zhi-fen-lei.md)
+      * [开启nginx状态页面](fu-wu-bu-shu/nginx/kai-qi-nginx-zhuang-tai-ye-mian.md)
     * [二、PHP](fu-wu-bu-shu/php.md)
       * [php 获取头信息](fu-wu-bu-shu/php/php-huo-qu-tou-xin-xi.md)
     * [三、TOMCAT](fu-wu-bu-shu/tomcat.md)
