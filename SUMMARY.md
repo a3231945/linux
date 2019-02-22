@@ -124,8 +124,8 @@
       * tcpdump
       * free
       * mpstat
-      * netstat
-      * tcprstat
+      * [netstat](chapter1/shi-yi-3001-jian-kong/jian-kong-ming-ling-ji-he/netstat.md)
+      * [tcprstat](chapter1/shi-yi-3001-jian-kong/jian-kong-ming-ling-ji-he/tcprstat.md)
     * 关于CPU
     * 关于IO
     * 关于内存
