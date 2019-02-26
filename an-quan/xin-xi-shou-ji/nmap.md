@@ -7,7 +7,8 @@
 ### 二、nmap 使用
 **1、基本使用**
 
-    1> 综合扫描 127.0.0.1
+> 综合扫描 127.0.0.1
+
     # nmap  -A 127.0.0.1
 
     Starting Nmap 5.51 ( http://nmap.org ) at 2019-02-25 16:29 CST
@@ -40,7 +41,8 @@
     Nmap done: 1 IP address (1 host up) scanned in 17.74 seconds
 
 
-    2>综合扫描 www.baidu.com    
+>综合扫描 www.baidu.com  
+  
     #nmap -A www.baidu.com
     
     Starting Nmap 5.51 ( http://nmap.org ) at 2019-02-25 16:21 CST
@@ -85,11 +87,224 @@
     OS and Service detection performed. Please report any incorrect results at http://nmap.org/submit/ .
     Nmap done: 1 IP address (1 host up) scanned in 31.80 seconds
 
-    3> 指定多IP扫描
+> 指定多IP扫描
+
     nmap 172.16.0.1-254
     nmap 172.16.0.1/24
 
 **2、主机发现**
+
+>-sP ping扫描
+
+    #nmap -sP 127.0.0.1
+    
+    Starting Nmap 5.51 ( http://nmap.org ) at 2019-02-26 16:36 CST
+    Nmap scan report for localhost (127.0.0.1)
+    Host is up.
+    Nmap done: 1 IP address (1 host up) scanned in 0.00 seconds
+    
+>-P0 无ping扫描
+
+    #nmap -P0 127.0.0.1
+    
+    Starting Nmap 5.51 ( http://nmap.org ) at 2019-02-26 16:38 CST
+    Nmap scan report for localhost (127.0.0.1)
+    Host is up (0.0000040s latency).
+    Not shown: 998 closed ports
+    PORT   STATE SERVICE
+    22/tcp open  ssh
+    80/tcp open  http
+    
+>-PS TCP SYN Ping 扫描
+    
+    #nmap -PS80,22,100-200 -v 127.0.0.1
+    
+    Starting Nmap 5.51 ( http://nmap.org ) at 2019-02-26 16:42 CST
+    Initiating SYN Stealth Scan at 16:42
+    Scanning localhost (127.0.0.1) [1000 ports]
+    Discovered open port 80/tcp on 127.0.0.1
+    Discovered open port 22/tcp on 127.0.0.1
+    Completed SYN Stealth Scan at 16:42, 0.01s elapsed (1000 total ports)
+    Nmap scan report for localhost (127.0.0.1)
+    Host is up (0.0000040s latency).
+    Not shown: 998 closed ports
+    PORT   STATE SERVICE
+    22/tcp open  ssh
+    80/tcp open  http
+    
+    Read data files from: /usr/share/nmap
+    Nmap done: 1 IP address (1 host up) scanned in 0.03 seconds
+               Raw packets sent: 1000 (44.000KB) | Rcvd: 2002 (84.088KB)
+
+>-PA TCP ACK Ping 扫描
+    
+    # nmap  -PA -v 127.0.0.1
+
+    Starting Nmap 5.51 ( http://nmap.org ) at 2019-02-26 16:57 CST
+    Initiating SYN Stealth Scan at 16:57
+    Scanning localhost (127.0.0.1) [1000 ports]
+    Discovered open port 22/tcp on 127.0.0.1
+    Discovered open port 80/tcp on 127.0.0.1
+    Completed SYN Stealth Scan at 16:57, 0.01s elapsed (1000 total ports)
+    Nmap scan report for localhost (127.0.0.1)
+    Host is up (0.0000040s latency).
+    Not shown: 998 closed ports
+    PORT   STATE SERVICE
+    22/tcp open  ssh
+    80/tcp open  http
+    
+    Read data files from: /usr/share/nmap
+    Nmap done: 1 IP address (1 host up) scanned in 0.03 seconds
+               Raw packets sent: 1000 (44.000KB) | Rcvd: 2002 (84.088KB)
+
+    
+>-PU UDP Ping 扫描
+    
+    # nmap  -PU  127.0.0.1
+
+    Starting Nmap 5.51 ( http://nmap.org ) at 2019-02-26 16:58 CST
+    Nmap scan report for localhost (127.0.0.1)
+    Host is up (0.0000040s latency).
+    Not shown: 998 closed ports
+    PORT   STATE SERVICE
+    22/tcp open  ssh
+    80/tcp open  http
+    
+    Nmap done: 1 IP address (1 host up) scanned in 0.03 seconds
+    
+    
+>-PE;-PP;-PM
+    
+    PE: ICMP Echo 扫描
+    PP: ICMP 时间戳ping 扫描
+    PM: ICMP 地址子网掩码Ping 扫描
+    
+    #nmap -PE 127.0.0.1
+    #nmap -PP 127.0.0.1
+    #nmap -PM 127.0.0.1 
+    
+>-PR ARP Ping 扫描
+    
+    # nmap  -PR 127.0.0.1
+
+    Starting Nmap 5.51 ( http://nmap.org ) at 2019-02-26 17:06 CST
+    Nmap scan report for localhost (127.0.0.1)
+    Host is up (0.0000040s latency).
+    Not shown: 998 closed ports
+    PORT   STATE SERVICE
+    22/tcp open  ssh
+    80/tcp open  http
+    
+    Nmap done: 1 IP address (1 host up) scanned in 0.03 seconds
+
+>-n 禁止DNS反向解析
+    
+    #nmap  -n www.baidu.com
+
+    Starting Nmap 5.51 ( http://nmap.org ) at 2019-02-26 16:49 CST
+    Nmap scan report for www.baidu.com (61.135.169.121)
+    Host is up (0.0015s latency).
+    Other addresses for www.baidu.com (not scanned): 61.135.169.125
+    Not shown: 998 filtered ports
+    PORT    STATE SERVICE
+    80/tcp  open  http
+    443/tcp open  https
+    
+    
+>-R 反向解析域名
+    
+    # nmap  -R -sL 127.0.0.1
+
+    Starting Nmap 5.51 ( http://nmap.org ) at 2019-02-26 16:54 CST
+    Nmap scan report for localhost (127.0.0.1)
+    Nmap done: 1 IP address (0 hosts up) scanned in 0.00 seconds
+
+    
+> --system-dns 使用系统域名解析器
+    
+    # nmap  --system-dns 127.0.0.1 127.0.0.2
+
+    Starting Nmap 5.51 ( http://nmap.org ) at 2019-02-26 16:55 CST
+    Nmap scan report for localhost (127.0.0.1)
+    Host is up (0.0000040s latency).
+    Not shown: 998 closed ports
+    PORT   STATE SERVICE
+    22/tcp open  ssh
+    80/tcp open  http
+    
+    Nmap done: 2 IP addresses (1 host up) scanned in 3.04 seconds
+    
+    
+>--sL 列表扫描
+    
+    # nmap -sL 127.0.0.1 10.0.0.1
+
+    Starting Nmap 5.51 ( http://nmap.org ) at 2019-02-26 16:56 CST
+    Nmap scan report for localhost (127.0.0.1)
+    Nmap scan report for localhost (10.0.0.1)
+    Nmap done: 2 IP addresses (0 hosts up) scanned in 0.00 seconds
+
+>-6 扫描IPV6地址
+    
+    # nmap  -6 ::1
+
+    Starting Nmap 5.51 ( http://nmap.org ) at 2019-02-26 16:51 CST
+    Nmap scan report for localhost (::1)
+    Host is up (0.00011s latency).
+    Not shown: 998 closed ports
+    PORT   STATE SERVICE
+    22/tcp open  ssh
+    80/tcp open  http
+    
+    Nmap done: 1 IP address (1 host up) scanned in 0.03 seconds
+    
+    
+>--traceroute 路由跟踪
+    
+    # nmap  --traceroute 10.0.0.1
+
+    Starting Nmap 5.51 ( http://nmap.org ) at 2019-02-26 16:52 CST
+    Nmap scan report for localhost (10.0.0.1)
+    Host is up (0.042s latency).
+    Not shown: 995 closed ports
+    PORT    STATE    SERVICE
+    21/tcp  filtered ftp
+    22/tcp  open     ssh
+    23/tcp  filtered telnet
+    80/tcp  open     http
+    443/tcp open     https
+    
+    TRACEROUTE (using port 1723/tcp)
+    HOP RTT      ADDRESS
+    1   79.48 ms localhost (10.0.0.1)
+    
+    Nmap done: 1 IP address (1 host up) scanned in 9.77 seconds
+
+    
+>-PY SCTP INIT Ping扫描
+    
+    nmap  -PY -v 127.0.0.1
+
+    Starting Nmap 5.51 ( http://nmap.org ) at 2019-02-26 16:53 CST
+    Initiating SYN Stealth Scan at 16:53
+    Scanning localhost (127.0.0.1) [1000 ports]
+    Discovered open port 80/tcp on 127.0.0.1
+    Discovered open port 22/tcp on 127.0.0.1
+    Completed SYN Stealth Scan at 16:53, 0.01s elapsed (1000 total ports)
+    Nmap scan report for localhost (127.0.0.1)
+    Host is up (0.0000040s latency).
+    Not shown: 998 closed ports
+    PORT   STATE SERVICE
+    22/tcp open  ssh
+    80/tcp open  http
+    
+    Read data files from: /usr/share/nmap
+    Nmap done: 1 IP address (1 host up) scanned in 0.03 seconds
+               Raw packets sent: 1000 (44.000KB) | Rcvd: 2002 (84.088KB)
+
+    
+    
+
 **3、探索网络**
 **4、指纹识别与探测**
 **5、伺机而动**
