@@ -225,7 +225,7 @@
 * [安全](an-quan.md)
   * [信息收集](an-quan/xin-xi-shou-ji.md)
     * [nmap](an-quan/xin-xi-shou-ji/nmap.md)
-      * ncat
+      * [ncat](an-quan/xin-xi-shou-ji/nmap/ncat.md)
       * nping
       * ndiff
   * 漏洞评估
