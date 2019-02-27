@@ -312,16 +312,94 @@
     -T1(鬼祟的)缓慢的扫描，用于IDS逃避
     -T2(文雅的)降低速度以降低对带宽的消耗
     -T3(普通的)默认，根据目标反自动调整时间
-    -T4(野蛮的)快速扫描，常用
-    -T5(疯狂的)
+    -T4(野蛮的)快速扫描，常用扫描方式，需要再很好的网络环境下
+    -T5(疯狂的)极速扫描，这种扫描方式以牺牲准确性来提升扫描速度
     #nmap -T0 127.0.0.1
     #nmap -T1 127.0.0.1
 
-> -p 
-> -sS
-> -sT
-> -sU
+> -p 端口扫描方式
+
+     # nmap -p 22 127.0.0.1 
+
+    Starting Nmap 5.51 ( http://nmap.org ) at 2019-02-27 19:24 CST
+    Nmap scan report for localhost (127.0.0.1)
+    Host is up (0.000042s latency).
+    PORT   STATE SERVICE
+    22/tcp open  ssh
+    
+    Nmap done: 1 IP address (1 host up) scanned in 0.02 seconds
+ 
+     # nmap -p 22,80,443 127.0.0.1 
+
+    Starting Nmap 5.51 ( http://nmap.org ) at 2019-02-27 19:25 CST
+    Nmap scan report for localhost (127.0.0.1)
+    Host is up (0.000033s latency).
+    PORT    STATE  SERVICE
+    22/tcp  open   ssh
+    80/tcp  open   http
+    443/tcp closed https
+    
+    Nmap done: 1 IP address (1 host up) scanned in 0.02 seconds
+    
+    #快速扫描常用端口
+    # nmap  -F 127.0.0.1
+
+    Starting Nmap 5.51 ( http://nmap.org ) at 2019-02-27 19:27 CST
+    Nmap scan report for localhost (127.0.0.1)
+    Host is up (0.0000040s latency).
+    Not shown: 98 closed ports
+    PORT   STATE SERVICE
+    22/tcp open  ssh
+    80/tcp open  http
+    
+    Nmap done: 1 IP address (1 host up) scanned in 0.02 seconds
+
+    # 扫描常用top10 端口
+    # nmap  --top-ports 10 127.0.0.1
+
+    Starting Nmap 5.51 ( http://nmap.org ) at 2019-02-27 19:27 CST
+    Nmap scan report for localhost (127.0.0.1)
+    Host is up (0.000013s latency).
+    PORT     STATE  SERVICE
+    21/tcp   closed ftp
+    22/tcp   open   ssh
+    23/tcp   closed telnet
+    25/tcp   closed smtp
+    80/tcp   open   http
+    110/tcp  closed pop3
+    139/tcp  closed netbios-ssn
+    443/tcp  closed https
+    445/tcp  closed microsoft-ds
+    3389/tcp closed ms-term-serv
+    
+    Nmap done: 1 IP address (1 host up) scanned in 0.02 seconds
+    
+        
+> -sS TCP SYN扫描
+
+    # nmap  -sS 127.0.0.1
+
+> -sT TCP连接扫描
+
+    # nmap  -sT 127.0.0.1
+
+> -sU UDP扫描
+
+    # nmap  -sU 127.0.0.1
+    # nmap  -sU -p 80-500 127.0.0.1
+
 > -sN;-sF;-sX
+    
+    -sN NULL扫描
+    -sF 
+    -sX x
+    
+    # nmap -sN 127.0.0.1
+    # nmap -sF 127.0.0.1
+    # nmap -sX 127.0.0.1
+
+
+    
 > -sA
 > -sW
 > -sM
