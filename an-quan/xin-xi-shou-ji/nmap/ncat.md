@@ -62,7 +62,7 @@
 **6、反弹shell**
 
     server：
-        ncat -v -c /bin/bash  -lp 8000
+        ncat -v -c "/bin/bash -i"  -lp 8000
     
     client:
         ncat localhost 8000
