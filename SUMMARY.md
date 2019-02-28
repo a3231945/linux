@@ -188,6 +188,8 @@
     * [Haproxy](fu-wu-bu-shu/fu-zai-jun-8861-gao-ke-yong-fu-wu/haproxy.md)
     * [Nginx](fu-wu-bu-shu/fu-zai-jun-8861-gao-ke-yong-fu-wu/nginx.md)
     * [Heartbeat](fu-wu-bu-shu/fu-zai-jun-8861-gao-ke-yong-fu-wu/heartbeat.md)
+      * [heartbeat 安装](fu-wu-bu-shu/fu-zai-jun-8861-gao-ke-yong-fu-wu/heartbeat/heartbeat-an-zhuang.md)
+      * [heartbeat-centos7编译安装](fu-wu-bu-shu/fu-zai-jun-8861-gao-ke-yong-fu-wu/heartbeat/heartbeat-centos7bian-yi-an-zhuang.md)
     * [Keepalive](fu-wu-bu-shu/fu-zai-jun-8861-gao-ke-yong-fu-wu/keepalive.md)
   * [中间件服务](fu-wu-bu-shu/zhong-jian-jian-fu-wu.md)
   * [大数据服务](fu-wu-bu-shu/da-shu-ju-fu-wu.md)
