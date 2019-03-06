@@ -60,8 +60,14 @@ PHP安全模式能有效控制一些PHP环境中的函数（例如：`system()`�
 
 
 **8、关闭注册全局变量**
+在PHP环境中提交的变量，包括使用POST或者GET命令提交的变量，都将自动注册为全局变量，能够被直接访问
 
+    #vim php.ini
+    register_globals = off
 
 **9、SQL注入防护**
+开启`magic_quotes_gpc`，PHP将自动把用户提交对SQL查询的请求进行转换：例如 把 ' 转换为 \'
 
-**10、错误信息控制**
+    #vim php.ini
+    magic_quotes_gpc = on
+    
