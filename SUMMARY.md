@@ -242,4 +242,5 @@
     * 逆向工程
     * 压力测试
   * [Linux系统提权](an-quan/linuxxi-tong-ti-quan.md)
+    * [普通用户提权](an-quan/linuxxi-tong-ti-quan/pu-tong-yong-hu-ti-quan.md)
 
