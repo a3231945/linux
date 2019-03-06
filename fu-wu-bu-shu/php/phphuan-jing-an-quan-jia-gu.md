@@ -71,3 +71,5 @@ PHP安全模式能有效控制一些PHP环境中的函数（例如：`system()`�
     #vim php.ini
     magic_quotes_gpc = on
     
+
+参考站点：[PHP手册-安全](http://php.net/manual/zh/ini.sect.safe-mode.php)
