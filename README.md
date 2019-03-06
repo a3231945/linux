@@ -15,8 +15,9 @@
   * [二、DELL-服务器错误代码](ying-jian-xin-xi-xiang-guan/er-3001-dell-fu-wu-qi-cuo-wu-dai-ma.md)
   * [三、DELL-Megacli命令](ying-jian-xin-xi-xiang-guan/san-3001-dell-megacli-ming-ling.md)
   * [四、DELL-racadm命令](ying-jian-xin-xi-xiang-guan/si-3001-dell-racadm-ming-ling.md)
-  * [五、HP-hpasmcli命令](ying-jian-xin-xi-xiang-guan/wu-3001-hp-hpasmcli-ming-ling.md)
-  * [六、查看LINUX本机公网IP](ying-jian-xin-xi-xiang-guan/liu-3001-cha-kan-linux-ben-ji-gong-wang-ip.md)
+  * [五、DELL-LINUX 收集信息\(dell报障\)](ying-jian-xin-xi-xiang-guan/4e94-dell-linux-shou-ji-xin-606f28-dell-bao-969c29.md)
+  * [六、HP-hpasmcli命令](ying-jian-xin-xi-xiang-guan/wu-3001-hp-hpasmcli-ming-ling.md)
+  * [七、查看LINUX本机公网IP](ying-jian-xin-xi-xiang-guan/liu-3001-cha-kan-linux-ben-ji-gong-wang-ip.md)
 * [基础服务](chapter1.md)
   * [一、NTP服务](chapter1/ntpfu-wu-qi-bu-shu.md)
     * [Ntpd](chapter1/ntpfu-wu-qi-bu-shu/ntpd.md)
@@ -61,6 +62,7 @@
     * [Git 服务](chapter1/gitlabfu-wu-qi-bu-shu/git-fu-wu.md)
     * [Git 使用手册](chapter1/gitlabfu-wu-qi-bu-shu/git-shi-yong-shou-ce.md)
     * [GitBook部署](chapter1/gitbookbu-shu.md)
+    * [GitHub 高级搜索](chapter1/gitlabfu-wu-qi-bu-shu/github-gao-ji-sou-suo.md)
   * [九、虚拟化服务](chapter1/jiu-3001-xu-ni-hua-fu-wu.md)
     * [KVM服务](chapter1/kvmfu-wu-qi-bu-shu.md)
     * [LXC](chapter1/lxc.md)
@@ -109,19 +111,55 @@
     * [Zabbix](chapter1/shi-yi-3001-jian-kong/zabbix.md)
     * [Grafana](chapter1/shi-yi-3001-jian-kong/grafana.md)
     * [APM-Pinpoint ](chapter1/shi-yi-3001-jian-kong/apm.md)
+    * [ping工具集合](chapter1/shi-yi-3001-jian-kong/pinggong-ju-ji-he.md)
+      * [1、ping](chapter1/shi-yi-3001-jian-kong/pinggong-ju-ji-he/1ping.md)
+      * [2、fping](chapter1/shi-yi-3001-jian-kong/pinggong-ju-ji-he/fping.md)
+      * [3、arping](chapter1/shi-yi-3001-jian-kong/pinggong-ju-ji-he/3httping.md)
+      * [4、tcping](chapter1/shi-yi-3001-jian-kong/pinggong-ju-ji-he/4tcping.md)
+      * [5、httping](chapter1/shi-yi-3001-jian-kong/pinggong-ju-ji-he/5httping.md)
+      * [6、hping](chapter1/shi-yi-3001-jian-kong/pinggong-ju-ji-he/hping.md)
+    * [监控命令集合](chapter1/shi-yi-3001-jian-kong/jian-kong-ming-ling-ji-he.md)
+      * [nicstat](chapter1/shi-yi-3001-jian-kong/jian-kong-ming-ling-ji-he/nicstat.md)
+      * oprofile
+      * perf
+      * systemtap
+      * [iotop](chapter1/shi-yi-3001-jian-kong/jian-kong-ming-ling-ji-he/iotop.md)
+      * blktrace
+      * dstat
+      * strace
+      * pidstat
+      * vmstat
+      * slabtop
+      * tcpdump
+      * free
+      * mpstat
+      * [netstat](chapter1/shi-yi-3001-jian-kong/jian-kong-ming-ling-ji-he/netstat.md)
+      * [tcprstat](chapter1/shi-yi-3001-jian-kong/jian-kong-ming-ling-ji-he/tcprstat.md)
+    * 关于CPU
+    * 关于IO
+    * 关于内存
+    * 关于网络
   * [十二、其他](chapter1/shi-er-3001-qi-ta.md)
     * [SS 翻墙服务](chapter1/shi-er-3001-qi-ta/ss-fan-qiang-fu-wu.md)
     * [PXE 批量装机服务](chapter1/shi-er-3001-qi-ta/pxe-pi-liang-zhuang-ji-fu-wu.md)
     * [linux一键安装光盘制作](chapter1/shi-er-3001-qi-ta/linuxyi-jian-an-zhuang-guang-pan-zhi-zuo.md)
     * [Redmin 服务](chapter1/shi-er-3001-qi-ta/redmin-fu-wu.md)
-    * jira
+    * [jira](chapter1/shi-er-3001-qi-ta/jira.md)
     * [nali 使用](chapter1/shi-er-3001-qi-ta/nali-shi-yong.md)
     * [vim 插件](chapter1/shi-er-3001-qi-ta/vim-cha-jian.md)
       * [vimrc](chapter1/shi-er-3001-qi-ta/vim-cha-jian/vimrc.md)
+    * [markdown语法手册](chapter1/shi-er-3001-qi-ta/markdownyu-fa-shou-ce.md)
+    * [Wget 使用](chapter1/shi-er-3001-qi-ta/wget-shi-yong.md)
+    * [linux 欢迎页面-motd](chapter1/shi-er-3001-qi-ta/linux-huan-ying-ye-9762-motd.md)
+    * [linux 基础信息配置](chapter1/shi-er-3001-qi-ta/linux-ji-chu-xin-xi-pei-zhi.md)
 * [应用服务](fu-wu-bu-shu.md)
   * [WEB服务](fu-wu-bu-shu/webfu-wu.md)
     * [一、NGINX](fu-wu-bu-shu/nginx.md)
+      * [核心 配置分类](fu-wu-bu-shu/nginx/he-xin-pei-zhi-fen-lei.md)
+      * [WEB配置分类](fu-wu-bu-shu/nginx/webpei-zhi-fen-lei.md)
+      * [开启nginx状态页面](fu-wu-bu-shu/nginx/kai-qi-nginx-zhuang-tai-ye-mian.md)
     * [二、PHP](fu-wu-bu-shu/php.md)
+      * [php 获取头信息](fu-wu-bu-shu/php/php-huo-qu-tou-xin-xi.md)
     * [三、TOMCAT](fu-wu-bu-shu/tomcat.md)
   * [数据库服务](fu-wu-bu-shu/shu-ju-ku-fu-wu.md)
     * [一、MYSQL](fu-wu-bu-shu/mysql.md)
@@ -142,11 +180,13 @@
       * [13、redis运维常用命令](fu-wu-bu-shu/redis/13redisyun-wei-chang-yong-ming-ling.md)
       * [14、sentinel 运维监控（哨兵）](fu-wu-bu-shu/redis/14sentinel-yun-wei-jian-kong-ff08-shao-bing-ff09.md)
       * [15、案例（位图法统计活跃用户）](fu-wu-bu-shu/redis/153001-an-li-ff08-wei-tu-fa-tong-ji-huo-yue-yong-hu-ff09.md)
+      * [redis 迁移](fu-wu-bu-shu/redis/redisqian-yi.md)
+      * [redis 哨兵](fu-wu-bu-shu/redis/redis-shao-bing.md)
     * [三、MONGO](fu-wu-bu-shu/mongo.md)
     * [四、Memcache](fu-wu-bu-shu/si-3001-memcache.md)
     * [五、SSDB](fu-wu-bu-shu/wu-3001-ssdb.md)
   * [缓存服务](fu-wu-bu-shu/huan-cun-fu-wu.md)
-    * NGINX
+    * [NGINX](fu-wu-bu-shu/huan-cun-fu-wu/nginx.md)
     * [SQUID](fu-wu-bu-shu/huan-cun-fu-wu/squid.md)
     * [ATS](fu-wu-bu-shu/huan-cun-fu-wu/ata.md)
     * [Varnish](fu-wu-bu-shu/huan-cun-fu-wu/varnish.md)
@@ -157,6 +197,8 @@
     * [Haproxy](fu-wu-bu-shu/fu-zai-jun-8861-gao-ke-yong-fu-wu/haproxy.md)
     * [Nginx](fu-wu-bu-shu/fu-zai-jun-8861-gao-ke-yong-fu-wu/nginx.md)
     * [Heartbeat](fu-wu-bu-shu/fu-zai-jun-8861-gao-ke-yong-fu-wu/heartbeat.md)
+      * [heartbeat 安装](fu-wu-bu-shu/fu-zai-jun-8861-gao-ke-yong-fu-wu/heartbeat/heartbeat-an-zhuang.md)
+      * [heartbeat-centos7编译安装](fu-wu-bu-shu/fu-zai-jun-8861-gao-ke-yong-fu-wu/heartbeat/heartbeat-centos7bian-yi-an-zhuang.md)
     * [Keepalive](fu-wu-bu-shu/fu-zai-jun-8861-gao-ke-yong-fu-wu/keepalive.md)
   * [中间件服务](fu-wu-bu-shu/zhong-jian-jian-fu-wu.md)
   * [大数据服务](fu-wu-bu-shu/da-shu-ju-fu-wu.md)
@@ -189,6 +231,28 @@
     * [3、IO](linuxgao-ji/er-3001-quan-xian-kong-zhi/3io.md)
     * [4、策略路由](linuxgao-ji/er-3001-quan-xian-kong-zhi/43001-ce-lve-lu-you.md)
     * [5、网卡绑定](linuxgao-ji/er-3001-quan-xian-kong-zhi/53001-wang-qia-bang-ding.md)
+* [网络](wang-luo.md)
+  * [网络故障应用分析](wang-luo/wang-luo-gu-zhang-ying-yong-fen-xi.md)
+* [安全](an-quan.md)
+  * [kali工具集使用分类](an-quan/kaligong-ju-ji-shi-yong-fen-lei.md)
+    * [信息收集](an-quan/xin-xi-shou-ji.md)
+      * [nmap](an-quan/xin-xi-shou-ji/nmap.md)
+      * [ncat](an-quan/xin-xi-shou-ji/nmap/ncat.md)
+      * [nping](an-quan/xin-xi-shou-ji/nmap/nping.md)
+    * ndiff
+    * 漏洞评估
+    * web应用
+    * 密码攻击
+    * 漏洞利用
+    * 网络监听
+    * 维护访问
+    * 报告工具
+    * 无线攻击
+    * 逆向工程
+    * 压力测试
+  * [Linux系统提权](an-quan/linuxxi-tong-ti-quan.md)
+    * [普通用户提权](an-quan/linuxxi-tong-ti-quan/pu-tong-yong-hu-ti-quan.md)
+
 
 
 
