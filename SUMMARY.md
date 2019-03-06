@@ -225,7 +225,7 @@
 * [网络](wang-luo.md)
   * [网络故障应用分析](wang-luo/wang-luo-gu-zhang-ying-yong-fen-xi.md)
 * [安全](an-quan.md)
-  * kali工具集使用分类
+  * [kali工具集使用分类](an-quan/kaligong-ju-ji-shi-yong-fen-lei.md)
     * [信息收集](an-quan/xin-xi-shou-ji.md)
       * [nmap](an-quan/xin-xi-shou-ji/nmap.md)
       * [ncat](an-quan/xin-xi-shou-ji/nmap/ncat.md)
