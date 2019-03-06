@@ -241,4 +241,5 @@
     * 无线攻击
     * 逆向工程
     * 压力测试
-  
+  * [Linux系统提权](an-quan/linuxxi-tong-ti-quan.md)
+
