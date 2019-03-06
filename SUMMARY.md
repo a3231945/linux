@@ -151,6 +151,7 @@
       * [开启nginx状态页面](fu-wu-bu-shu/nginx/kai-qi-nginx-zhuang-tai-ye-mian.md)
     * [二、PHP](fu-wu-bu-shu/php.md)
       * [php 获取头信息](fu-wu-bu-shu/php/php-huo-qu-tou-xin-xi.md)
+      * [PHP环境安全加固](fu-wu-bu-shu/php/phphuan-jing-an-quan-jia-gu.md)
     * [三、TOMCAT](fu-wu-bu-shu/tomcat.md)
   * [数据库服务](fu-wu-bu-shu/shu-ju-ku-fu-wu.md)
     * [一、MYSQL](fu-wu-bu-shu/mysql.md)
