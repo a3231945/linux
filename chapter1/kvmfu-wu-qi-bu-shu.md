@@ -415,3 +415,4 @@
 
     <devices> 字段添加 <input type=’tablet’ bus=’usb’/> 即可
 
+官方文档：[https://libvirt.org/docs.html](https://libvirt.org/docs.html)
