@@ -1,12 +1,12 @@
 # KVM手册 #
 ### 一、安装kvm ###
-1、初始化环境
+**1、初始化环境**
 -   配置ip
 -   关闭防火墙
 -   初始化源
 -   等等
 
-2、检查是否支持虚拟化
+**2、检查是否支持虚拟化**
 
     [root@bogon ~]# egrep -e '(vmx|svm)' --color=auto /proc/cpuinfo 
     flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp lm constant_tsc arch_perfmon pebs bts rep_good xtopology nonstop_tsc aperfmperf pni pclmulqdq dtes64 monitor ds_cpl vmx smx est tm2 ssse3 fma cx16 xtpr pdcm pcid sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand lahf_lm abm ida arat epb xsaveopt pln pts dtherm tpr_shadow vnmi flexpriority ept vpid fsgsbase bmi1 hle avx2 smep bmi2 erms invpcid rtm
@@ -14,7 +14,7 @@
     flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp lm constant_tsc arch_perfmon pebs bts rep_good xtopology nonstop_tsc aperfmperf pni pclmulqdq dtes64 monitor ds_cpl vmx smx est tm2 ssse3 fma cx16 xtpr pdcm pcid sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand lahf_lm abm ida arat epb xsaveopt pln pts dtherm tpr_shadow vnmi flexpriority ept vpid fsgsbase bmi1 hle avx2 smep bmi2 erms invpcid rtm
     flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp lm constant_tsc arch_perfmon pebs bts rep_good xtopology nonstop_tsc aperfmperf pni pclmulqdq dtes64 monitor ds_cpl vmx smx est tm2 ssse3 fma cx16 xtpr pdcm pcid sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand lahf_lm abm ida arat epb xsaveopt pln pts dtherm tpr_shadow vnmi flexpriority ept vpid fsgsbase bmi1 hle avx2 smep bmi2 erms invpcid rtm
 
-3、安装kvm软件包
+**3、安装kvm软件包**
     
     #命令行管理
     yum -y install qemu-kvm libvirt python-virtinst bridge-utils virt-viewer
@@ -24,7 +24,8 @@
     yum -y install libguestfs-tools
 
 
-4、检查是否安装成功
+**4、检查是否安装成功**
+
     #查看模块
     [root@bogon ~]# lsmod  |grep kvm
     kvm_intel              55464  0 
@@ -36,7 +37,7 @@
      Id    Name                           State
     ----------------------------------------------------
 
-5、桥接网卡配置
+**5、桥接网卡配置**
 
     [root@bogon network-scripts]# vim ifcfg-br0 
     DEVICE=br0
@@ -60,7 +61,7 @@
     BOOTPROTO=none
     BRIDGE=br0
 
-6、创建img磁盘
+**6、创建img磁盘**
 
     [root@kvm vhost]# qemu-img  create -f qcow2 moban_centos_6-8.img 20G
     Formatting 'moban_centos_6-8.img', fmt=qcow2 size=21474836480 encryption=off cluster_size=65536 
@@ -72,7 +73,7 @@
     disk size: 196K
     cluster_size: 65536
  
-7、安装模板机
+**7、安装模板机**
 
     #安装linux-6
     virt-install --name moban-centos6.8 --boot network,cdrom,menu=on --ram 1024 --vcpus=1 --os-type=linux --accelerate --cdrom /mnt/iso/CentOS-6.8-x86_64-bin-DVD1.iso --disk path=/mnt/vhost/moban_centos_6-8.img,size=4,format=qcow2,bus=ide --bridge=br0 --vnc --vncport=5991 --vnclisten=0.0.0.0
@@ -94,9 +95,9 @@
     #安装windows
     virt-install --name moban-win7 --ram 1024 --vcpus=1 --os-type=windows --accelerate --cdrom=/mnt/iso/Win7_sp1_cn_64.iso   --disk path=/mnt/vhost/moban_win7.img,size=4,format=qcow2,bus=ide --bridge=br0 --vnc --vncport=5991  --vnclisten=0.0.0.0 
     
-8、vnc 客户端连接  IP:5991 进行安装
+**8、vnc 客户端连接  IP:5991 进行安装**
 
-9、linux 虚拟机配置console连接虚拟机
+**9、linux 虚拟机配置console连接虚拟机**
     
     1）添加允许终端登录 echo "ttyS0" >> /etc/securetty
     2）编辑/etc/grub.conf中加入console=ttyS0
@@ -161,7 +162,7 @@
 
 **配置编辑：**    
 
-    编辑虚拟机配置文件& 必须关机状态
+    编辑虚拟机配置文件& 必须重启才能生效
     virsh edit DOMAIN-NAME 
     
     修改
@@ -369,6 +370,48 @@
     #配置带宽限速
     virsh domiftune win7-demo 52:54:00:10:8b:bb --inbound 3000,3000,3000 --outbound 3000,3000,3000 --config
 
+### 四、相关问题
+**1、windows时钟间隔8小时**
+
+    <clock offset='utc'>
+      <timer name='rtc' tickpolicy='catchup'/> 
+      <timer name='pit' tickpolicy='delay'/> 
+      <timer name='hpet' present='no'/> 
+    </clock>
+    
+    变更为：
+    <clock offset='localtime'>
+        <timer name='rtc' tickpolicy='catchup'/> 
+        <timer name='pit' tickpolicy='delay'/>
+        <timer name='hpet' present='no'/>
+    </clock>
     
     
+
+
+**2、网卡速率不对，适应为10Mb**
+    
+    <interface type='bridge'>
+      <mac address='52:54:00:b6:01:4f'/>
+      <source bridge='br0'/>
+      <model type='rtl8139'/>  
+      <address type='pci' domain='0x0000' bus='0x00' slot='0x03' function='0x0'/>
+    </interface>
+    
+    #对应网卡速率如下
+    <model type='virtio'/>   10M
+    <model type='rtl8139'/>  100M
+    <model type='e1000'/>    1000M
+    
+**3、迁移虚拟机发现cpu特性不支持**
+
+      <cpu mode='custom' match='exact' check='partial'>
+        <model fallback='allow'>IvyBridge-IBRS</model>
+      </cpu>
+      
+      #删除相关配置即可
+      
+**4、鼠标不同步**
+
+    <devices> 字段添加 <input type=’tablet’ bus=’usb’/> 即可
 
