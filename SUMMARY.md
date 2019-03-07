@@ -143,6 +143,7 @@
     * [Wget 使用](chapter1/shi-er-3001-qi-ta/wget-shi-yong.md)
     * [linux 欢迎页面-motd](chapter1/shi-er-3001-qi-ta/linux-huan-ying-ye-9762-motd.md)
     * [linux 基础信息配置](chapter1/shi-er-3001-qi-ta/linux-ji-chu-xin-xi-pei-zhi.md)
+    * [Centos7-grub修复](chapter1/shi-er-3001-qi-ta/centos7-grubxiu-fu.md)
 * [应用服务](fu-wu-bu-shu.md)
   * [WEB服务](fu-wu-bu-shu/webfu-wu.md)
     * [一、NGINX](fu-wu-bu-shu/nginx.md)
