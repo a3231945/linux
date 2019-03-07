@@ -144,6 +144,7 @@
     * [linux 欢迎页面-motd](chapter1/shi-er-3001-qi-ta/linux-huan-ying-ye-9762-motd.md)
     * [linux 基础信息配置](chapter1/shi-er-3001-qi-ta/linux-ji-chu-xin-xi-pei-zhi.md)
     * [Centos7-grub修复](chapter1/shi-er-3001-qi-ta/centos7-grubxiu-fu.md)
+    * [Centos7 修改网卡名为eth0](chapter1/shi-er-3001-qi-ta/centos7-xiu-gai-wang-qia-ming-wei-eth0.md)
 * [应用服务](fu-wu-bu-shu.md)
   * [WEB服务](fu-wu-bu-shu/webfu-wu.md)
     * [一、NGINX](fu-wu-bu-shu/nginx.md)
