@@ -205,6 +205,7 @@
   * [六、进程管理](linuxji-chu/liu-3001-jin-cheng-guan-li.md)
   * [七、软件管理](linuxji-chu/qi-3001-ruan-jian-guan-li.md)
   * [八、任务计划管理](linuxji-chu/ba-3001-ren-wu-ji-hua-guan-li.md)
+  * [/etc 目录下文件功能介绍](linuxji-chu/etc-mu-lu-xia-wen-jian-gong-neng-jie-shao.md)
 * [Linux高级](linuxgao-ji.md)
   * [一、防火墙配置-iptables](linuxgao-ji/iptables-pei-zhi.md)
   * [二、权限控制](linuxgao-ji/er-3001-quan-xian-kong-zhi.md)
