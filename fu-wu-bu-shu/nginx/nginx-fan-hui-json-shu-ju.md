@@ -8,6 +8,8 @@
         return 200 '{"status":"success","result":"hello world!"}';
     }
     
+    注意：当开发某个接口固定是一个返回值时，可以用此方法返回。节省后端处理过程
+    
 **2、测试**
 
     # curl http://www.peter-zhou.com/get_info
