@@ -45,5 +45,40 @@
     你好，世界!
     
     
-    #curl http://www.peter-zhou.com/get_info3
-    你好，世界!
+    #curl http://www.peter-zhou.com/get_info3 -I
+    HTTP/1.1 200 OK
+    Server: Nginx
+    Date: Fri, 15 Mar 2019 06:21:58 GMT
+    Content-Type: text/html; charset=utf-8
+    Content-Length: 16
+    Connection: keep-alive
+
+### 三、根据url 返回数据
+
+**1、配置匹配规则**
+	
+    location ~ ^/return/(.*)_(\d+).html$ {
+        default_type text/html;
+        set $string $1;
+        set $data   $2;
+        return 200 $string:$data;
+    }
+    
+    location ~ ^/return/(.*)/(\d+)$ {
+        default_type text/html;
+        set $string $1;
+        set $data $2;
+        return 200 $string:$data;
+    }
+    
+    注意：根据url参数http://xxx/test.html?name=xxx&id=xxx 同理也可以用这种方式匹配返回
+
+**2、测试**
+
+    #curl http://www.peter-zhou.com/return/test_01.html
+    test:01
+    
+    #curl http://www.peter-zhou.com/return/aaa/123
+    aaa:123
+    
+    
