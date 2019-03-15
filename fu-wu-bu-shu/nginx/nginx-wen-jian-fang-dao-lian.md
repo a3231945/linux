@@ -49,11 +49,22 @@
     
 **3、app服务器功能实现 ** 
 
-    返回客户端url为：url+md5+expires+filename 
+实现返回客户端url为：`url+md5+expires+filename` 
+
+    <?php
+
+	$secret = '123456';
+	$path   = 'xxxx';
+	$expire = time()+300;
+	
+	$md5 = base64_encode(md5($secret.$path.$expire,true));
+	$md5 = strtr($md5,'+/','-_');
+	$md5 = str_replace('=','',$md5);
+	echo 'http://download.peter-zhou.com/'.$path.'?md5='.$md5.'&expires='.$expire.'&filename='.$filename    
     
 
-    
-    例如：
+**例如：**
+
     http://down.peter-zhou.com/123.pdf?md5=FnDYyFzCooI9q8sh1Ffkxg&expires=1539847995&filename=test.pdf
     
     
