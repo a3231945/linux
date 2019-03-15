@@ -42,6 +42,7 @@
   * [六、NFS服务](chapter1/liu-3001-nfs-fu-wu.md)
     * [NFS 安装部署](chapter1/liu-3001-nfs-fu-wu/nfs-an-zhuang-bu-shu.md)
     * [NFS 客户端](chapter1/liu-3001-nfs-fu-wu/nfs-ke-hu-duan.md)
+    * [NFS fsid 的问题](chapter1/liu-3001-nfs-fu-wu/nfs-fsid-de-wen-ti.md)
   * [七、日志服务](chapter1/ri-zhi-fu-wu-qi-eflk-bu-shu.md)
     * [Rsyslog 服务](chapter1/ri-zhi-fu-wu-qi-eflk-bu-shu/rsyslog-fu-wu.md)
     * [EFLK 部署](chapter1/ri-zhi-fu-wu-qi-eflk-bu-shu/eflkbu-shu.md)
