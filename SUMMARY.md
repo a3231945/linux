@@ -155,7 +155,7 @@
       * [浏览器不自动解析播放文件](fu-wu-bu-shu/nginx/liu-lan-qi-bu-zi-dong-jie-xi-bo-fang-wen-jian.md)
       * [nginx下载文件重命名](fu-wu-bu-shu/nginx/nginxxia-zai-wen-jian-zhong-ming-ming.md)
       * [nginx 返回指定数据](fu-wu-bu-shu/nginx/nginx-fan-hui-json-shu-ju.md)
-      * [nginx 文件防盗链](fu-wu-bu-shu/nginx/nginx-wen-jian-fang-dao-lian.md)
+      * [nginx 文件下载防盗链](fu-wu-bu-shu/nginx/nginx-wen-jian-fang-dao-lian.md)
     * [二、PHP](fu-wu-bu-shu/php.md)
       * [php 获取头信息](fu-wu-bu-shu/php/php-huo-qu-tou-xin-xi.md)
       * [PHP环境安全加固](fu-wu-bu-shu/php/phphuan-jing-an-quan-jia-gu.md)
