@@ -370,7 +370,44 @@
     #配置带宽限速
     virsh domiftune win7-demo 52:54:00:10:8b:bb --inbound 3000,3000,3000 --outbound 3000,3000,3000 --config
 
-### 四、相关问题
+### 四、虚拟机文件操作
+**1、编辑虚拟机文件**
+    
+    virt-edit -d DOMAIN /etc/hosts
+    
+    virt-edit -a DOMAIN.IMG /etc/hosts
+**2、查看虚拟机文件**
+
+    virt-ls -d DOMAIN /etc    
+    virt-ls -a DOMAIN.img /etc
+    
+    virt-cat -d DOMAIN /etc/hosts
+    virt-cat -a DOMAIN.img /etc/hosts
+
+    virt-tail -d DOMAIN /etc/hosts
+    virt-tail -a DOMAIN.img /etc/hosts
+    
+**3、从虚拟机拷贝出文件**
+
+    virt-copy-out -d DOMAIN /etc/hosts .
+    virt-copy-out -a DOMAIN.img /etc/hosts .
+    
+
+    virt-tar-out -d DOMAIN /tmp files.tar
+    virt-tar-out -a DOMAIN.img /tmp files.tar
+
+    
+    
+
+**4、拷贝文件到虚拟机**
+
+    virt-copy-in -d DOMAIN /etc/hosts /tmp
+    virt-copy-in -a DOMAIN.img /etc/hosts /tmp
+    //注意：需要调整挂载选项才能在线拷贝，否则虚拟机需要再停机状态
+    
+**5、给windows虚拟机增加注册表**
+
+### 五、相关问题
 **1、windows时钟间隔8小时**
 
     <clock offset='utc'>
