@@ -395,6 +395,10 @@
 
     virt-tar-out -d DOMAIN /tmp files.tar
     virt-tar-out -a DOMAIN.img /tmp files.tar
+    
+    virt-tar-out -d DOMAIN /tmp files.tar | gzip --best > files.tar.gz
+    virt-tar-out -a DOMAIN.img /tmp files.tar | gzip --best > files.tar.gz
+
 
     
     
@@ -403,10 +407,42 @@
 
     virt-copy-in -d DOMAIN /etc/hosts /tmp
     virt-copy-in -a DOMAIN.img /etc/hosts /tmp
+    
+    virt-tar-in -d DOMAIN files.tar /tmp    
+    virt-tar-in -a DOMAIN.img files.tar /tmp
+
+    zcat files.tar.gz | virt-tar-in -d DOMAIN - /tmp
+    zcat files.tar.gz | virt-tar-in -a DOMAIN.img - /tmp
+    
     //注意：需要调整挂载选项才能在线拷贝，否则虚拟机需要再停机状态
+
     
 **5、给windows虚拟机增加注册表**
 
+     virt-win-reg DOMAIN 'HKLM\Path\To\Subkey'
+     virt-win-reg DOMAIN 'HKLM\Path\To\Subkey' name
+     virt-win-reg DOMAIN 'HKLM\Path\To\Subkey' @
+     
+     virt-win-reg DOMAIN.img 'HKLM\Path\To\Subkey'
+     virt-win-reg DOMAIN.img 'HKLM\Path\To\Subkey' name
+     virt-win-reg DOMAIN.img 'HKLM\Path\To\Subkey' @
+
+     
+     virt-win-reg --merge DOMAIN FILE.reg 
+
+**6、挂载镜像磁盘到宿主机目录**
+    
+    #查看磁盘虚拟化设备
+    virt-filesystems -a DOMAIN.img
+    /dev/sda
+    
+    #挂载磁盘
+    guestmount -a DOMAIN.img -m /dev/sda --rw /mnt/
+    
+    #卸载磁盘
+    umount /mnt
+    
+    
 ### 五、相关问题
 **1、windows时钟间隔8小时**
 
