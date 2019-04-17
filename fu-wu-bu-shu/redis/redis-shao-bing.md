@@ -18,7 +18,7 @@
 
 **2、下载编译软件包**
 
-    wget http://file.pulin.com/server-package/redis/redis-3.2.8.tar.gz 
+    wget http://download.redis.io/releases/redis-3.2.8.tar.gz 
 
     tar xf redis-3.2.8.tar.gz 
     cd redis-3.2.8 
