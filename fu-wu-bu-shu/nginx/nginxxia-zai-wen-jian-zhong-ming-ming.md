@@ -2,7 +2,7 @@
 
 ### 1、配置 文件类型
     location /download/ {
-        if ($request_uri ~* ^.*(\?n=([^&]+))$) {
+        if ($arg_n) {
 	    #add_header Content-Disposition "attachment;filename=$arg_n";
 	    add_header Content-Disposition "attachment;filename*=utf-8'zh_cn'$arg_n";
 	}
