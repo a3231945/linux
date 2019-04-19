@@ -146,6 +146,7 @@
     * [linux 基础信息配置](chapter1/shi-er-3001-qi-ta/linux-ji-chu-xin-xi-pei-zhi.md)
     * [Centos7-grub修复](chapter1/shi-er-3001-qi-ta/centos7-grubxiu-fu.md)
     * [Centos7 修改网卡名为eth0](chapter1/shi-er-3001-qi-ta/centos7-xiu-gai-wang-qia-ming-wei-eth0.md)
+    * [Centos6.5 安装python3、pip3](chapter1/shi-er-3001-qi-ta/centos65-an-zhuang-python3-pip3.md)
 * [应用服务](fu-wu-bu-shu.md)
   * [WEB服务](fu-wu-bu-shu/webfu-wu.md)
     * [一、NGINX](fu-wu-bu-shu/nginx.md)
