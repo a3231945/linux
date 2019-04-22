@@ -3,8 +3,8 @@
 ### 一、配置nginx
 			
     upstream wsbackend {
-      server 127.0.0.1:8080;
-      server 127.0.0.1:8081;
+      server 127.0.0.1:10000;
+      server 127.0.0.1:10000;
     }
     server {
       listen  80;
