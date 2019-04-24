@@ -154,28 +154,28 @@ crontab -e
     #centos7.5-x87_74-base 
     [base]
     name=centos7.5-x87_74-base
-    baseurl=http://yum.srv.dom/centos7.5-x87_74-base/
+    baseurl=http://yum.hosts.com/centos7.5-x87_74-base/
     gpgcheck=0
     gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-CentOS-7
     
     #centos7.5-x87_74-updates
     [updates]
     name=centos7.5-x87_74-updates
-    baseurl=http://yum.srv.dom/centos7.5-x87_74-updates/
+    baseurl=http://yum.hosts.com/centos7.5-x87_74-updates/
     gpgcheck=0
     gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-CentOS-7
     
     #centos7.5-x87_74-extras
     [extras]
     name=centos7.5-x87_74-extras
-    baseurl=http://yum.srv.dom/centos7.5-x87_74-extras/
+    baseurl=http://yum.hosts.com/centos7.5-x87_74-extras/
     gpgcheck=0
     gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-CentOS-7
     
     #centos7.5-x87_74-centosplus
     [centosplus]
     name=centos7.5-x87_74-centosplus
-    baseurl=http://yum.srv.dom/centos7.5-x87_74-centosplus/
+    baseurl=http://yum.hosts.com/centos7.5-x87_74-centosplus/
     gpgcheck=0
     enabled=0
     gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-CentOS-7
@@ -183,7 +183,7 @@ crontab -e
     #centos7.5-x87_74-contrib
     [contrib]
     name=centos7.5-x87_74-contrib
-    baseurl=http://yum.srv.dom/centos7.5-x87_74-contrib/
+    baseurl=http://yum.hosts.com/centos7.5-x87_74-contrib/
     gpgcheck=0
     enabled=0
     gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-CentOS-7
@@ -191,7 +191,7 @@ crontab -e
     #epel-7
     [epel]
     name=epel-7
-    baseurl=http://yum.srv.dom/epel-7/
+    baseurl=http://yum.hosts.com/epel-7/
     failovermethod=priority
     enabled=1
     gpgcheck=0
@@ -200,7 +200,7 @@ crontab -e
     #epel-7-debug
     [epel-debuginfo]
     name=epel-7-debug
-    baseurl=http://yum.srv.dom/epel-7/debug
+    baseurl=http://yum.hosts.com/epel-7/debug
     failovermethod=priority
     enabled=0
     gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-EPEL-7
