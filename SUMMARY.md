@@ -55,6 +55,7 @@
     * [Git 使用手册](chapter1/gitlabfu-wu-qi-bu-shu/git-shi-yong-shou-ce.md)
     * [GitBook部署](chapter1/gitbookbu-shu.md)
     * [GitHub 高级搜索](chapter1/gitlabfu-wu-qi-bu-shu/github-gao-ji-sou-suo.md)
+    * [git 头指针分离](chapter1/gitlabfu-wu-qi-bu-shu/git-tou-zhi-zhen-fen-li.md)
   * [九、虚拟化服务](chapter1/jiu-3001-xu-ni-hua-fu-wu.md)
     * [KVM服务](chapter1/kvmfu-wu-qi-bu-shu.md)
     * [LXC](chapter1/lxc.md)
