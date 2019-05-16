@@ -67,4 +67,10 @@
         #vim /etc/logstash/logstash.yml  
         xpack.security.enabled: false
 
+### 四、重启服务生效
+- Elasticsearch:`/etc/init.d/elasticsearch restart`
+- Kibana:`/etc/init.d/kibana restart`
+- logstash:`/etc/init.d/logstash restart`
+
+
 
