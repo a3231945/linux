@@ -8,7 +8,6 @@
     微信：       18910734468
     联系邮箱：   zhouxulong@peter-zhou.com
     
-
 * [简介](README.md)
 * [硬件信息相关](ying-jian-xin-xi-xiang-guan.md)
   * [一、DELL-服务器常见问题技术手册](ying-jian-xin-xi-xiang-guan/yi-3001-dell-fu-wu-qi-chang-jian-wen-ti-ji-zhu-shou-ce.md)
@@ -51,10 +50,12 @@
   * [六、NFS服务](chapter1/liu-3001-nfs-fu-wu.md)
     * [NFS 安装部署](chapter1/liu-3001-nfs-fu-wu/nfs-an-zhuang-bu-shu.md)
     * [NFS 客户端](chapter1/liu-3001-nfs-fu-wu/nfs-ke-hu-duan.md)
+    * [NFS fsid 的问题](chapter1/liu-3001-nfs-fu-wu/nfs-fsid-de-wen-ti.md)
   * [七、日志服务](chapter1/ri-zhi-fu-wu-qi-eflk-bu-shu.md)
     * [Rsyslog 服务](chapter1/ri-zhi-fu-wu-qi-eflk-bu-shu/rsyslog-fu-wu.md)
     * [EFLK 部署](chapter1/ri-zhi-fu-wu-qi-eflk-bu-shu/eflkbu-shu.md)
-    * [Logstash 配置](chapter1/ri-zhi-fu-wu-qi-eflk-bu-shu/logstash-pei-zhi.md)
+      * [Logstash 配置](chapter1/ri-zhi-fu-wu-qi-eflk-bu-shu/logstash-pei-zhi.md)
+      * [安装x-pack](chapter1/ri-zhi-fu-wu-qi-eflk-bu-shu/an-zhuang-x-pack.md)
     * [安装 grokbug 环境](chapter1/ri-zhi-fu-wu-qi-eflk-bu-shu/an-zhuang-grokbug-huan-jing.md)
     * [Goaccess 日志分析](chapter1/ri-zhi-fu-wu-qi-eflk-bu-shu/goaccess-ri-zhi-fen-xi.md)
   * [八、版本控制服务](chapter1/gitlabfu-wu-qi-bu-shu.md)
@@ -63,6 +64,7 @@
     * [Git 使用手册](chapter1/gitlabfu-wu-qi-bu-shu/git-shi-yong-shou-ce.md)
     * [GitBook部署](chapter1/gitbookbu-shu.md)
     * [GitHub 高级搜索](chapter1/gitlabfu-wu-qi-bu-shu/github-gao-ji-sou-suo.md)
+    * [git 头指针分离](chapter1/gitlabfu-wu-qi-bu-shu/git-tou-zhi-zhen-fen-li.md)
   * [九、虚拟化服务](chapter1/jiu-3001-xu-ni-hua-fu-wu.md)
     * [KVM服务](chapter1/kvmfu-wu-qi-bu-shu.md)
     * [LXC](chapter1/lxc.md)
@@ -152,14 +154,25 @@
     * [Wget 使用](chapter1/shi-er-3001-qi-ta/wget-shi-yong.md)
     * [linux 欢迎页面-motd](chapter1/shi-er-3001-qi-ta/linux-huan-ying-ye-9762-motd.md)
     * [linux 基础信息配置](chapter1/shi-er-3001-qi-ta/linux-ji-chu-xin-xi-pei-zhi.md)
+    * [Centos7-grub修复](chapter1/shi-er-3001-qi-ta/centos7-grubxiu-fu.md)
+    * [Centos7 修改网卡名为eth0](chapter1/shi-er-3001-qi-ta/centos7-xiu-gai-wang-qia-ming-wei-eth0.md)
+    * [Centos6.5 安装python3、pip3](chapter1/shi-er-3001-qi-ta/centos65-an-zhuang-python3-pip3.md)
+    * [xfs文件系统磁盘扩展inode](chapter1/shi-er-3001-qi-ta/xfsci-pankuo-zhan-inode.md)
+    * [Screen 清除一个detached 会话](chapter1/shi-er-3001-qi-ta/screen-qing-chu-yi-ge-detached-hui-hua.md)
 * [应用服务](fu-wu-bu-shu.md)
   * [WEB服务](fu-wu-bu-shu/webfu-wu.md)
     * [一、NGINX](fu-wu-bu-shu/nginx.md)
       * [核心 配置分类](fu-wu-bu-shu/nginx/he-xin-pei-zhi-fen-lei.md)
       * [WEB配置分类](fu-wu-bu-shu/nginx/webpei-zhi-fen-lei.md)
       * [开启nginx状态页面](fu-wu-bu-shu/nginx/kai-qi-nginx-zhuang-tai-ye-mian.md)
+      * [浏览器不自动解析播放文件](fu-wu-bu-shu/nginx/liu-lan-qi-bu-zi-dong-jie-xi-bo-fang-wen-jian.md)
+      * [nginx下载文件重命名](fu-wu-bu-shu/nginx/nginxxia-zai-wen-jian-zhong-ming-ming.md)
+      * [nginx 返回指定数据](fu-wu-bu-shu/nginx/nginx-fan-hui-json-shu-ju.md)
+      * [nginx 文件下载防盗链](fu-wu-bu-shu/nginx/nginx-wen-jian-fang-dao-lian.md)
+      * [nginx 代理websocket](fu-wu-bu-shu/nginx/nginx-dai-li-websocket.md)
     * [二、PHP](fu-wu-bu-shu/php.md)
       * [php 获取头信息](fu-wu-bu-shu/php/php-huo-qu-tou-xin-xi.md)
+      * [PHP环境安全加固](fu-wu-bu-shu/php/phphuan-jing-an-quan-jia-gu.md)
     * [三、TOMCAT](fu-wu-bu-shu/tomcat.md)
   * [数据库服务](fu-wu-bu-shu/shu-ju-ku-fu-wu.md)
     * [一、MYSQL](fu-wu-bu-shu/mysql.md)
@@ -211,6 +224,8 @@
   * [六、进程管理](linuxji-chu/liu-3001-jin-cheng-guan-li.md)
   * [七、软件管理](linuxji-chu/qi-3001-ruan-jian-guan-li.md)
   * [八、任务计划管理](linuxji-chu/ba-3001-ren-wu-ji-hua-guan-li.md)
+  * [/etc 目录下文件功能介绍](linuxji-chu/etc-mu-lu-xia-wen-jian-gong-neng-jie-shao.md)
+  * [/proc 目录下文件功能介绍](linuxji-chu/proc.md)
 * [Linux高级](linuxgao-ji.md)
   * [一、防火墙配置-iptables](linuxgao-ji/iptables-pei-zhi.md)
   * [二、权限控制](linuxgao-ji/er-3001-quan-xian-kong-zhi.md)
@@ -252,6 +267,7 @@
     * 压力测试
   * [Linux系统提权](an-quan/linuxxi-tong-ti-quan.md)
     * [普通用户提权](an-quan/linuxxi-tong-ti-quan/pu-tong-yong-hu-ti-quan.md)
+
 
 
 
