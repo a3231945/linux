@@ -247,7 +247,7 @@
       * [ncat](an-quan/xin-xi-shou-ji/nmap/ncat.md)
       * [nping](an-quan/xin-xi-shou-ji/nmap/nping.md)
       * ndiff
-    * 漏洞评估
+    * [漏洞评估](an-quan/lou-dong-ping-gu.md)
     * web应用
     * 密码攻击
     * 漏洞利用
