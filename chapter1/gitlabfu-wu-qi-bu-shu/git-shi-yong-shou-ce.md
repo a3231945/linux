@@ -104,6 +104,9 @@
 
     git commit --amend 
 
+10、跳过缓存区提交
+    
+    git commit -a -m "commit message"
 -----
 
 ### 三、查看提交历史
@@ -123,17 +126,26 @@
 -----
 
 ### 四、撤销
-1、撤销工作目录中所有未提交的文件的修改内容
+1、撤销缓存区域的文件
+
+    git reset HEAD <file\>
+    
+2、撤销工作目录中所有未提交的文件的修改内容
 
     git reset --hard HEAD
 
-2、撤销指定的未提交文件的修改内容
+3、撤销指定的未提交文件的修改内容
 
     git checkout HEAD <file\>
 
-3、撤销指定的提交
+4、撤销指定的提交
 
     git revert <commit\>
+
+5、取消对文件的修改
+
+    git checkout -- <file\>
+
 
 -----
 
@@ -216,3 +228,29 @@
 
     git push --tags
 
+### 八、其他
+1、配置git命令补全
+
+    #找到补全shell
+    rpm -ql git | grep bash 
+    /etc/bash_completion.d
+    /etc/bash_completion.d/git
+    /usr/share/doc/git-1.7.1/contrib/completion/git-completion.bash
+
+    #拷贝补全bash
+    cp /usr/share/doc/git-1.7.1/contrib/completion/git-completion.bash ~/.git-completion.bash
+    
+    #加载环境变量
+    source ~/.git-completion.bash
+    
+2、配置git别名
+
+    git config --global alias.co checkout
+    git config --global alias.br branch
+    git config --global alias.ci commit
+    git config --global alias.st status    
+    
+
+
+    
+    
