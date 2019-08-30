@@ -168,6 +168,7 @@
       * [php环境安全加固](fu-wu-bu-shu/php/phphuan-jing-an-quan-jia-gu.md)
       * [php配置指定查找共享库文件路径](fu-wu-bu-shu/php/phppei-zhi-zhi-ding-cha-zhao-gong-xiang-ku-wen-jian-lu-jing.md)
     * [三、TOMCAT](fu-wu-bu-shu/tomcat.md)
+    * 跨域处理
   * [数据库服务](fu-wu-bu-shu/shu-ju-ku-fu-wu.md)
     * [一、MYSQL](fu-wu-bu-shu/mysql.md)
       * [Mysql-慢查询分析](fu-wu-bu-shu/mysql/mysqlman-cha-xun-fen-xi.md)
