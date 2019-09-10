@@ -20,14 +20,14 @@
     #插入xfs模块
     grub> insmod xfs
     
-    #设置更分区
+    #设置根分区
     grub> set root=(hd0,msdos1)
     
-    #指定kernel内核和 根分区
+    #指定kernel内核和 根分区（注意：这里的根据实际情况的磁盘分区填写root字段）
     grub> linux16 /vmlinuz-xxxx root=/dev/sda3
     
     #指定init 程序
-    grub> initrd15 /initramfs-xxx.img
+    grub> initrd16 /initramfs-xxx.img
     
     #启动
     grub> boot
