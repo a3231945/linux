@@ -20,7 +20,7 @@
     #插入xfs模块
     grub> insmod xfs
     
-    #设置根分区
+    #设置boot分区
     grub> set root=(hd0,msdos1)
     
     #指定kernel内核和 根分区（注意：这里的根据实际情况的磁盘分区填写root字段）
