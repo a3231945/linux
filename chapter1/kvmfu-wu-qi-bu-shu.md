@@ -486,6 +486,16 @@
       
 **4、鼠标不同步**
 
-    <devices> 字段添加 <input type=’tablet’ bus=’usb’/> 即可
+    <devices> 字段添加 <input type='tablet' bus='usb'/> 即可
+    
+**5、开启多网卡队列**
+
+    <interface type='network'>
+         <source network='default'/>        
+         <model type='virtio'/>         
+         <driver name='vhost' queues='N'/>    
+    </interface>
+    
+    ethtool -L eth0 combined N
 
 官方文档：[https://libvirt.org/docs.html](https://libvirt.org/docs.html)
