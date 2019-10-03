@@ -75,6 +75,10 @@
 2、查看变更内容
 
     git diff
+    
+    git diff --cached
+    
+    git diff commitid:file1 commitid:file2
 
 3、跟踪所有改动过的文件
 
