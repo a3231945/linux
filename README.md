@@ -170,10 +170,13 @@
       * [nginx 返回指定数据](fu-wu-bu-shu/nginx/nginx-fan-hui-json-shu-ju.md)
       * [nginx 文件下载防盗链](fu-wu-bu-shu/nginx/nginx-wen-jian-fang-dao-lian.md)
       * [nginx 代理websocket](fu-wu-bu-shu/nginx/nginx-dai-li-websocket.md)
+      * [nginx 代理304问题](fu-wu-bu-shu/nginx/nginx-dai-li-304-wen-ti.md)
     * [二、PHP](fu-wu-bu-shu/php.md)
       * [php 获取头信息](fu-wu-bu-shu/php/php-huo-qu-tou-xin-xi.md)
-      * [PHP环境安全加固](fu-wu-bu-shu/php/phphuan-jing-an-quan-jia-gu.md)
+      * [php环境安全加固](fu-wu-bu-shu/php/phphuan-jing-an-quan-jia-gu.md)
+      * [php配置指定查找共享库文件路径](fu-wu-bu-shu/php/phppei-zhi-zhi-ding-cha-zhao-gong-xiang-ku-wen-jian-lu-jing.md)
     * [三、TOMCAT](fu-wu-bu-shu/tomcat.md)
+    * 跨域处理
   * [数据库服务](fu-wu-bu-shu/shu-ju-ku-fu-wu.md)
     * [一、MYSQL](fu-wu-bu-shu/mysql.md)
       * [Mysql-慢查询分析](fu-wu-bu-shu/mysql/mysqlman-cha-xun-fen-xi.md)
@@ -255,7 +258,7 @@
       * [ncat](an-quan/xin-xi-shou-ji/nmap/ncat.md)
       * [nping](an-quan/xin-xi-shou-ji/nmap/nping.md)
       * ndiff
-    * 漏洞评估
+    * [漏洞评估](an-quan/lou-dong-ping-gu.md)
     * web应用
     * 密码攻击
     * 漏洞利用
@@ -267,6 +270,8 @@
     * 压力测试
   * [Linux系统提权](an-quan/linuxxi-tong-ti-quan.md)
     * [普通用户提权](an-quan/linuxxi-tong-ti-quan/pu-tong-yong-hu-ti-quan.md)
+
+
 
 
 
