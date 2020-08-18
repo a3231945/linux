@@ -163,6 +163,7 @@
       * [nginx 文件下载防盗链](fu-wu-bu-shu/nginx/nginx-wen-jian-fang-dao-lian.md)
       * [nginx 代理websocket](fu-wu-bu-shu/nginx/nginx-dai-li-websocket.md)
       * [nginx 代理304问题](fu-wu-bu-shu/nginx/nginx-dai-li-304-wen-ti.md)
+      * [nginx 字符乱码问题](fu-wu-bu-shu/nginx/nginx-zi-fu-luan-ma-wen-ti.md)
     * [二、PHP](fu-wu-bu-shu/php.md)
       * [php 获取头信息](fu-wu-bu-shu/php/php-huo-qu-tou-xin-xi.md)
       * [php环境安全加固](fu-wu-bu-shu/php/phphuan-jing-an-quan-jia-gu.md)
