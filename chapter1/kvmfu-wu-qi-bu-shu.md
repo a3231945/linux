@@ -510,44 +510,42 @@
 
 **6、Ukey 映射**
 
-```
-# lsusb 获取usb 设备号
-Bus 002 Device 004: ID 163c:070b  						===>		设备号
-Bus 002 Device 002: ID 8087:8002 Intel Corp. 
-Bus 002 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
-Bus 001 Device 003: ID 413c:a001 Dell Computer Corp. Hub
-Bus 001 Device 006: ID 163c:070b  						===>	 	设备号
-Bus 001 Device 002: ID 8087:800a Intel Corp. 
-Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
 
+    # lsusb 获取usb 设备号
+    Bus 002 Device 004: ID 163c:070b  						===>		设备号
+    Bus 002 Device 002: ID 8087:8002 Intel Corp. 
+    Bus 002 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+    Bus 001 Device 003: ID 413c:a001 Dell Computer Corp. Hub
+    Bus 001 Device 006: ID 163c:070b  						===>	 	设备号
+    Bus 001 Device 002: ID 8087:800a Intel Corp. 
+    Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+    
+    
+    
+    #配置ukey 映射
+    <hostdev mode='subsystem' type='usb' managed='no'>
+    <source startupPolicy='optional'>
+            <vendor id='0x163c'/>
+            <product id='0x070b'/>
+    </source>
+    <address type='usb' bus='0' port='2'/>
+    </hostdev>
+    
+    
+    
+    #当识别的ukey 号相同时
+    error: Failed to start domain win2012_base
+    error: operation failed: Multiple USB devices for 163c:70b, use <address> to specify one
+    
+    
+    
+    <hostdev mode='subsystem' type='usb' managed='no'>
+    <source startupPolicy='optional'>
+    <address bus='1' device='6'/>
+    </source>
+    <address type='usb' bus='0' port='2'/>
+    </hostdev>
+    
 
-
-#配置ukey 映射
-<hostdev mode='subsystem' type='usb' managed='no'>
-<source startupPolicy='optional'>
-        <vendor id='0x163c'/>
-        <product id='0x070b'/>
-</source>
-<address type='usb' bus='0' port='2'/>
-</hostdev>
-
-
-
-#当识别的ukey 号相同时
-error: Failed to start domain win2012_base
-error: operation failed: Multiple USB devices for 163c:70b, use <address> to specify one
-
-
-
-<hostdev mode='subsystem' type='usb' managed='no'>
-<source startupPolicy='optional'>
-<address bus='1' device='6'/>
-</source>
-<address type='usb' bus='0' port='2'/>
-</hostdev>
-
-
-
-```
 
 官方文档：[https://libvirt.org/docs.html](https://libvirt.org/docs.html)
