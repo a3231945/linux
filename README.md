@@ -7,7 +7,7 @@
     联系人：     周先生
     微信：       18910734468
     联系邮箱：   zhouxulong@peter-zhou.com
-    
+
 * [简介](README.md)
 * [硬件信息相关](ying-jian-xin-xi-xiang-guan.md)
   * [一、DELL-服务器常见问题技术手册](ying-jian-xin-xi-xiang-guan/yi-3001-dell-fu-wu-qi-chang-jian-wen-ti-ji-zhu-shou-ce.md)
@@ -270,6 +270,11 @@
     * 压力测试
   * [Linux系统提权](an-quan/linuxxi-tong-ti-quan.md)
     * [普通用户提权](an-quan/linuxxi-tong-ti-quan/pu-tong-yong-hu-ti-quan.md)
+* [测试](ce-shi.md)
+* [爬虫](pa-chong.md)
+  * [httpbin使用](pa-chong/httpbin-shi-yong.md)
+  * [curl工具]()
+  * [wget工具]()
 
 
 
