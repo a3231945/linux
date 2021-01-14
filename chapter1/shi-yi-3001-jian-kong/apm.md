@@ -6,7 +6,7 @@
     pp-collector    数据收集
     pp-web          web展示
     zookeeper       服务协调
-
+    
     agent           数据发送
 
 **2、端口发布**
@@ -15,7 +15,7 @@
     pp-collector:    18080 9996 9995 9994    
     pp-web:          28080 9997
     zookeeper:       2180   
-
+    
     agent:
 
 
@@ -57,21 +57,21 @@
 **3、配置hbase**
     
     vim /usr/local/hbase-1.2.8/conf/hbase-site.xml
-
+    
     <configuration>
       <property>
         <name>hbase.rootdir</name>
         <value>file:///data/hbase</value>
       </property>
     </configuration>
-
+    
     vim /usr/local/hbase-1.2.8/conf/hbase-env.sh
     export JAVA_HOME=/usr/lib/jvm/java-1.7.0-openjdk.x86_64/
 
 **4、启动服务、测试连接**
     
     /usr/local/hbase-1.2.8/bin/start-hbase.sh 
-
+    
     /usr/local/hbase-1.2.8/bin/hbase  shell
 
 **5、导入数据表**
@@ -89,9 +89,9 @@
 ### 三、安装pinpoint ###
 **1、下载相关软件**
 
-    
-    wget http://mirror.bit.edu.cn/apache/tomcat/tomcat-8/v8.0.53/bin/apache-tomcat-8.0.53.tar.gz
 
+    wget http://mirror.bit.edu.cn/apache/tomcat/tomcat-8/v8.0.53/bin/apache-tomcat-8.0.53.tar.gz
+    
     wget --no-check-certificate https://github.com/naver/pinpoint/releases/download/1.8.0/pinpoint-agent-1.8.0.tar.gz
     wget --no-check-certificate https://github.com/naver/pinpoint/releases/download/1.8.0/pinpoint-collector-1.8.0.war
     wget --no-check-certificate https://github.com/naver/pinpoint/releases/download/1.8.0/pinpoint-web-1.8.0.war
@@ -103,7 +103,7 @@
     
     rm -rf /usr/local/pp-coll/weapps/*
     unzip pinpoint-collector-1.8.0.war -D /usr/local/pp-coll/weapps/ROOT
-   
+       
     cd /usr/local/pp-coll/conf
     sed -i 's/port="8005"/port="18005"/g' server.xml
     sed -i 's/port="8080"/port="18080"/g' server.xml
@@ -111,12 +111,12 @@
     sed -i 's/port="8009"/port="18009"/g' server.xml
     sed -i 's/redirectPort="8443"/redirectPort="18443"/g' server.xml 
     sed -i "s/localhost/`ifconfig eth0 | grep 'inet addr' | awk '{print $2}' | awk -F: '{print $2}'`/g" server.xml
-
+    
     /usr/local/pp-col/bin/catalina.sh  start
 
 >collector 会监听 18080 9996 9995 9994
-    
-    
+
+
 **3、配置pinpoint-web**
 
     tar xf apache-tomcat-8.0.53.tar.gz 
@@ -124,7 +124,7 @@
     
     rm -rf /usr/local/pp-web/weapps/*
     unzip pinpoint-collector-1.8.0.war -D /usr/local/pp-web/weapps/ROOT
-   
+       
     cd /usr/local/pp-web/conf
     sed -i 's/port="8005"/port="28005"/g' server.xml
     sed -i 's/port="8080"/port="28080"/g' server.xml
@@ -132,9 +132,9 @@
     sed -i 's/port="8009"/port="28009"/g' server.xml
     sed -i 's/redirectPort="8443"/redirectPort="18443"/g' server.xml 
     sed -i "s/localhost/`ifconfig eth0 | grep 'inet addr' | awk '{print $2}' | awk -F: '{print $2}'`/g" server.xml
-
+    
     /usr/local/pp-web/bin/catalina.sh  start
-
+    
     http://IP:28080  访问pp-web
 
 >web 会监听 28080 9997
@@ -146,26 +146,31 @@
     #指定pp-collector IP
     profiler.collector.ip=10.0.0.110
 
-
 **4.2.1、配置JAVA监控**
-    #添加jvm opts
-    vim JAVA-SERVER/catalina.sh
-    -----------------------------------
-    #指定agent-jar包
-    CATALINA_OPTS="$CATALINA_OPTS -javaagent:/usr/local/src/agent/pinpoint-bootstrap-1.8.0.jar"
-    #指定ID号
-    CATALINA_OPTS="$CATALINA_OPTS -Dpinpoint.agentId=pp20181113"
-    #制定服务名
-    CATALINA_OPTS="$CATALINA_OPTS -Dpinpoint.applicationName=demo1"
+```
+#添加jvm opts
+
+vim JAVA-SERVER/catalina.sh
+-----------------------------------
+
+#指定agent-jar包
+
+CATALINA_OPTS="$CATALINA_OPTS -javaagent:/usr/local/src/agent/pinpoint-bootstrap-1.8.0.jar"
+
+#指定ID号
+
+CATALINA_OPTS="$CATALINA_OPTS -Dpinpoint.agentId=pp20181113"
+
+#制定服务名
+
+CATALINA_OPTS="$CATALINA_OPTS -Dpinpoint.applicationName=demo1"
+```
 
 **4.2.2、配置PHP监控**    
 
-    
 
 
-    
-    
-    
+   
 
 
-    
+​    
