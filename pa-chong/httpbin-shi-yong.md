@@ -274,7 +274,7 @@ curl    http://httpbin.org/uuid
 
 ```
 #获取cookies
-curl    http://httpbin.org/cookies
+curl -b 'test=aaa'  http://httpbin.org/cookies
 
 #删除cookies
 curl    http://httpbin.org/cookies/delete
