@@ -273,8 +273,10 @@
 * [测试](ce-shi.md)
 * [爬虫](pa-chong.md)
   * [httpbin使用](pa-chong/httpbin-shi-yong.md)
-  * [curl工具]()
-  * [wget工具]()
+  * [curl工具](pa-chong/curl-gong-ju.md)
+  * [wget工具](pa-chong/wget-gong-ju.md)
+  * [urllib模块使用](pa-chong/urllib-mo-kuai-shi-yong.md)
+  * [requests模块使用](pa-chong/requests-mo-kuai-shi-yong.md)
 
 
 

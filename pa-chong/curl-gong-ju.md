@@ -153,6 +153,14 @@ curl -H 'Origin: http://foo.example'  https://www.example.com -I
 
 
 
+**17、获取dns解析时间、响应时间、传输时间**
+
+```
+curl -o /dev/null -s -w %{time_namelookup}:%{time_redirect}:%{time_pretransfer}:%{time_connect}:%{time_starttransfer}:%{time_total}:%{speed_download}  http://httpbin.org/get
+```
+
+
+
 ### 三、常见错误码信息
 
 | 错误码 | 错误描述                                                     |

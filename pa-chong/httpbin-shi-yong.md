@@ -74,6 +74,22 @@ docker run -p 80:80 kennethreitz/httpbin
 
 ```
 #base-auth
+# curl --basic -u test:123456 "http://httpbin.org/basic-auth/test/123456"
+{
+  "authenticated": true, 
+  "user": "test"
+}
+
+#bearer
+curl -X GET "http://httpbin.org/bearer" -H "Authorization: Bearer 080042cad6356ad5dc0a720c18b53b8e53d4c274"
+
+#diest-auth
+curl --digest --user test:123456 http://httpbin.org/digest-auth/aaa/test/123456
+
+#hidden-basic-auth
+curl http://httpbin.org/hidden-basic-auth/test/123456
+
+
 
 ```
 
