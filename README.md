@@ -9,6 +9,7 @@
     联系邮箱：   zhouxulong@peter-zhou.com
 
 * [简介](README.md)
+
 * [硬件信息相关](ying-jian-xin-xi-xiang-guan.md)
   * [一、DELL-服务器常见问题技术手册](ying-jian-xin-xi-xiang-guan/yi-3001-dell-fu-wu-qi-chang-jian-wen-ti-ji-zhu-shou-ce.md)
   * [二、DELL-服务器错误代码](ying-jian-xin-xi-xiang-guan/er-3001-dell-fu-wu-qi-cuo-wu-dai-ma.md)
@@ -17,6 +18,7 @@
   * [五、DELL-LINUX 收集信息\(dell报障\)](ying-jian-xin-xi-xiang-guan/4e94-dell-linux-shou-ji-xin-606f28-dell-bao-969c29.md)
   * [六、HP-hpasmcli命令](ying-jian-xin-xi-xiang-guan/wu-3001-hp-hpasmcli-ming-ling.md)
   * [七、查看LINUX本机公网IP](ying-jian-xin-xi-xiang-guan/liu-3001-cha-kan-linux-ben-ji-gong-wang-ip.md)
+  
 * [基础服务](chapter1.md)
   * [一、NTP服务](chapter1/ntpfu-wu-qi-bu-shu.md)
     * [Ntpd](chapter1/ntpfu-wu-qi-bu-shu/ntpd.md)
@@ -159,6 +161,7 @@
     * [Centos6.5 安装python3、pip3](chapter1/shi-er-3001-qi-ta/centos65-an-zhuang-python3-pip3.md)
     * [xfs文件系统磁盘扩展inode](chapter1/shi-er-3001-qi-ta/xfsci-pankuo-zhan-inode.md)
     * [Screen 清除一个detached 会话](chapter1/shi-er-3001-qi-ta/screen-qing-chu-yi-ge-detached-hui-hua.md)
+  
 * [应用服务](fu-wu-bu-shu.md)
   * [WEB服务](fu-wu-bu-shu/webfu-wu.md)
     * [一、NGINX](fu-wu-bu-shu/nginx.md)
@@ -218,6 +221,7 @@
     * [Keepalive](fu-wu-bu-shu/fu-zai-jun-8861-gao-ke-yong-fu-wu/keepalive.md)
   * [中间件服务](fu-wu-bu-shu/zhong-jian-jian-fu-wu.md)
   * [大数据服务](fu-wu-bu-shu/da-shu-ju-fu-wu.md)
+  
 * [Linux基础](linuxji-chu.md)
   * [一、linux目录结构](linuxji-chu/yi-3001-linux-mu-lu-jie-gou.md)
   * [二、文件类型和文件扩展名](linuxji-chu/er-3001-wen-jian-lei-xing-he-wen-jian-kuo-zhan-ming.md)
@@ -229,6 +233,7 @@
   * [八、任务计划管理](linuxji-chu/ba-3001-ren-wu-ji-hua-guan-li.md)
   * [/etc 目录下文件功能介绍](linuxji-chu/etc-mu-lu-xia-wen-jian-gong-neng-jie-shao.md)
   * [/proc 目录下文件功能介绍](linuxji-chu/proc.md)
+  
 * [Linux高级](linuxgao-ji.md)
   * [一、防火墙配置-iptables](linuxgao-ji/iptables-pei-zhi.md)
   * [二、权限控制](linuxgao-ji/er-3001-quan-xian-kong-zhi.md)
@@ -249,8 +254,11 @@
     * [3、IO](linuxgao-ji/er-3001-quan-xian-kong-zhi/3io.md)
     * [4、策略路由](linuxgao-ji/er-3001-quan-xian-kong-zhi/43001-ce-lve-lu-you.md)
     * [5、网卡绑定](linuxgao-ji/er-3001-quan-xian-kong-zhi/53001-wang-qia-bang-ding.md)
+  
 * [网络](wang-luo.md)
+  
   * [网络故障应用分析](wang-luo/wang-luo-gu-zhang-ying-yong-fen-xi.md)
+  
 * [安全](an-quan.md)
   * [kali工具集使用分类](an-quan/kaligong-ju-ji-shi-yong-fen-lei.md)
     * [信息收集](an-quan/xin-xi-shou-ji.md)
@@ -270,13 +278,21 @@
     * 压力测试
   * [Linux系统提权](an-quan/linuxxi-tong-ti-quan.md)
     * [普通用户提权](an-quan/linuxxi-tong-ti-quan/pu-tong-yong-hu-ti-quan.md)
+  
 * [测试](ce-shi.md)
+
+  * [pytest教程](ce-shi/pytest.md)
+  * [selenium教程](ce-shi/selenium.md)
+
 * [爬虫](pa-chong.md)
+
   * [httpbin使用](pa-chong/httpbin-shi-yong.md)
   * [curl工具](pa-chong/curl-gong-ju.md)
   * [wget工具](pa-chong/wget-gong-ju.md)
   * [urllib模块使用](pa-chong/urllib-mo-kuai-shi-yong.md)
   * [requests模块使用](pa-chong/requests-mo-kuai-shi-yong.md)
+
+  
 
 
 

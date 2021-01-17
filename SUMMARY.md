@@ -275,6 +275,9 @@
   
 * [测试](ce-shi.md)
 
+  * [pytest教程](ce-shi/pytest.md)
+  * [selenium教程](ce-shi/selenium.md)
+
 * [爬虫](pa-chong.md)
 
   * [httpbin使用](pa-chong/httpbin-shi-yong.md)
