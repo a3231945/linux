@@ -1,5 +1,3 @@
-# requests模块使用
-
 ### 一、requests安装
 
 ```

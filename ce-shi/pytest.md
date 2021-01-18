@@ -106,7 +106,7 @@ class TestClass():
     def test_one(self):
         assert 1 == 1
 
-		@pytest.mark.smoke2
+	@pytest.mark.smoke2
     @pytest.mark.skip(reason="不想太2")
     def test_two(self):
         assert 2 == 2
@@ -228,7 +228,17 @@ markers =
 
 ### 四、pytest 断言
 
+```
+assert xx：判断xx为真
 
+assert not xx：判断xx不为真
+
+assert a in b：判断b包含a
+
+assert a == b：判断a等于b
+
+assert a !=b：判断a不等于b
+```
 
 ### 五、前置处理、后置处理
 

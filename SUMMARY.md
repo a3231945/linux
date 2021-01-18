@@ -277,6 +277,8 @@
 
   * [pytest教程](ce-shi/pytest.md)
   * [selenium教程](ce-shi/selenium.md)
+  * [jmeter教程](ce-shi/jmeter.md)
+  * [pywinauto教程](ce-shi/pywinauto.md)
 
 * [爬虫](pa-chong.md)
 
