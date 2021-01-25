@@ -153,6 +153,7 @@
     * [Centos6.5 安装python3、pip3](chapter1/shi-er-3001-qi-ta/centos65-an-zhuang-python3-pip3.md)
     * [xfs文件系统磁盘扩展inode](chapter1/shi-er-3001-qi-ta/xfsci-pankuo-zhan-inode.md)
     * [Screen 清除一个detached 会话](chapter1/shi-er-3001-qi-ta/screen-qing-chu-yi-ge-detached-hui-hua.md)
+    * [ranger文件管理器](chapter1/shi-er-3001-qi-ta/ranger文件管理器.md)
   
 * [应用服务](fu-wu-bu-shu.md)
   * [WEB服务](fu-wu-bu-shu/webfu-wu.md)

@@ -143,6 +143,7 @@ dlg.print_control_identifiers()
 | dlg.get_show_state() | 获取窗口显示状态 |                        |
 | dlg.close()          | 关闭窗口         |                        |
 | dlg.rectangle()      | 获取窗口坐标     |                        |
+| dlg.draw_outline()   | 给窗口画边线     |                        |
 
 
 
@@ -194,7 +195,43 @@ dlg.close()
 
 ### 四、控件管理
 
+| 控件名      | 含义           |      |
+| ----------- | -------------- | ---- |
+| StatusBar   | 状态栏         |      |
+| Button      | 按钮           |      |
+| RadioButton | 单选框         |      |
+| ComboBox    | 组合框         |      |
+| Edit        | 编辑栏         |      |
+| ListBox     | 列表框         |      |
+| PopupMenu   | 弹出菜单       |      |
+| Toolbar     | 工具栏         |      |
+| Tree View   | 树状视图       |      |
+| MeunItem    | 菜单项         |      |
+| Static      | 静态内容       |      |
+| CheckBox    | 复选框         |      |
+| GroupBox    | 组框           |      |
+| Dialog      | 对话框（窗口） |      |
+| Header      | 头部内容       |      |
+| ListView    | 列表显示控件   |      |
+| TabControl  | 选项卡空间     |      |
+| ToolTips    | 工具提示       |      |
+| Menu        | 菜单           |      |
+| Pane        | 窗格           |      |
+
+
+
+#### 4.1 选择控件
+
+```python
+#与打开窗口方式相同
+
+```
+
+
+
 #### 4.1 控件属性获取
+
+
 
 #### 4.2  窗口控件
 
