@@ -72,7 +72,7 @@
         * [nginx-Dockerfile](chapter1/docker/13001-ji-chu-xue-xi/nginx-dockerfile.md)
         * [php5.6-Dockerfile](chapter1/docker/13001-ji-chu-xue-xi/php56-dockerfile.md)
       * [2、图形化管理工具（三剑客）](chapter1/docker/23001-tu-xing-hua-guan-li-gong-ju-ff08-san-jian-ke-ff09.md)
-        * 1、Compose
+        * [1、Compose](chapter1/docker/compose.md)
         * [2、Machine](chapter1/docker/23001-tu-xing-hua-guan-li-gong-ju-ff08-san-jian-ke-ff09/1machine.md)
         * 3、Swarm
       * 3、K8s学习
